@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PipelineDataProvider } from "./hooks/usePipelineData.tsx";
 import DashboardLayout from "./layouts/DashboardLayout.tsx";
+import ErrorBoundary from "./components/ErrorBoundary.tsx";
 
 // Lazy-loaded page components
 const PipelineOverview = lazy(() => import("./pages/PipelineOverview.tsx"));
@@ -23,58 +24,60 @@ export default function App() {
   return (
     <BrowserRouter>
       <PipelineDataProvider>
-        <Routes>
-          <Route element={<DashboardLayout />}>
-            <Route
-              index
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <PipelineOverview />
-                </Suspense>
-              }
-            />
-            <Route
-              path="coverage"
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <CoverageFunnel />
-                </Suspense>
-              }
-            />
-            <Route
-              path="rules"
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <RuleDiscovery />
-                </Suspense>
-              }
-            />
-            <Route
-              path="evals"
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <EvalScores />
-                </Suspense>
-              }
-            />
-            <Route
-              path="traces"
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <TraceExplorer />
-                </Suspense>
-              }
-            />
-            <Route
-              path="interop"
-              element={
-                <Suspense fallback={<LoadingFallback />}>
-                  <Interoperability />
-                </Suspense>
-              }
-            />
-          </Route>
-        </Routes>
+        <ErrorBoundary>
+          <Routes>
+            <Route element={<DashboardLayout />}>
+              <Route
+                index
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <PipelineOverview />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="coverage"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <CoverageFunnel />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="rules"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <RuleDiscovery />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="evals"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <EvalScores />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="traces"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <TraceExplorer />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="interop"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <Interoperability />
+                  </Suspense>
+                }
+              />
+            </Route>
+          </Routes>
+        </ErrorBoundary>
       </PipelineDataProvider>
     </BrowserRouter>
   );
