@@ -1,0 +1,112 @@
+{
+  "normal": {
+    "trace_id": "09df6943",
+    "urgency_level": "ROUTINE",
+    "summary_text": "ROUTINE — Baby's overnight SpO2 was within normal range. Mean SpO2 98.9%, minimum 97%. No significant desaturation events detected.\n\nAs a 40-week term infant (now 39 days old), SpO2 readings should consistently be 97-100% at this gestational age.\n\nAction: No contact with family needed. Document normal overnight result in the patient record and close this monitoring cycle. Next routine review in 7 days unless clinical status changes.",
+    "source": "mock_template",
+    "final_label": "normal",
+    "baby": {
+      "baby_id": "22c7b500",
+      "gestational_age_weeks": 40,
+      "ga_category": "term",
+      "birth_weight_grams": 3377,
+      "days_since_birth": 39,
+      "known_conditions": [
+        "none"
+      ]
+    },
+    "stats": {
+      "mean_spo2": 98.9,
+      "min_spo2": 97.0,
+      "n_events": 2
+    }
+  },
+  "borderline": {
+    "trace_id": "651f7546",
+    "urgency_level": "ROUTINE",
+    "summary_text": "ROUTINE — Baby's overnight SpO2 was within normal range. Mean SpO2 98.9%, minimum 93%. No significant desaturation events detected.\n\nAs a 40-week term infant (now 39 days old), SpO2 readings should consistently be 97-100% at this gestational age.\n\nAction: No contact with family needed. Document normal overnight result in the patient record and close this monitoring cycle. Next routine review in 7 days unless clinical status changes.",
+    "source": "mock_template",
+    "final_label": "normal",
+    "baby": {
+      "baby_id": "22c7b500",
+      "gestational_age_weeks": 40,
+      "ga_category": "term",
+      "birth_weight_grams": 3377,
+      "days_since_birth": 39,
+      "known_conditions": [
+        "none"
+      ]
+    },
+    "stats": {
+      "mean_spo2": 98.9,
+      "min_spo2": 93.0,
+      "n_events": 3
+    }
+  },
+  "emergency": {
+    "trace_id": "04eef22a",
+    "urgency_level": "EMERGENCY",
+    "summary_text": "EMERGENCY — Baby had a severe desaturation event reaching 74% overnight, lasting 82s. SatSeconds burden: 2331.\n\nAs a 34-week preterm infant (now 17 days old), SpO2 should be stabilizing toward term ranges, though occasional mild dips are still expected. This level of desaturation poses immediate risk.\n\nAction: Advise family to call 911 or go to nearest emergency department immediately. If family cannot be reached within 15 minutes, escalate to on-call physician for emergency welfare check.\n\nAsk family: Is the baby breathing normally? Any visible changes in skin color or feeding difficulty?",
+    "source": "mock_template",
+    "final_label": "emergency",
+    "baby": {
+      "baby_id": "fb497666",
+      "gestational_age_weeks": 34,
+      "ga_category": "moderate_preterm",
+      "birth_weight_grams": 2059,
+      "days_since_birth": 17,
+      "known_conditions": [
+        "none"
+      ]
+    },
+    "stats": {
+      "mean_spo2": 96.0,
+      "min_spo2": 74.0,
+      "n_events": 4
+    }
+  },
+  "artifact": {
+    "trace_id": "a6d01a4b",
+    "urgency_level": "ROUTINE",
+    "summary_text": "ROUTINE (with note) — Overnight monitoring detected 5 motion artifact event(s) that were excluded from clinical analysis. After artifact removal, SpO2 was within normal range (mean 93.0%).\n\nAs a 31-week preterm infant (now 50 days old), baseline SpO2 readings of 93-95% are expected for very preterm infants, and mild variability is normal. The artifacts suggest the sensor may need repositioning.\n\nAction: Advise family on sensor placement during next scheduled check-in within 7 days. No urgent clinical follow-up needed.",
+    "source": "mock_template",
+    "final_label": "artifact",
+    "baby": {
+      "baby_id": "26a86514",
+      "gestational_age_weeks": 31,
+      "ga_category": "very_preterm",
+      "birth_weight_grams": 1073,
+      "days_since_birth": 50,
+      "known_conditions": [
+        "apnea_of_prematurity"
+      ]
+    },
+    "stats": {
+      "mean_spo2": 93.0,
+      "min_spo2": 49.0,
+      "n_events": 6
+    }
+  },
+  "urgent": {
+    "trace_id": "2e26d213",
+    "urgency_level": "URGENT",
+    "summary_text": "URGENT — Baby had 3 desaturation event(s) below threshold overnight, with the longest lasting 115s and reaching 81%. SatSeconds burden: 1941.\n\nAs a 34-week preterm infant (now 59 days old), SpO2 should be stabilizing toward term ranges, though occasional mild dips are still expected. This baby's overnight pattern requires prompt attention.\n\nAction: Call the family within 1 hour to confirm home oxygen equipment is functioning and check for visible breathing pauses. Flag for pediatrician follow-up today.\n\nAsk family: Have you noticed any breathing pauses, skin color changes, or feeding difficulty overnight?",
+    "source": "mock_template",
+    "final_label": "urgent",
+    "baby": {
+      "baby_id": "5b2499cc",
+      "gestational_age_weeks": 34,
+      "ga_category": "moderate_preterm",
+      "birth_weight_grams": 2189,
+      "days_since_birth": 59,
+      "known_conditions": [
+        "none"
+      ]
+    },
+    "stats": {
+      "mean_spo2": 94.7,
+      "min_spo2": 81.0,
+      "n_events": 3
+    }
+  }
+}
