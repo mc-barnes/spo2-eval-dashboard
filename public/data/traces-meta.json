@@ -1,8 +1,8 @@
 [
   {
-    "night_id": "5aeeb6d6",
+    "night_id": "6d6b43fe",
     "baby": {
-      "baby_id": "1d196b8f",
+      "baby_id": "0e45b603",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3377,
@@ -26,9 +26,9 @@
     }
   },
   {
-    "night_id": "86ae5c70",
+    "night_id": "4cac453f",
     "baby": {
-      "baby_id": "1d196b8f",
+      "baby_id": "0e45b603",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3377,
@@ -52,9 +52,9 @@
     }
   },
   {
-    "night_id": "2b5e99fd",
+    "night_id": "012abffd",
     "baby": {
-      "baby_id": "1d196b8f",
+      "baby_id": "0e45b603",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3377,
@@ -78,9 +78,9 @@
     }
   },
   {
-    "night_id": "5c150cd1",
+    "night_id": "516439bf",
     "baby": {
-      "baby_id": "1a0da335",
+      "baby_id": "e6c48fc8",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3971,
@@ -104,9 +104,9 @@
     }
   },
   {
-    "night_id": "03b44f9a",
+    "night_id": "d78437db",
     "baby": {
-      "baby_id": "1a0da335",
+      "baby_id": "e6c48fc8",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3971,
@@ -130,9 +130,9 @@
     }
   },
   {
-    "night_id": "a325033a",
+    "night_id": "38622539",
     "baby": {
-      "baby_id": "1a0da335",
+      "baby_id": "e6c48fc8",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3971,
@@ -156,9 +156,9 @@
     }
   },
   {
-    "night_id": "88e52917",
+    "night_id": "c6ceffbb",
     "baby": {
-      "baby_id": "c9dfca42",
+      "baby_id": "b2a20dcb",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2059,
@@ -182,9 +182,9 @@
     }
   },
   {
-    "night_id": "4fdb6900",
+    "night_id": "ee7a043a",
     "baby": {
-      "baby_id": "c9dfca42",
+      "baby_id": "b2a20dcb",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2059,
@@ -208,9 +208,9 @@
     }
   },
   {
-    "night_id": "4f57ee0c",
+    "night_id": "256a4ad7",
     "baby": {
-      "baby_id": "c9dfca42",
+      "baby_id": "b2a20dcb",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2059,
@@ -234,9 +234,9 @@
     }
   },
   {
-    "night_id": "724bde4a",
+    "night_id": "f1c685fc",
     "baby": {
-      "baby_id": "0621dc7d",
+      "baby_id": "665dd300",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1073,
@@ -260,9 +260,9 @@
     }
   },
   {
-    "night_id": "e3b20aac",
+    "night_id": "edabb16e",
     "baby": {
-      "baby_id": "0621dc7d",
+      "baby_id": "665dd300",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1073,
@@ -277,7 +277,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.984,
+    "confidence": 0.985,
     "stats": {
       "mean_spo2": 93.0,
       "min_spo2": 91.1,
@@ -286,9 +286,9 @@
     }
   },
   {
-    "night_id": "d87e0f5e",
+    "night_id": "ba10d7f2",
     "baby": {
-      "baby_id": "0621dc7d",
+      "baby_id": "665dd300",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1073,
@@ -312,9 +312,9 @@
     }
   },
   {
-    "night_id": "b205f1ec",
+    "night_id": "078f306b",
     "baby": {
-      "baby_id": "2b911b66",
+      "baby_id": "c26bc25e",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1776,
@@ -338,9 +338,9 @@
     }
   },
   {
-    "night_id": "9b641f40",
+    "night_id": "18a67f6c",
     "baby": {
-      "baby_id": "2b911b66",
+      "baby_id": "c26bc25e",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1776,
@@ -355,7 +355,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.991,
+    "confidence": 0.992,
     "stats": {
       "mean_spo2": 93.5,
       "min_spo2": 91.2,
@@ -364,9 +364,9 @@
     }
   },
   {
-    "night_id": "44616d7b",
+    "night_id": "251aeda0",
     "baby": {
-      "baby_id": "2b911b66",
+      "baby_id": "c26bc25e",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1776,
@@ -390,9 +390,9 @@
     }
   },
   {
-    "night_id": "46b2a43d",
+    "night_id": "c2409459",
     "baby": {
-      "baby_id": "d2aaee3b",
+      "baby_id": "0cf594bd",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 871,
@@ -416,9 +416,9 @@
     }
   },
   {
-    "night_id": "00e67df0",
+    "night_id": "93779b0f",
     "baby": {
-      "baby_id": "d2aaee3b",
+      "baby_id": "0cf594bd",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 871,
@@ -442,9 +442,9 @@
     }
   },
   {
-    "night_id": "ad780aad",
+    "night_id": "67583271",
     "baby": {
-      "baby_id": "d2aaee3b",
+      "baby_id": "0cf594bd",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 871,
@@ -468,9 +468,9 @@
     }
   },
   {
-    "night_id": "b14b1a97",
+    "night_id": "8d87829d",
     "baby": {
-      "baby_id": "bc1c76d7",
+      "baby_id": "789312b2",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1932,
@@ -494,9 +494,9 @@
     }
   },
   {
-    "night_id": "4e764a82",
+    "night_id": "85627934",
     "baby": {
-      "baby_id": "bc1c76d7",
+      "baby_id": "789312b2",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1932,
@@ -520,9 +520,9 @@
     }
   },
   {
-    "night_id": "1b9f2599",
+    "night_id": "5fb0ac5c",
     "baby": {
-      "baby_id": "bc1c76d7",
+      "baby_id": "789312b2",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1932,
@@ -546,9 +546,9 @@
     }
   },
   {
-    "night_id": "eaa109a0",
+    "night_id": "c166b478",
     "baby": {
-      "baby_id": "e9c888d9",
+      "baby_id": "c16a71e7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1128,
@@ -572,9 +572,9 @@
     }
   },
   {
-    "night_id": "61f63eae",
+    "night_id": "a7e1bf48",
     "baby": {
-      "baby_id": "e9c888d9",
+      "baby_id": "c16a71e7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1128,
@@ -598,9 +598,9 @@
     }
   },
   {
-    "night_id": "bfcff736",
+    "night_id": "30857dd3",
     "baby": {
-      "baby_id": "e9c888d9",
+      "baby_id": "c16a71e7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1128,
@@ -624,9 +624,9 @@
     }
   },
   {
-    "night_id": "127a74e4",
+    "night_id": "618c51ce",
     "baby": {
-      "baby_id": "f24caf4e",
+      "baby_id": "eab6c1a8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1230,
@@ -642,7 +642,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.947,
+    "confidence": 0.95,
     "stats": {
       "mean_spo2": 93.1,
       "min_spo2": 89.7,
@@ -651,9 +651,9 @@
     }
   },
   {
-    "night_id": "ee964df9",
+    "night_id": "0d5e6319",
     "baby": {
-      "baby_id": "f24caf4e",
+      "baby_id": "eab6c1a8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1230,
@@ -669,7 +669,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.938,
+    "confidence": 0.941,
     "stats": {
       "mean_spo2": 93.1,
       "min_spo2": 90.4,
@@ -678,9 +678,9 @@
     }
   },
   {
-    "night_id": "f7796db2",
+    "night_id": "f9e9f941",
     "baby": {
-      "baby_id": "f24caf4e",
+      "baby_id": "eab6c1a8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1230,
@@ -696,7 +696,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.865,
+    "confidence": 0.873,
     "stats": {
       "mean_spo2": 93.1,
       "min_spo2": 90.9,
@@ -705,9 +705,9 @@
     }
   },
   {
-    "night_id": "93f2c640",
+    "night_id": "f614d2b3",
     "baby": {
-      "baby_id": "f4edcde6",
+      "baby_id": "1982104e",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2130,
@@ -722,7 +722,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.937,
+    "confidence": 0.943,
     "stats": {
       "mean_spo2": 94.5,
       "min_spo2": 90.1,
@@ -731,9 +731,9 @@
     }
   },
   {
-    "night_id": "e1eb9fe6",
+    "night_id": "6431ffe0",
     "baby": {
-      "baby_id": "f4edcde6",
+      "baby_id": "1982104e",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2130,
@@ -757,9 +757,9 @@
     }
   },
   {
-    "night_id": "f525cc88",
+    "night_id": "4dcbbdf2",
     "baby": {
-      "baby_id": "f4edcde6",
+      "baby_id": "1982104e",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2130,
@@ -783,9 +783,9 @@
     }
   },
   {
-    "night_id": "baeeb044",
+    "night_id": "d5802bff",
     "baby": {
-      "baby_id": "6de79186",
+      "baby_id": "9145baa7",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 557,
@@ -809,9 +809,9 @@
     }
   },
   {
-    "night_id": "cc99602c",
+    "night_id": "5704ec83",
     "baby": {
-      "baby_id": "6de79186",
+      "baby_id": "9145baa7",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 557,
@@ -835,9 +835,9 @@
     }
   },
   {
-    "night_id": "8e1380f0",
+    "night_id": "23b81819",
     "baby": {
-      "baby_id": "6de79186",
+      "baby_id": "9145baa7",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 557,
@@ -861,9 +861,9 @@
     }
   },
   {
-    "night_id": "cf816dc6",
+    "night_id": "c3926db0",
     "baby": {
-      "baby_id": "395d3ce1",
+      "baby_id": "56a2e8e0",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1863,
@@ -887,9 +887,9 @@
     }
   },
   {
-    "night_id": "8f4ec83c",
+    "night_id": "c7389de5",
     "baby": {
-      "baby_id": "395d3ce1",
+      "baby_id": "56a2e8e0",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1863,
@@ -913,9 +913,9 @@
     }
   },
   {
-    "night_id": "5891b128",
+    "night_id": "78b17379",
     "baby": {
-      "baby_id": "395d3ce1",
+      "baby_id": "56a2e8e0",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1863,
@@ -930,7 +930,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.829,
+    "confidence": 0.828,
     "stats": {
       "mean_spo2": 94.7,
       "min_spo2": 93.3,
@@ -939,9 +939,9 @@
     }
   },
   {
-    "night_id": "c2b44f41",
+    "night_id": "564ab99b",
     "baby": {
-      "baby_id": "dba7c8e1",
+      "baby_id": "78fb91bd",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1326,
@@ -965,9 +965,9 @@
     }
   },
   {
-    "night_id": "8ed83eb2",
+    "night_id": "ef70ed53",
     "baby": {
-      "baby_id": "dba7c8e1",
+      "baby_id": "78fb91bd",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1326,
@@ -991,9 +991,9 @@
     }
   },
   {
-    "night_id": "56b344a8",
+    "night_id": "dca6fe4e",
     "baby": {
-      "baby_id": "dba7c8e1",
+      "baby_id": "78fb91bd",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1326,
@@ -1017,9 +1017,9 @@
     }
   },
   {
-    "night_id": "93eb70ab",
+    "night_id": "9279e59b",
     "baby": {
-      "baby_id": "ab0f2d42",
+      "baby_id": "dc9349b2",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1888,
@@ -1043,9 +1043,9 @@
     }
   },
   {
-    "night_id": "3064868a",
+    "night_id": "82d62b07",
     "baby": {
-      "baby_id": "ab0f2d42",
+      "baby_id": "dc9349b2",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1888,
@@ -1069,9 +1069,9 @@
     }
   },
   {
-    "night_id": "8ae23817",
+    "night_id": "ba91fdc6",
     "baby": {
-      "baby_id": "ab0f2d42",
+      "baby_id": "dc9349b2",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1888,
@@ -1086,7 +1086,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.962,
+    "confidence": 0.964,
     "stats": {
       "mean_spo2": 95.6,
       "min_spo2": 94.3,
@@ -1095,9 +1095,9 @@
     }
   },
   {
-    "night_id": "7ab7bb25",
+    "night_id": "de66279d",
     "baby": {
-      "baby_id": "3c29715a",
+      "baby_id": "f56c0bdd",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 2833,
@@ -1121,9 +1121,9 @@
     }
   },
   {
-    "night_id": "686f407b",
+    "night_id": "7f36d8ba",
     "baby": {
-      "baby_id": "3c29715a",
+      "baby_id": "f56c0bdd",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 2833,
@@ -1147,9 +1147,9 @@
     }
   },
   {
-    "night_id": "811f210b",
+    "night_id": "c6faaedd",
     "baby": {
-      "baby_id": "3c29715a",
+      "baby_id": "f56c0bdd",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 2833,
@@ -1173,9 +1173,9 @@
     }
   },
   {
-    "night_id": "d258460c",
+    "night_id": "f43802de",
     "baby": {
-      "baby_id": "5a909f06",
+      "baby_id": "8186b422",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2301,
@@ -1190,7 +1190,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.954,
+    "confidence": 0.956,
     "stats": {
       "mean_spo2": 95.5,
       "min_spo2": 93.5,
@@ -1199,9 +1199,9 @@
     }
   },
   {
-    "night_id": "4e11b8de",
+    "night_id": "9a3ca653",
     "baby": {
-      "baby_id": "5a909f06",
+      "baby_id": "8186b422",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2301,
@@ -1216,7 +1216,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.959,
+    "confidence": 0.962,
     "stats": {
       "mean_spo2": 95.5,
       "min_spo2": 94.1,
@@ -1225,9 +1225,9 @@
     }
   },
   {
-    "night_id": "9ce2e067",
+    "night_id": "e15b2efa",
     "baby": {
-      "baby_id": "5a909f06",
+      "baby_id": "8186b422",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2301,
@@ -1251,9 +1251,9 @@
     }
   },
   {
-    "night_id": "5b12090c",
+    "night_id": "9cbc1b59",
     "baby": {
-      "baby_id": "fa91782b",
+      "baby_id": "e1197002",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1304,
@@ -1277,9 +1277,9 @@
     }
   },
   {
-    "night_id": "e64b3586",
+    "night_id": "fe5b1bb5",
     "baby": {
-      "baby_id": "fa91782b",
+      "baby_id": "e1197002",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1304,
@@ -1303,9 +1303,9 @@
     }
   },
   {
-    "night_id": "06d6bc54",
+    "night_id": "6e2ca590",
     "baby": {
-      "baby_id": "fa91782b",
+      "baby_id": "e1197002",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1304,
@@ -1329,9 +1329,9 @@
     }
   },
   {
-    "night_id": "862b7f3d",
+    "night_id": "9a5880e7",
     "baby": {
-      "baby_id": "6250b074",
+      "baby_id": "db1f28c7",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3232,
@@ -1355,9 +1355,9 @@
     }
   },
   {
-    "night_id": "0ec52ed1",
+    "night_id": "c36b1b89",
     "baby": {
-      "baby_id": "6250b074",
+      "baby_id": "db1f28c7",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3232,
@@ -1381,9 +1381,9 @@
     }
   },
   {
-    "night_id": "44b4d71d",
+    "night_id": "fc091bf1",
     "baby": {
-      "baby_id": "6250b074",
+      "baby_id": "db1f28c7",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3232,
@@ -1407,9 +1407,9 @@
     }
   },
   {
-    "night_id": "3a096b58",
+    "night_id": "b659ebef",
     "baby": {
-      "baby_id": "95d27ecd",
+      "baby_id": "8281ef56",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 4057,
@@ -1433,9 +1433,9 @@
     }
   },
   {
-    "night_id": "6cbee96d",
+    "night_id": "3130f9ff",
     "baby": {
-      "baby_id": "95d27ecd",
+      "baby_id": "8281ef56",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 4057,
@@ -1459,9 +1459,9 @@
     }
   },
   {
-    "night_id": "2b904af3",
+    "night_id": "1b87b182",
     "baby": {
-      "baby_id": "95d27ecd",
+      "baby_id": "8281ef56",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 4057,
@@ -1485,9 +1485,9 @@
     }
   },
   {
-    "night_id": "acec40a2",
+    "night_id": "b00a75c7",
     "baby": {
-      "baby_id": "b4055044",
+      "baby_id": "2f06380a",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 723,
@@ -1511,9 +1511,9 @@
     }
   },
   {
-    "night_id": "739eb2f1",
+    "night_id": "c7d45a4f",
     "baby": {
-      "baby_id": "b4055044",
+      "baby_id": "2f06380a",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 723,
@@ -1537,9 +1537,9 @@
     }
   },
   {
-    "night_id": "2a2943aa",
+    "night_id": "d713e39c",
     "baby": {
-      "baby_id": "b4055044",
+      "baby_id": "2f06380a",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 723,
@@ -1563,9 +1563,9 @@
     }
   },
   {
-    "night_id": "e79de6fd",
+    "night_id": "cb7e5448",
     "baby": {
-      "baby_id": "43392d14",
+      "baby_id": "64155ecf",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 928,
@@ -1589,9 +1589,9 @@
     }
   },
   {
-    "night_id": "0d9e2a42",
+    "night_id": "42dd2f79",
     "baby": {
-      "baby_id": "43392d14",
+      "baby_id": "64155ecf",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 928,
@@ -1615,9 +1615,9 @@
     }
   },
   {
-    "night_id": "5171c133",
+    "night_id": "52936e43",
     "baby": {
-      "baby_id": "43392d14",
+      "baby_id": "64155ecf",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 928,
@@ -1641,9 +1641,9 @@
     }
   },
   {
-    "night_id": "29d78439",
+    "night_id": "9de2e9cd",
     "baby": {
-      "baby_id": "888975a7",
+      "baby_id": "bd1bfb28",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2240,
@@ -1667,9 +1667,9 @@
     }
   },
   {
-    "night_id": "d7b1907f",
+    "night_id": "a2687edb",
     "baby": {
-      "baby_id": "888975a7",
+      "baby_id": "bd1bfb28",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2240,
@@ -1693,9 +1693,9 @@
     }
   },
   {
-    "night_id": "3c1d8d40",
+    "night_id": "253441d8",
     "baby": {
-      "baby_id": "888975a7",
+      "baby_id": "bd1bfb28",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2240,
@@ -1719,9 +1719,9 @@
     }
   },
   {
-    "night_id": "17bdae92",
+    "night_id": "a6287898",
     "baby": {
-      "baby_id": "6f9d6056",
+      "baby_id": "dfadfaaf",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1115,
@@ -1745,9 +1745,9 @@
     }
   },
   {
-    "night_id": "0d6603af",
+    "night_id": "a2d589cc",
     "baby": {
-      "baby_id": "6f9d6056",
+      "baby_id": "dfadfaaf",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1115,
@@ -1771,9 +1771,9 @@
     }
   },
   {
-    "night_id": "476e7ac1",
+    "night_id": "ab063449",
     "baby": {
-      "baby_id": "6f9d6056",
+      "baby_id": "dfadfaaf",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1115,
@@ -1797,9 +1797,9 @@
     }
   },
   {
-    "night_id": "4515cfea",
+    "night_id": "f8037cb7",
     "baby": {
-      "baby_id": "2a51a579",
+      "baby_id": "3720ee9c",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1489,
@@ -1823,9 +1823,9 @@
     }
   },
   {
-    "night_id": "f793c066",
+    "night_id": "ae9ad37e",
     "baby": {
-      "baby_id": "2a51a579",
+      "baby_id": "3720ee9c",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1489,
@@ -1849,9 +1849,9 @@
     }
   },
   {
-    "night_id": "a38d13b9",
+    "night_id": "e7a50c27",
     "baby": {
-      "baby_id": "2a51a579",
+      "baby_id": "3720ee9c",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1489,
@@ -1875,9 +1875,9 @@
     }
   },
   {
-    "night_id": "6559752f",
+    "night_id": "43e35893",
     "baby": {
-      "baby_id": "7bb14452",
+      "baby_id": "17d423b6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 743,
@@ -1901,9 +1901,9 @@
     }
   },
   {
-    "night_id": "a6401a9e",
+    "night_id": "389ee34b",
     "baby": {
-      "baby_id": "7bb14452",
+      "baby_id": "17d423b6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 743,
@@ -1927,9 +1927,9 @@
     }
   },
   {
-    "night_id": "4cc7549a",
+    "night_id": "f2ed6490",
     "baby": {
-      "baby_id": "7bb14452",
+      "baby_id": "17d423b6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 743,
@@ -1953,9 +1953,9 @@
     }
   },
   {
-    "night_id": "9dd3b060",
+    "night_id": "fb88986a",
     "baby": {
-      "baby_id": "ea6c0f46",
+      "baby_id": "555f89ea",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1436,
@@ -1979,9 +1979,9 @@
     }
   },
   {
-    "night_id": "82762f9a",
+    "night_id": "dfce3269",
     "baby": {
-      "baby_id": "ea6c0f46",
+      "baby_id": "555f89ea",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1436,
@@ -2005,9 +2005,9 @@
     }
   },
   {
-    "night_id": "c3ebb858",
+    "night_id": "dc849b96",
     "baby": {
-      "baby_id": "ea6c0f46",
+      "baby_id": "555f89ea",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1436,
@@ -2031,9 +2031,9 @@
     }
   },
   {
-    "night_id": "32e404e7",
+    "night_id": "6146416b",
     "baby": {
-      "baby_id": "366de9e4",
+      "baby_id": "8e643c08",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2057,9 +2057,9 @@
     }
   },
   {
-    "night_id": "bbeda1f5",
+    "night_id": "d9fd343f",
     "baby": {
-      "baby_id": "366de9e4",
+      "baby_id": "8e643c08",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2083,9 +2083,9 @@
     }
   },
   {
-    "night_id": "2cdaca8b",
+    "night_id": "06c7c0de",
     "baby": {
-      "baby_id": "366de9e4",
+      "baby_id": "8e643c08",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2109,9 +2109,9 @@
     }
   },
   {
-    "night_id": "9a0d75f9",
+    "night_id": "c8536c5b",
     "baby": {
-      "baby_id": "90ca0050",
+      "baby_id": "bce5bd05",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3141,
@@ -2135,9 +2135,9 @@
     }
   },
   {
-    "night_id": "ddd61fd1",
+    "night_id": "4db757b0",
     "baby": {
-      "baby_id": "90ca0050",
+      "baby_id": "bce5bd05",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3141,
@@ -2161,9 +2161,9 @@
     }
   },
   {
-    "night_id": "687708c4",
+    "night_id": "ab1ee5ee",
     "baby": {
-      "baby_id": "90ca0050",
+      "baby_id": "bce5bd05",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3141,
@@ -2187,9 +2187,9 @@
     }
   },
   {
-    "night_id": "34bdf15a",
+    "night_id": "18305521",
     "baby": {
-      "baby_id": "b331d663",
+      "baby_id": "d6c3a061",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2213,9 +2213,9 @@
     }
   },
   {
-    "night_id": "e9945d8a",
+    "night_id": "ef672bd6",
     "baby": {
-      "baby_id": "b331d663",
+      "baby_id": "d6c3a061",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2239,9 +2239,9 @@
     }
   },
   {
-    "night_id": "c31fa8e0",
+    "night_id": "1bb41b41",
     "baby": {
-      "baby_id": "b331d663",
+      "baby_id": "d6c3a061",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2265,9 +2265,9 @@
     }
   },
   {
-    "night_id": "bd1e1394",
+    "night_id": "49865f5e",
     "baby": {
-      "baby_id": "2c2d51dd",
+      "baby_id": "96e93118",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1497,
@@ -2282,7 +2282,7 @@
     "ground_truth_label": "artifact",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.934,
+    "confidence": 0.94,
     "stats": {
       "mean_spo2": 93.4,
       "min_spo2": 58.6,
@@ -2291,9 +2291,9 @@
     }
   },
   {
-    "night_id": "20304064",
+    "night_id": "a2e2c8b5",
     "baby": {
-      "baby_id": "2c2d51dd",
+      "baby_id": "96e93118",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1497,
@@ -2317,9 +2317,9 @@
     }
   },
   {
-    "night_id": "1fe29108",
+    "night_id": "33561991",
     "baby": {
-      "baby_id": "2c2d51dd",
+      "baby_id": "96e93118",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1497,
@@ -2343,9 +2343,9 @@
     }
   },
   {
-    "night_id": "6f3ff00b",
+    "night_id": "82c25bb9",
     "baby": {
-      "baby_id": "45355f08",
+      "baby_id": "81639c71",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1793,
@@ -2369,9 +2369,9 @@
     }
   },
   {
-    "night_id": "29007003",
+    "night_id": "6c5b161b",
     "baby": {
-      "baby_id": "45355f08",
+      "baby_id": "81639c71",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1793,
@@ -2386,7 +2386,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.9,
+    "confidence": 0.906,
     "stats": {
       "mean_spo2": 92.9,
       "min_spo2": 90.2,
@@ -2395,9 +2395,9 @@
     }
   },
   {
-    "night_id": "547fec17",
+    "night_id": "5656dc89",
     "baby": {
-      "baby_id": "45355f08",
+      "baby_id": "81639c71",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1793,
@@ -2421,9 +2421,9 @@
     }
   },
   {
-    "night_id": "f59aa7d9",
+    "night_id": "30b76f90",
     "baby": {
-      "baby_id": "f2938949",
+      "baby_id": "39836f77",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1017,
@@ -2447,9 +2447,9 @@
     }
   },
   {
-    "night_id": "5492af2c",
+    "night_id": "0b42a0fc",
     "baby": {
-      "baby_id": "f2938949",
+      "baby_id": "39836f77",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1017,
@@ -2473,9 +2473,9 @@
     }
   },
   {
-    "night_id": "2809439a",
+    "night_id": "2966c1bd",
     "baby": {
-      "baby_id": "f2938949",
+      "baby_id": "39836f77",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1017,
@@ -2490,7 +2490,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.993,
+    "confidence": 0.994,
     "stats": {
       "mean_spo2": 93.4,
       "min_spo2": 91.4,
@@ -2499,9 +2499,9 @@
     }
   },
   {
-    "night_id": "8fcbe92b",
+    "night_id": "9176422c",
     "baby": {
-      "baby_id": "dc326bce",
+      "baby_id": "4b5a2b72",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1749,
@@ -2525,9 +2525,9 @@
     }
   },
   {
-    "night_id": "e61ce3d0",
+    "night_id": "114abf5b",
     "baby": {
-      "baby_id": "dc326bce",
+      "baby_id": "4b5a2b72",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1749,
@@ -2551,9 +2551,9 @@
     }
   },
   {
-    "night_id": "7e11a59d",
+    "night_id": "3993a1a1",
     "baby": {
-      "baby_id": "dc326bce",
+      "baby_id": "4b5a2b72",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1749,
@@ -2577,9 +2577,9 @@
     }
   },
   {
-    "night_id": "9cee69c2",
+    "night_id": "03ca6f27",
     "baby": {
-      "baby_id": "54b8a2d9",
+      "baby_id": "686cb937",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2303,
@@ -2603,9 +2603,9 @@
     }
   },
   {
-    "night_id": "850bd2f7",
+    "night_id": "524f3c8f",
     "baby": {
-      "baby_id": "54b8a2d9",
+      "baby_id": "686cb937",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2303,
@@ -2620,7 +2620,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.939,
+    "confidence": 0.942,
     "stats": {
       "mean_spo2": 94.1,
       "min_spo2": 92.1,
@@ -2629,9 +2629,9 @@
     }
   },
   {
-    "night_id": "8e2749c8",
+    "night_id": "80d961f6",
     "baby": {
-      "baby_id": "54b8a2d9",
+      "baby_id": "686cb937",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2303,
@@ -2646,7 +2646,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.992,
+    "confidence": 0.993,
     "stats": {
       "mean_spo2": 94.1,
       "min_spo2": 90.2,
@@ -2655,9 +2655,9 @@
     }
   },
   {
-    "night_id": "816e0ceb",
+    "night_id": "4f03f251",
     "baby": {
-      "baby_id": "766d2859",
+      "baby_id": "e3af2186",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3501,
@@ -2681,9 +2681,9 @@
     }
   },
   {
-    "night_id": "a6deadc8",
+    "night_id": "169e2296",
     "baby": {
-      "baby_id": "766d2859",
+      "baby_id": "e3af2186",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3501,
@@ -2707,9 +2707,9 @@
     }
   },
   {
-    "night_id": "5711d82b",
+    "night_id": "0e8cb88f",
     "baby": {
-      "baby_id": "766d2859",
+      "baby_id": "e3af2186",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3501,
@@ -2733,9 +2733,9 @@
     }
   },
   {
-    "night_id": "2efc494e",
+    "night_id": "de307459",
     "baby": {
-      "baby_id": "1c35507b",
+      "baby_id": "cc39e095",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 508,
@@ -2759,9 +2759,9 @@
     }
   },
   {
-    "night_id": "09f58ace",
+    "night_id": "070d5195",
     "baby": {
-      "baby_id": "1c35507b",
+      "baby_id": "cc39e095",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 508,
@@ -2785,9 +2785,9 @@
     }
   },
   {
-    "night_id": "8f51c0fb",
+    "night_id": "36176ebb",
     "baby": {
-      "baby_id": "1c35507b",
+      "baby_id": "cc39e095",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 508,
@@ -2811,9 +2811,9 @@
     }
   },
   {
-    "night_id": "fbe131fa",
+    "night_id": "0290db66",
     "baby": {
-      "baby_id": "f311d12a",
+      "baby_id": "53900713",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 902,
@@ -2837,9 +2837,9 @@
     }
   },
   {
-    "night_id": "469427b7",
+    "night_id": "be0e151e",
     "baby": {
-      "baby_id": "f311d12a",
+      "baby_id": "53900713",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 902,
@@ -2863,9 +2863,9 @@
     }
   },
   {
-    "night_id": "e3268d02",
+    "night_id": "97eb333b",
     "baby": {
-      "baby_id": "f311d12a",
+      "baby_id": "53900713",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 902,
@@ -2889,9 +2889,9 @@
     }
   },
   {
-    "night_id": "f9e21678",
+    "night_id": "72d9e276",
     "baby": {
-      "baby_id": "39af41f0",
+      "baby_id": "69131475",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2155,
@@ -2915,9 +2915,9 @@
     }
   },
   {
-    "night_id": "a496aa11",
+    "night_id": "d14cb177",
     "baby": {
-      "baby_id": "39af41f0",
+      "baby_id": "69131475",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2155,
@@ -2941,9 +2941,9 @@
     }
   },
   {
-    "night_id": "d500fa45",
+    "night_id": "ffaaf29b",
     "baby": {
-      "baby_id": "39af41f0",
+      "baby_id": "69131475",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2155,
@@ -2967,9 +2967,9 @@
     }
   },
   {
-    "night_id": "a77e6aca",
+    "night_id": "fa451277",
     "baby": {
-      "baby_id": "08923ce1",
+      "baby_id": "6a8547a2",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -2994,9 +2994,9 @@
     }
   },
   {
-    "night_id": "c3467a92",
+    "night_id": "17b70b15",
     "baby": {
-      "baby_id": "08923ce1",
+      "baby_id": "6a8547a2",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -3021,9 +3021,9 @@
     }
   },
   {
-    "night_id": "fe07f0ad",
+    "night_id": "7ab95c0e",
     "baby": {
-      "baby_id": "08923ce1",
+      "baby_id": "6a8547a2",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 777,
@@ -3048,9 +3048,9 @@
     }
   },
   {
-    "night_id": "9c8ae2be",
+    "night_id": "79b42d90",
     "baby": {
-      "baby_id": "2d569387",
+      "baby_id": "897314ad",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1927,
@@ -3065,7 +3065,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.999,
+    "confidence": 1.0,
     "stats": {
       "mean_spo2": 93.5,
       "min_spo2": 89.9,
@@ -3074,9 +3074,9 @@
     }
   },
   {
-    "night_id": "4074f835",
+    "night_id": "efbf40f4",
     "baby": {
-      "baby_id": "2d569387",
+      "baby_id": "897314ad",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1927,
@@ -3091,7 +3091,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.958,
+    "confidence": 0.961,
     "stats": {
       "mean_spo2": 93.5,
       "min_spo2": 91.6,
@@ -3100,9 +3100,9 @@
     }
   },
   {
-    "night_id": "c95c01a4",
+    "night_id": "e215c777",
     "baby": {
-      "baby_id": "2d569387",
+      "baby_id": "897314ad",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1927,
@@ -3117,7 +3117,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.988,
+    "confidence": 0.989,
     "stats": {
       "mean_spo2": 93.5,
       "min_spo2": 90.1,
@@ -3126,9 +3126,9 @@
     }
   },
   {
-    "night_id": "09ff3263",
+    "night_id": "7dbcde88",
     "baby": {
-      "baby_id": "36cda949",
+      "baby_id": "94db4e01",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 554,
@@ -3152,9 +3152,9 @@
     }
   },
   {
-    "night_id": "9d95b796",
+    "night_id": "6947f760",
     "baby": {
-      "baby_id": "36cda949",
+      "baby_id": "94db4e01",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 554,
@@ -3178,9 +3178,9 @@
     }
   },
   {
-    "night_id": "a4ed9fa6",
+    "night_id": "90231548",
     "baby": {
-      "baby_id": "36cda949",
+      "baby_id": "94db4e01",
       "gestational_age_weeks": 26,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 554,
@@ -3204,9 +3204,9 @@
     }
   },
   {
-    "night_id": "4d4329d3",
+    "night_id": "051cab16",
     "baby": {
-      "baby_id": "934211ba",
+      "baby_id": "a1a5d6bd",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4006,
@@ -3230,9 +3230,9 @@
     }
   },
   {
-    "night_id": "7df71613",
+    "night_id": "e59f237c",
     "baby": {
-      "baby_id": "934211ba",
+      "baby_id": "a1a5d6bd",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4006,
@@ -3256,9 +3256,9 @@
     }
   },
   {
-    "night_id": "517a29ae",
+    "night_id": "7795638b",
     "baby": {
-      "baby_id": "934211ba",
+      "baby_id": "a1a5d6bd",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4006,
@@ -3282,9 +3282,9 @@
     }
   },
   {
-    "night_id": "d7875701",
+    "night_id": "bb970082",
     "baby": {
-      "baby_id": "9137a853",
+      "baby_id": "a818483a",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2407,
@@ -3308,9 +3308,9 @@
     }
   },
   {
-    "night_id": "d4d82667",
+    "night_id": "2f2adef5",
     "baby": {
-      "baby_id": "9137a853",
+      "baby_id": "a818483a",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2407,
@@ -3334,9 +3334,9 @@
     }
   },
   {
-    "night_id": "4d4f9259",
+    "night_id": "24071199",
     "baby": {
-      "baby_id": "9137a853",
+      "baby_id": "a818483a",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2407,
@@ -3360,9 +3360,9 @@
     }
   },
   {
-    "night_id": "ec7016a2",
+    "night_id": "1a759de5",
     "baby": {
-      "baby_id": "47c28418",
+      "baby_id": "8e40b118",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 4418,
@@ -3386,9 +3386,9 @@
     }
   },
   {
-    "night_id": "70b7debb",
+    "night_id": "ae67880f",
     "baby": {
-      "baby_id": "47c28418",
+      "baby_id": "8e40b118",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 4418,
@@ -3412,9 +3412,9 @@
     }
   },
   {
-    "night_id": "b0eb5169",
+    "night_id": "0555b348",
     "baby": {
-      "baby_id": "47c28418",
+      "baby_id": "8e40b118",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 4418,
@@ -3438,9 +3438,9 @@
     }
   },
   {
-    "night_id": "b53a8504",
+    "night_id": "0e2ef5cf",
     "baby": {
-      "baby_id": "deb2d753",
+      "baby_id": "e0cef71c",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 912,
@@ -3464,9 +3464,9 @@
     }
   },
   {
-    "night_id": "dbb67fd7",
+    "night_id": "749a13fc",
     "baby": {
-      "baby_id": "deb2d753",
+      "baby_id": "e0cef71c",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 912,
@@ -3490,9 +3490,9 @@
     }
   },
   {
-    "night_id": "e79b0e38",
+    "night_id": "5d4a5dc2",
     "baby": {
-      "baby_id": "deb2d753",
+      "baby_id": "e0cef71c",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 912,
@@ -3516,9 +3516,9 @@
     }
   },
   {
-    "night_id": "29041e05",
+    "night_id": "31c8fda4",
     "baby": {
-      "baby_id": "185aa9e6",
+      "baby_id": "ab5e6c3b",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 727,
@@ -3543,9 +3543,9 @@
     }
   },
   {
-    "night_id": "b10a27c7",
+    "night_id": "c152a3cd",
     "baby": {
-      "baby_id": "185aa9e6",
+      "baby_id": "ab5e6c3b",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 727,
@@ -3570,9 +3570,9 @@
     }
   },
   {
-    "night_id": "cea5207e",
+    "night_id": "a5427299",
     "baby": {
-      "baby_id": "185aa9e6",
+      "baby_id": "ab5e6c3b",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 727,
@@ -3597,9 +3597,9 @@
     }
   },
   {
-    "night_id": "4427523c",
+    "night_id": "2f98f8ad",
     "baby": {
-      "baby_id": "cafa7da6",
+      "baby_id": "136e290a",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2276,
@@ -3623,9 +3623,9 @@
     }
   },
   {
-    "night_id": "38282270",
+    "night_id": "465c1ccf",
     "baby": {
-      "baby_id": "cafa7da6",
+      "baby_id": "136e290a",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2276,
@@ -3649,9 +3649,9 @@
     }
   },
   {
-    "night_id": "9b55a01d",
+    "night_id": "328b7ef3",
     "baby": {
-      "baby_id": "cafa7da6",
+      "baby_id": "136e290a",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2276,
@@ -3675,9 +3675,9 @@
     }
   },
   {
-    "night_id": "ca50c3b4",
+    "night_id": "cb7df6a4",
     "baby": {
-      "baby_id": "526965a4",
+      "baby_id": "ecffdb3f",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3573,
@@ -3701,9 +3701,9 @@
     }
   },
   {
-    "night_id": "8141e4a7",
+    "night_id": "a4f75abd",
     "baby": {
-      "baby_id": "526965a4",
+      "baby_id": "ecffdb3f",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3573,
@@ -3727,9 +3727,9 @@
     }
   },
   {
-    "night_id": "2190f739",
+    "night_id": "5f573053",
     "baby": {
-      "baby_id": "526965a4",
+      "baby_id": "ecffdb3f",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3573,
@@ -3753,9 +3753,9 @@
     }
   },
   {
-    "night_id": "bc6161f6",
+    "night_id": "f88aa76f",
     "baby": {
-      "baby_id": "b52e6f50",
+      "baby_id": "58f6c978",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2091,
@@ -3770,7 +3770,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.993,
+    "confidence": 0.992,
     "stats": {
       "mean_spo2": 95.3,
       "min_spo2": 93.3,
@@ -3779,9 +3779,9 @@
     }
   },
   {
-    "night_id": "3d0425f1",
+    "night_id": "186717cf",
     "baby": {
-      "baby_id": "b52e6f50",
+      "baby_id": "58f6c978",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2091,
@@ -3805,9 +3805,9 @@
     }
   },
   {
-    "night_id": "dcad7133",
+    "night_id": "c84c87da",
     "baby": {
-      "baby_id": "b52e6f50",
+      "baby_id": "58f6c978",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2091,
@@ -3831,9 +3831,9 @@
     }
   },
   {
-    "night_id": "337dffa1",
+    "night_id": "5bf37b18",
     "baby": {
-      "baby_id": "f652e245",
+      "baby_id": "8be907a5",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 2713,
@@ -3857,9 +3857,9 @@
     }
   },
   {
-    "night_id": "96cd0550",
+    "night_id": "830cfdfe",
     "baby": {
-      "baby_id": "f652e245",
+      "baby_id": "8be907a5",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 2713,
@@ -3883,9 +3883,9 @@
     }
   },
   {
-    "night_id": "0fb39dbc",
+    "night_id": "63da1790",
     "baby": {
-      "baby_id": "f652e245",
+      "baby_id": "8be907a5",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 2713,
@@ -3909,9 +3909,9 @@
     }
   },
   {
-    "night_id": "39ef9a4f",
+    "night_id": "7bafb882",
     "baby": {
-      "baby_id": "bf65f29d",
+      "baby_id": "2b7c59b4",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4305,
@@ -3935,9 +3935,9 @@
     }
   },
   {
-    "night_id": "dddb3727",
+    "night_id": "b2486461",
     "baby": {
-      "baby_id": "bf65f29d",
+      "baby_id": "2b7c59b4",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4305,
@@ -3961,9 +3961,9 @@
     }
   },
   {
-    "night_id": "82d0ce58",
+    "night_id": "198c340f",
     "baby": {
-      "baby_id": "bf65f29d",
+      "baby_id": "2b7c59b4",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4305,
@@ -3987,9 +3987,9 @@
     }
   },
   {
-    "night_id": "1d561762",
+    "night_id": "4ee25aeb",
     "baby": {
-      "baby_id": "ca898480",
+      "baby_id": "44436847",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2231,
@@ -4013,9 +4013,9 @@
     }
   },
   {
-    "night_id": "c46e0a25",
+    "night_id": "6eeff57e",
     "baby": {
-      "baby_id": "ca898480",
+      "baby_id": "44436847",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2231,
@@ -4039,9 +4039,9 @@
     }
   },
   {
-    "night_id": "92d5f687",
+    "night_id": "2a732aee",
     "baby": {
-      "baby_id": "ca898480",
+      "baby_id": "44436847",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2231,
@@ -4056,7 +4056,7 @@
     "ground_truth_label": "normal",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.823,
+    "confidence": 0.815,
     "stats": {
       "mean_spo2": 94.7,
       "min_spo2": 93.6,
@@ -4065,9 +4065,9 @@
     }
   },
   {
-    "night_id": "e96ee4b9",
+    "night_id": "2cd92610",
     "baby": {
-      "baby_id": "de6b4530",
+      "baby_id": "a66eae82",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3425,
@@ -4091,9 +4091,9 @@
     }
   },
   {
-    "night_id": "0ec42477",
+    "night_id": "63cd1213",
     "baby": {
-      "baby_id": "de6b4530",
+      "baby_id": "a66eae82",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3425,
@@ -4117,9 +4117,9 @@
     }
   },
   {
-    "night_id": "06dc9ceb",
+    "night_id": "0410c416",
     "baby": {
-      "baby_id": "de6b4530",
+      "baby_id": "a66eae82",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3425,
@@ -4143,9 +4143,9 @@
     }
   },
   {
-    "night_id": "a615030d",
+    "night_id": "15d6acef",
     "baby": {
-      "baby_id": "6f7f3147",
+      "baby_id": "a186ef7f",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 716,
@@ -4169,9 +4169,9 @@
     }
   },
   {
-    "night_id": "f8d0b19f",
+    "night_id": "23f57b39",
     "baby": {
-      "baby_id": "6f7f3147",
+      "baby_id": "a186ef7f",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 716,
@@ -4195,9 +4195,9 @@
     }
   },
   {
-    "night_id": "00bcb8e4",
+    "night_id": "f8dcd71b",
     "baby": {
-      "baby_id": "6f7f3147",
+      "baby_id": "a186ef7f",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 716,
@@ -4221,9 +4221,9 @@
     }
   },
   {
-    "night_id": "6e9d111c",
+    "night_id": "72b51b83",
     "baby": {
-      "baby_id": "403a3184",
+      "baby_id": "620970a7",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1303,
@@ -4247,9 +4247,9 @@
     }
   },
   {
-    "night_id": "23511f6b",
+    "night_id": "c2248748",
     "baby": {
-      "baby_id": "403a3184",
+      "baby_id": "620970a7",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1303,
@@ -4264,7 +4264,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.947,
+    "confidence": 0.949,
     "stats": {
       "mean_spo2": 93.6,
       "min_spo2": 90.4,
@@ -4273,9 +4273,9 @@
     }
   },
   {
-    "night_id": "6694565f",
+    "night_id": "64a8a494",
     "baby": {
-      "baby_id": "403a3184",
+      "baby_id": "620970a7",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1303,
@@ -4290,7 +4290,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.947,
+    "confidence": 0.948,
     "stats": {
       "mean_spo2": 93.6,
       "min_spo2": 90.8,
@@ -4299,9 +4299,9 @@
     }
   },
   {
-    "night_id": "93d179dd",
+    "night_id": "a383145b",
     "baby": {
-      "baby_id": "25466531",
+      "baby_id": "cf531ab7",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1368,
@@ -4325,9 +4325,9 @@
     }
   },
   {
-    "night_id": "5dd6a4c3",
+    "night_id": "5ecb670c",
     "baby": {
-      "baby_id": "25466531",
+      "baby_id": "cf531ab7",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1368,
@@ -4351,9 +4351,9 @@
     }
   },
   {
-    "night_id": "fc1c8793",
+    "night_id": "f1d99583",
     "baby": {
-      "baby_id": "25466531",
+      "baby_id": "cf531ab7",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1368,
@@ -4377,9 +4377,9 @@
     }
   },
   {
-    "night_id": "7c0f9367",
+    "night_id": "a82cd175",
     "baby": {
-      "baby_id": "d00b545a",
+      "baby_id": "4c8b4a37",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2001,
@@ -4403,9 +4403,9 @@
     }
   },
   {
-    "night_id": "524ce58f",
+    "night_id": "472a7ac9",
     "baby": {
-      "baby_id": "d00b545a",
+      "baby_id": "4c8b4a37",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2001,
@@ -4429,9 +4429,9 @@
     }
   },
   {
-    "night_id": "349ce808",
+    "night_id": "4cf178fb",
     "baby": {
-      "baby_id": "d00b545a",
+      "baby_id": "4c8b4a37",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2001,
@@ -4455,9 +4455,9 @@
     }
   },
   {
-    "night_id": "96a41ebc",
+    "night_id": "58b49971",
     "baby": {
-      "baby_id": "29883c11",
+      "baby_id": "22cf7509",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2245,
@@ -4481,9 +4481,9 @@
     }
   },
   {
-    "night_id": "b870bfb9",
+    "night_id": "252d91bd",
     "baby": {
-      "baby_id": "29883c11",
+      "baby_id": "22cf7509",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2245,
@@ -4507,9 +4507,9 @@
     }
   },
   {
-    "night_id": "9aae5134",
+    "night_id": "bc98472c",
     "baby": {
-      "baby_id": "29883c11",
+      "baby_id": "22cf7509",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2245,
@@ -4533,9 +4533,9 @@
     }
   },
   {
-    "night_id": "38c0cf3c",
+    "night_id": "880e1f16",
     "baby": {
-      "baby_id": "1df0869e",
+      "baby_id": "f88651ad",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 979,
@@ -4559,9 +4559,9 @@
     }
   },
   {
-    "night_id": "02a39aca",
+    "night_id": "1d3886a0",
     "baby": {
-      "baby_id": "1df0869e",
+      "baby_id": "f88651ad",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 979,
@@ -4585,9 +4585,9 @@
     }
   },
   {
-    "night_id": "a357bee5",
+    "night_id": "e8e96319",
     "baby": {
-      "baby_id": "1df0869e",
+      "baby_id": "f88651ad",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 979,
@@ -4611,9 +4611,9 @@
     }
   },
   {
-    "night_id": "d20243a6",
+    "night_id": "fdd508a8",
     "baby": {
-      "baby_id": "10d47fa7",
+      "baby_id": "4512579d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1577,
@@ -4628,7 +4628,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.995,
+    "confidence": 0.996,
     "stats": {
       "mean_spo2": 92.3,
       "min_spo2": 90.4,
@@ -4637,9 +4637,9 @@
     }
   },
   {
-    "night_id": "0bc359d3",
+    "night_id": "c263bd48",
     "baby": {
-      "baby_id": "10d47fa7",
+      "baby_id": "4512579d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1577,
@@ -4654,7 +4654,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.993,
+    "confidence": 0.994,
     "stats": {
       "mean_spo2": 92.3,
       "min_spo2": 90.7,
@@ -4663,9 +4663,9 @@
     }
   },
   {
-    "night_id": "5def2c7f",
+    "night_id": "c3ffc51f",
     "baby": {
-      "baby_id": "10d47fa7",
+      "baby_id": "4512579d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1577,
@@ -4680,7 +4680,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.997,
+    "confidence": 0.998,
     "stats": {
       "mean_spo2": 92.3,
       "min_spo2": 90.2,
@@ -4689,9 +4689,9 @@
     }
   },
   {
-    "night_id": "d2a4bf48",
+    "night_id": "7b9ce7e5",
     "baby": {
-      "baby_id": "02963218",
+      "baby_id": "7a6fa397",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2126,
@@ -4715,9 +4715,9 @@
     }
   },
   {
-    "night_id": "024a3372",
+    "night_id": "ae3bb330",
     "baby": {
-      "baby_id": "02963218",
+      "baby_id": "7a6fa397",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2126,
@@ -4741,9 +4741,9 @@
     }
   },
   {
-    "night_id": "eeedb9d6",
+    "night_id": "fd6b9e96",
     "baby": {
-      "baby_id": "02963218",
+      "baby_id": "7a6fa397",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2126,
@@ -4767,9 +4767,9 @@
     }
   },
   {
-    "night_id": "f404c717",
+    "night_id": "bf167607",
     "baby": {
-      "baby_id": "4907a0bf",
+      "baby_id": "cba40dd3",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1897,
@@ -4784,7 +4784,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.978,
+    "confidence": 0.98,
     "stats": {
       "mean_spo2": 93.4,
       "min_spo2": 91.4,
@@ -4793,9 +4793,9 @@
     }
   },
   {
-    "night_id": "957805d8",
+    "night_id": "5c6450d3",
     "baby": {
-      "baby_id": "4907a0bf",
+      "baby_id": "cba40dd3",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1897,
@@ -4819,9 +4819,9 @@
     }
   },
   {
-    "night_id": "01bb61c2",
+    "night_id": "f4168de7",
     "baby": {
-      "baby_id": "4907a0bf",
+      "baby_id": "cba40dd3",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1897,
@@ -4845,9 +4845,9 @@
     }
   },
   {
-    "night_id": "143ef388",
+    "night_id": "72e57159",
     "baby": {
-      "baby_id": "620312a6",
+      "baby_id": "6e23cd50",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2093,
@@ -4871,9 +4871,9 @@
     }
   },
   {
-    "night_id": "02fcd55c",
+    "night_id": "9b49ead7",
     "baby": {
-      "baby_id": "620312a6",
+      "baby_id": "6e23cd50",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2093,
@@ -4897,9 +4897,9 @@
     }
   },
   {
-    "night_id": "a7b0d8b8",
+    "night_id": "a3697486",
     "baby": {
-      "baby_id": "620312a6",
+      "baby_id": "6e23cd50",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2093,
@@ -4923,9 +4923,9 @@
     }
   },
   {
-    "night_id": "59d8feec",
+    "night_id": "95da62f8",
     "baby": {
-      "baby_id": "8c2dca36",
+      "baby_id": "7073d34b",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3768,
@@ -4949,9 +4949,9 @@
     }
   },
   {
-    "night_id": "bec5f7fb",
+    "night_id": "10e02c7e",
     "baby": {
-      "baby_id": "8c2dca36",
+      "baby_id": "7073d34b",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3768,
@@ -4975,9 +4975,9 @@
     }
   },
   {
-    "night_id": "265691c4",
+    "night_id": "456934b6",
     "baby": {
-      "baby_id": "8c2dca36",
+      "baby_id": "7073d34b",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3768,
@@ -5001,9 +5001,9 @@
     }
   },
   {
-    "night_id": "0b8d4e5a",
+    "night_id": "88a1d966",
     "baby": {
-      "baby_id": "07e5c72a",
+      "baby_id": "7eaf6f01",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 573,
@@ -5027,9 +5027,9 @@
     }
   },
   {
-    "night_id": "c68dd6f8",
+    "night_id": "18d60b04",
     "baby": {
-      "baby_id": "07e5c72a",
+      "baby_id": "7eaf6f01",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 573,
@@ -5044,7 +5044,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.985,
+    "confidence": 0.986,
     "stats": {
       "mean_spo2": 92.5,
       "min_spo2": 91.0,
@@ -5053,9 +5053,9 @@
     }
   },
   {
-    "night_id": "003c6078",
+    "night_id": "8f088098",
     "baby": {
-      "baby_id": "07e5c72a",
+      "baby_id": "7eaf6f01",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 573,
@@ -5079,9 +5079,9 @@
     }
   },
   {
-    "night_id": "49471ea8",
+    "night_id": "42e12215",
     "baby": {
-      "baby_id": "b89b7b64",
+      "baby_id": "cf828682",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3221,
@@ -5105,9 +5105,9 @@
     }
   },
   {
-    "night_id": "3f168c6d",
+    "night_id": "0d737889",
     "baby": {
-      "baby_id": "b89b7b64",
+      "baby_id": "cf828682",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3221,
@@ -5131,9 +5131,9 @@
     }
   },
   {
-    "night_id": "912ffc5e",
+    "night_id": "1af17e58",
     "baby": {
-      "baby_id": "b89b7b64",
+      "baby_id": "cf828682",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 3221,
@@ -5157,9 +5157,9 @@
     }
   },
   {
-    "night_id": "77467aec",
+    "night_id": "fd5f84b4",
     "baby": {
-      "baby_id": "c4318c88",
+      "baby_id": "d4a79cb6",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3935,
@@ -5183,9 +5183,9 @@
     }
   },
   {
-    "night_id": "ca8300ef",
+    "night_id": "d45b6147",
     "baby": {
-      "baby_id": "c4318c88",
+      "baby_id": "d4a79cb6",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3935,
@@ -5209,9 +5209,9 @@
     }
   },
   {
-    "night_id": "d3cbd6ea",
+    "night_id": "26e98d7f",
     "baby": {
-      "baby_id": "c4318c88",
+      "baby_id": "d4a79cb6",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 3935,
@@ -5235,9 +5235,9 @@
     }
   },
   {
-    "night_id": "3f11e734",
+    "night_id": "38e96477",
     "baby": {
-      "baby_id": "e83962b2",
+      "baby_id": "86332ce5",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1885,
@@ -5261,9 +5261,9 @@
     }
   },
   {
-    "night_id": "6f3a03b5",
+    "night_id": "f18aa653",
     "baby": {
-      "baby_id": "e83962b2",
+      "baby_id": "86332ce5",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1885,
@@ -5278,7 +5278,7 @@
     "ground_truth_label": "borderline",
     "final_label": "normal",
     "source": "tier2_classifier",
-    "confidence": 0.962,
+    "confidence": 0.963,
     "stats": {
       "mean_spo2": 94.5,
       "min_spo2": 91.3,
@@ -5287,9 +5287,9 @@
     }
   },
   {
-    "night_id": "53db10c5",
+    "night_id": "6691e4f5",
     "baby": {
-      "baby_id": "e83962b2",
+      "baby_id": "86332ce5",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1885,
@@ -5313,9 +5313,9 @@
     }
   },
   {
-    "night_id": "0486fdd6",
+    "night_id": "833ac23d",
     "baby": {
-      "baby_id": "42a56792",
+      "baby_id": "af4e099f",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2377,
@@ -5339,9 +5339,9 @@
     }
   },
   {
-    "night_id": "0c238d70",
+    "night_id": "35dc78c4",
     "baby": {
-      "baby_id": "42a56792",
+      "baby_id": "af4e099f",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2377,
@@ -5365,9 +5365,9 @@
     }
   },
   {
-    "night_id": "ef882f30",
+    "night_id": "2f6a7d42",
     "baby": {
-      "baby_id": "42a56792",
+      "baby_id": "af4e099f",
       "gestational_age_weeks": 35,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2377,
@@ -5391,9 +5391,9 @@
     }
   },
   {
-    "night_id": "8a381e13",
+    "night_id": "0ae96a60",
     "baby": {
-      "baby_id": "8164b181",
+      "baby_id": "5b73a0b3",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3976,
@@ -5417,9 +5417,9 @@
     }
   },
   {
-    "night_id": "915d5db7",
+    "night_id": "dbc25a04",
     "baby": {
-      "baby_id": "8164b181",
+      "baby_id": "5b73a0b3",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3976,
@@ -5443,9 +5443,9 @@
     }
   },
   {
-    "night_id": "ba7c424b",
+    "night_id": "98070065",
     "baby": {
-      "baby_id": "8164b181",
+      "baby_id": "5b73a0b3",
       "gestational_age_weeks": 38,
       "ga_category": "term",
       "birth_weight_grams": 3976,
@@ -5469,9 +5469,9 @@
     }
   },
   {
-    "night_id": "1f70d378",
+    "night_id": "d3243782",
     "baby": {
-      "baby_id": "d9312cfd",
+      "baby_id": "55be1162",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3067,
@@ -5495,9 +5495,9 @@
     }
   },
   {
-    "night_id": "035fb051",
+    "night_id": "d8ed31bc",
     "baby": {
-      "baby_id": "d9312cfd",
+      "baby_id": "55be1162",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3067,
@@ -5521,9 +5521,9 @@
     }
   },
   {
-    "night_id": "cb94381c",
+    "night_id": "c3901a61",
     "baby": {
-      "baby_id": "d9312cfd",
+      "baby_id": "55be1162",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3067,
@@ -5547,9 +5547,9 @@
     }
   },
   {
-    "night_id": "6ae8f495",
+    "night_id": "b8d4509f",
     "baby": {
-      "baby_id": "f839fca5",
+      "baby_id": "de1c284c",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 840,
@@ -5573,9 +5573,9 @@
     }
   },
   {
-    "night_id": "0a2d8bad",
+    "night_id": "d9941022",
     "baby": {
-      "baby_id": "f839fca5",
+      "baby_id": "de1c284c",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 840,
@@ -5599,9 +5599,9 @@
     }
   },
   {
-    "night_id": "ee5c4b81",
+    "night_id": "2a3bc0c0",
     "baby": {
-      "baby_id": "f839fca5",
+      "baby_id": "de1c284c",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 840,
@@ -5625,9 +5625,9 @@
     }
   },
   {
-    "night_id": "20b286e2",
+    "night_id": "70aeb7bf",
     "baby": {
-      "baby_id": "3dc532c4",
+      "baby_id": "3f9da5ff",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 955,
@@ -5652,9 +5652,9 @@
     }
   },
   {
-    "night_id": "4ef58d87",
+    "night_id": "410f56e2",
     "baby": {
-      "baby_id": "3dc532c4",
+      "baby_id": "3f9da5ff",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 955,
@@ -5679,9 +5679,9 @@
     }
   },
   {
-    "night_id": "40e2fb06",
+    "night_id": "070137a5",
     "baby": {
-      "baby_id": "3dc532c4",
+      "baby_id": "3f9da5ff",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 955,
@@ -5706,9 +5706,9 @@
     }
   },
   {
-    "night_id": "ffaaac63",
+    "night_id": "e03bb65e",
     "baby": {
-      "baby_id": "9654c179",
+      "baby_id": "ac852179",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4426,
@@ -5732,9 +5732,9 @@
     }
   },
   {
-    "night_id": "da18b247",
+    "night_id": "75b1959a",
     "baby": {
-      "baby_id": "9654c179",
+      "baby_id": "ac852179",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4426,
@@ -5758,9 +5758,9 @@
     }
   },
   {
-    "night_id": "aa905c0e",
+    "night_id": "b9dbc0e7",
     "baby": {
-      "baby_id": "9654c179",
+      "baby_id": "ac852179",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4426,
@@ -5784,9 +5784,9 @@
     }
   },
   {
-    "night_id": "271dc019",
+    "night_id": "adcfee38",
     "baby": {
-      "baby_id": "5aa94db2",
+      "baby_id": "c1ed7eb3",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4355,
@@ -5810,9 +5810,9 @@
     }
   },
   {
-    "night_id": "4b620cb1",
+    "night_id": "751f85a5",
     "baby": {
-      "baby_id": "5aa94db2",
+      "baby_id": "c1ed7eb3",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4355,
@@ -5836,9 +5836,9 @@
     }
   },
   {
-    "night_id": "751f1c27",
+    "night_id": "bb65470b",
     "baby": {
-      "baby_id": "5aa94db2",
+      "baby_id": "c1ed7eb3",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 4355,
@@ -5862,9 +5862,9 @@
     }
   },
   {
-    "night_id": "25dfd771",
+    "night_id": "e70c7661",
     "baby": {
-      "baby_id": "9e5598d4",
+      "baby_id": "90d98913",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 728,
@@ -5888,9 +5888,9 @@
     }
   },
   {
-    "night_id": "de34ce3e",
+    "night_id": "a21c3682",
     "baby": {
-      "baby_id": "9e5598d4",
+      "baby_id": "90d98913",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 728,
@@ -5914,9 +5914,9 @@
     }
   },
   {
-    "night_id": "136636e4",
+    "night_id": "ad378e22",
     "baby": {
-      "baby_id": "9e5598d4",
+      "baby_id": "90d98913",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 728,
@@ -5940,9 +5940,9 @@
     }
   },
   {
-    "night_id": "4e1f76ab",
+    "night_id": "70921706",
     "baby": {
-      "baby_id": "8055b7db",
+      "baby_id": "71d8dc2c",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 2810,
@@ -5966,9 +5966,9 @@
     }
   },
   {
-    "night_id": "240b7625",
+    "night_id": "4f313da2",
     "baby": {
-      "baby_id": "8055b7db",
+      "baby_id": "71d8dc2c",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 2810,
@@ -5992,9 +5992,9 @@
     }
   },
   {
-    "night_id": "8abd474d",
+    "night_id": "930f8c8f",
     "baby": {
-      "baby_id": "8055b7db",
+      "baby_id": "71d8dc2c",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 2810,
@@ -6018,9 +6018,9 @@
     }
   },
   {
-    "night_id": "a04d1ffa",
+    "night_id": "3a3a71b2",
     "baby": {
-      "baby_id": "4a5f216a",
+      "baby_id": "e4ad2279",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3545,
@@ -6044,9 +6044,9 @@
     }
   },
   {
-    "night_id": "69e80ee6",
+    "night_id": "18b6e8f1",
     "baby": {
-      "baby_id": "4a5f216a",
+      "baby_id": "e4ad2279",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3545,
@@ -6070,9 +6070,9 @@
     }
   },
   {
-    "night_id": "e11971eb",
+    "night_id": "a559d61d",
     "baby": {
-      "baby_id": "4a5f216a",
+      "baby_id": "e4ad2279",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 3545,
@@ -6096,9 +6096,9 @@
     }
   },
   {
-    "night_id": "ec80b20e",
+    "night_id": "bacb04e0",
     "baby": {
-      "baby_id": "91f26e97",
+      "baby_id": "71e31126",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1829,
@@ -6122,9 +6122,9 @@
     }
   },
   {
-    "night_id": "a5f6d692",
+    "night_id": "1309400b",
     "baby": {
-      "baby_id": "91f26e97",
+      "baby_id": "71e31126",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1829,
@@ -6148,9 +6148,9 @@
     }
   },
   {
-    "night_id": "e4c27324",
+    "night_id": "16fbb6d1",
     "baby": {
-      "baby_id": "91f26e97",
+      "baby_id": "71e31126",
       "gestational_age_weeks": 32,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 1829,
@@ -6174,9 +6174,9 @@
     }
   },
   {
-    "night_id": "18e8ec16",
+    "night_id": "d354a55e",
     "baby": {
-      "baby_id": "c6049daa",
+      "baby_id": "411e65ee",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 688,
@@ -6200,9 +6200,9 @@
     }
   },
   {
-    "night_id": "450e0d7e",
+    "night_id": "db1f1355",
     "baby": {
-      "baby_id": "c6049daa",
+      "baby_id": "411e65ee",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 688,
@@ -6226,9 +6226,9 @@
     }
   },
   {
-    "night_id": "cc314234",
+    "night_id": "8018f735",
     "baby": {
-      "baby_id": "c6049daa",
+      "baby_id": "411e65ee",
       "gestational_age_weeks": 27,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 688,
@@ -6252,9 +6252,9 @@
     }
   },
   {
-    "night_id": "36d2904a",
+    "night_id": "00aae335",
     "baby": {
-      "baby_id": "1b49ac9d",
+      "baby_id": "f2374077",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 973,
@@ -6278,9 +6278,9 @@
     }
   },
   {
-    "night_id": "47f68c3d",
+    "night_id": "e467715f",
     "baby": {
-      "baby_id": "1b49ac9d",
+      "baby_id": "f2374077",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 973,
@@ -6304,9 +6304,9 @@
     }
   },
   {
-    "night_id": "7d6f4f7f",
+    "night_id": "c5e1f6ea",
     "baby": {
-      "baby_id": "1b49ac9d",
+      "baby_id": "f2374077",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 973,
@@ -6330,9 +6330,9 @@
     }
   },
   {
-    "night_id": "f754d61e",
+    "night_id": "590276ac",
     "baby": {
-      "baby_id": "7ed5f200",
+      "baby_id": "1dc06fb6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 730,
@@ -6356,9 +6356,9 @@
     }
   },
   {
-    "night_id": "e6503636",
+    "night_id": "82b36f46",
     "baby": {
-      "baby_id": "7ed5f200",
+      "baby_id": "1dc06fb6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 730,
@@ -6382,9 +6382,9 @@
     }
   },
   {
-    "night_id": "b9bc60ab",
+    "night_id": "748761a8",
     "baby": {
-      "baby_id": "7ed5f200",
+      "baby_id": "1dc06fb6",
       "gestational_age_weeks": 25,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 730,
@@ -6408,9 +6408,9 @@
     }
   },
   {
-    "night_id": "c588cdd7",
+    "night_id": "a6850dd6",
     "baby": {
-      "baby_id": "ae2d6573",
+      "baby_id": "585cc5a7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1243,
@@ -6434,9 +6434,9 @@
     }
   },
   {
-    "night_id": "181d72e8",
+    "night_id": "4fe23da1",
     "baby": {
-      "baby_id": "ae2d6573",
+      "baby_id": "585cc5a7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1243,
@@ -6460,9 +6460,9 @@
     }
   },
   {
-    "night_id": "de773923",
+    "night_id": "b21d7970",
     "baby": {
-      "baby_id": "ae2d6573",
+      "baby_id": "585cc5a7",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1243,
@@ -6486,9 +6486,9 @@
     }
   },
   {
-    "night_id": "77bf732d",
+    "night_id": "de20c9da",
     "baby": {
-      "baby_id": "cbf1e9ba",
+      "baby_id": "48309e7d",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1759,
@@ -6512,9 +6512,9 @@
     }
   },
   {
-    "night_id": "8b759747",
+    "night_id": "c4142bcf",
     "baby": {
-      "baby_id": "cbf1e9ba",
+      "baby_id": "48309e7d",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1759,
@@ -6538,9 +6538,9 @@
     }
   },
   {
-    "night_id": "56689d9d",
+    "night_id": "f761f3d4",
     "baby": {
-      "baby_id": "cbf1e9ba",
+      "baby_id": "48309e7d",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1759,
@@ -6564,9 +6564,9 @@
     }
   },
   {
-    "night_id": "dc2696c3",
+    "night_id": "aa2aa6d6",
     "baby": {
-      "baby_id": "170486eb",
+      "baby_id": "e05076b2",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1457,
@@ -6590,9 +6590,9 @@
     }
   },
   {
-    "night_id": "9fbe4703",
+    "night_id": "b8e8234a",
     "baby": {
-      "baby_id": "170486eb",
+      "baby_id": "e05076b2",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1457,
@@ -6616,9 +6616,9 @@
     }
   },
   {
-    "night_id": "c6b27254",
+    "night_id": "c593732a",
     "baby": {
-      "baby_id": "170486eb",
+      "baby_id": "e05076b2",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1457,
@@ -6642,9 +6642,9 @@
     }
   },
   {
-    "night_id": "adde7535",
+    "night_id": "44b6dbd3",
     "baby": {
-      "baby_id": "900bf94a",
+      "baby_id": "f341cabc",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3185,
@@ -6668,9 +6668,9 @@
     }
   },
   {
-    "night_id": "5fbf8121",
+    "night_id": "ea52e68b",
     "baby": {
-      "baby_id": "900bf94a",
+      "baby_id": "f341cabc",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3185,
@@ -6694,9 +6694,9 @@
     }
   },
   {
-    "night_id": "74c1427b",
+    "night_id": "29967f65",
     "baby": {
-      "baby_id": "900bf94a",
+      "baby_id": "f341cabc",
       "gestational_age_weeks": 39,
       "ga_category": "term",
       "birth_weight_grams": 3185,
@@ -6720,9 +6720,9 @@
     }
   },
   {
-    "night_id": "a9773efc",
+    "night_id": "13229693",
     "baby": {
-      "baby_id": "c3b05ac0",
+      "baby_id": "6f905cb8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1410,
@@ -6746,9 +6746,9 @@
     }
   },
   {
-    "night_id": "68af6d9b",
+    "night_id": "b6ccc38e",
     "baby": {
-      "baby_id": "c3b05ac0",
+      "baby_id": "6f905cb8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1410,
@@ -6763,7 +6763,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.993,
+    "confidence": 0.994,
     "stats": {
       "mean_spo2": 92.9,
       "min_spo2": 91.6,
@@ -6772,9 +6772,9 @@
     }
   },
   {
-    "night_id": "39f1fb72",
+    "night_id": "9393ca6b",
     "baby": {
-      "baby_id": "c3b05ac0",
+      "baby_id": "6f905cb8",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1410,
@@ -6789,7 +6789,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.998,
+    "confidence": 0.999,
     "stats": {
       "mean_spo2": 92.9,
       "min_spo2": 90.0,
@@ -6798,9 +6798,9 @@
     }
   },
   {
-    "night_id": "fbdfdd09",
+    "night_id": "57e696bb",
     "baby": {
-      "baby_id": "28dc904d",
+      "baby_id": "69a3815c",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 2991,
@@ -6824,9 +6824,9 @@
     }
   },
   {
-    "night_id": "6599c6b4",
+    "night_id": "bf9ec6c4",
     "baby": {
-      "baby_id": "28dc904d",
+      "baby_id": "69a3815c",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 2991,
@@ -6850,9 +6850,9 @@
     }
   },
   {
-    "night_id": "22af015d",
+    "night_id": "e93779a3",
     "baby": {
-      "baby_id": "28dc904d",
+      "baby_id": "69a3815c",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 2991,
@@ -6876,9 +6876,9 @@
     }
   },
   {
-    "night_id": "0a5664a1",
+    "night_id": "e0d7a6ce",
     "baby": {
-      "baby_id": "db8cd262",
+      "baby_id": "fc30fae9",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 2611,
@@ -6902,9 +6902,9 @@
     }
   },
   {
-    "night_id": "091b4bf5",
+    "night_id": "8f0fb0f1",
     "baby": {
-      "baby_id": "db8cd262",
+      "baby_id": "fc30fae9",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 2611,
@@ -6928,9 +6928,9 @@
     }
   },
   {
-    "night_id": "e1cc33ff",
+    "night_id": "d7b70201",
     "baby": {
-      "baby_id": "db8cd262",
+      "baby_id": "fc30fae9",
       "gestational_age_weeks": 41,
       "ga_category": "term",
       "birth_weight_grams": 2611,
@@ -6954,9 +6954,9 @@
     }
   },
   {
-    "night_id": "664767a3",
+    "night_id": "07cfac6e",
     "baby": {
-      "baby_id": "a096b717",
+      "baby_id": "1d863293",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1053,
@@ -6980,9 +6980,9 @@
     }
   },
   {
-    "night_id": "9425d09a",
+    "night_id": "3701fdf4",
     "baby": {
-      "baby_id": "a096b717",
+      "baby_id": "1d863293",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1053,
@@ -7006,9 +7006,9 @@
     }
   },
   {
-    "night_id": "7501ea54",
+    "night_id": "9745c19e",
     "baby": {
-      "baby_id": "a096b717",
+      "baby_id": "1d863293",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1053,
@@ -7032,9 +7032,9 @@
     }
   },
   {
-    "night_id": "6daac20c",
+    "night_id": "75833c13",
     "baby": {
-      "baby_id": "ee6629c0",
+      "baby_id": "413255a5",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 800,
@@ -7058,9 +7058,9 @@
     }
   },
   {
-    "night_id": "13fd77f8",
+    "night_id": "af765b2f",
     "baby": {
-      "baby_id": "ee6629c0",
+      "baby_id": "413255a5",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 800,
@@ -7084,9 +7084,9 @@
     }
   },
   {
-    "night_id": "ec175f2d",
+    "night_id": "6a2fca02",
     "baby": {
-      "baby_id": "ee6629c0",
+      "baby_id": "413255a5",
       "gestational_age_weeks": 24,
       "ga_category": "extremely_preterm",
       "birth_weight_grams": 800,
@@ -7110,9 +7110,9 @@
     }
   },
   {
-    "night_id": "89567671",
+    "night_id": "7306a3cc",
     "baby": {
-      "baby_id": "8e49116b",
+      "baby_id": "d04e0eee",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1616,
@@ -7136,9 +7136,9 @@
     }
   },
   {
-    "night_id": "c8b3a78e",
+    "night_id": "0c1767f4",
     "baby": {
-      "baby_id": "8e49116b",
+      "baby_id": "d04e0eee",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1616,
@@ -7162,9 +7162,9 @@
     }
   },
   {
-    "night_id": "f79dee64",
+    "night_id": "1c52aa1f",
     "baby": {
-      "baby_id": "8e49116b",
+      "baby_id": "d04e0eee",
       "gestational_age_weeks": 28,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1616,
@@ -7188,9 +7188,9 @@
     }
   },
   {
-    "night_id": "5812a39e",
+    "night_id": "fbc2af43",
     "baby": {
-      "baby_id": "cb0ac85a",
+      "baby_id": "551adc9d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1420,
@@ -7205,7 +7205,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.975,
+    "confidence": 0.976,
     "stats": {
       "mean_spo2": 94.6,
       "min_spo2": 90.6,
@@ -7214,9 +7214,9 @@
     }
   },
   {
-    "night_id": "6913d993",
+    "night_id": "a41bd3ff",
     "baby": {
-      "baby_id": "cb0ac85a",
+      "baby_id": "551adc9d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1420,
@@ -7240,9 +7240,9 @@
     }
   },
   {
-    "night_id": "edff241d",
+    "night_id": "961ca713",
     "baby": {
-      "baby_id": "cb0ac85a",
+      "baby_id": "551adc9d",
       "gestational_age_weeks": 31,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1420,
@@ -7266,9 +7266,9 @@
     }
   },
   {
-    "night_id": "802298ef",
+    "night_id": "c9231217",
     "baby": {
-      "baby_id": "93a987e9",
+      "baby_id": "7286dd93",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 4103,
@@ -7292,9 +7292,9 @@
     }
   },
   {
-    "night_id": "17c3f150",
+    "night_id": "3044f011",
     "baby": {
-      "baby_id": "93a987e9",
+      "baby_id": "7286dd93",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 4103,
@@ -7318,9 +7318,9 @@
     }
   },
   {
-    "night_id": "8e120b34",
+    "night_id": "d9aefc14",
     "baby": {
-      "baby_id": "93a987e9",
+      "baby_id": "7286dd93",
       "gestational_age_weeks": 37,
       "ga_category": "term",
       "birth_weight_grams": 4103,
@@ -7344,9 +7344,9 @@
     }
   },
   {
-    "night_id": "d9923141",
+    "night_id": "e8e7ad94",
     "baby": {
-      "baby_id": "3909d919",
+      "baby_id": "bec7ff73",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1064,
@@ -7361,7 +7361,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.999,
+    "confidence": 1.0,
     "stats": {
       "mean_spo2": 92.6,
       "min_spo2": 90.8,
@@ -7370,9 +7370,9 @@
     }
   },
   {
-    "night_id": "2f7c5eb5",
+    "night_id": "33be4442",
     "baby": {
-      "baby_id": "3909d919",
+      "baby_id": "bec7ff73",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1064,
@@ -7396,9 +7396,9 @@
     }
   },
   {
-    "night_id": "d140669d",
+    "night_id": "f9b99bef",
     "baby": {
-      "baby_id": "3909d919",
+      "baby_id": "bec7ff73",
       "gestational_age_weeks": 29,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1064,
@@ -7422,9 +7422,9 @@
     }
   },
   {
-    "night_id": "4557ea64",
+    "night_id": "3a6c6cd4",
     "baby": {
-      "baby_id": "1f21b93a",
+      "baby_id": "82b55866",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4381,
@@ -7448,9 +7448,9 @@
     }
   },
   {
-    "night_id": "9caabf47",
+    "night_id": "314be209",
     "baby": {
-      "baby_id": "1f21b93a",
+      "baby_id": "82b55866",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4381,
@@ -7474,9 +7474,9 @@
     }
   },
   {
-    "night_id": "169841f5",
+    "night_id": "a871c74d",
     "baby": {
-      "baby_id": "1f21b93a",
+      "baby_id": "82b55866",
       "gestational_age_weeks": 40,
       "ga_category": "term",
       "birth_weight_grams": 4381,
@@ -7500,9 +7500,9 @@
     }
   },
   {
-    "night_id": "f2e6a974",
+    "night_id": "9879b46c",
     "baby": {
-      "baby_id": "4e05ee75",
+      "baby_id": "bac099db",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2210,
@@ -7517,7 +7517,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.884,
+    "confidence": 0.894,
     "stats": {
       "mean_spo2": 93.3,
       "min_spo2": 90.4,
@@ -7526,9 +7526,9 @@
     }
   },
   {
-    "night_id": "ee3f98f2",
+    "night_id": "3cfda3f5",
     "baby": {
-      "baby_id": "4e05ee75",
+      "baby_id": "bac099db",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2210,
@@ -7543,7 +7543,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.774,
+    "confidence": 0.784,
     "stats": {
       "mean_spo2": 93.3,
       "min_spo2": 91.8,
@@ -7552,9 +7552,9 @@
     }
   },
   {
-    "night_id": "77188191",
+    "night_id": "0cacdddf",
     "baby": {
-      "baby_id": "4e05ee75",
+      "baby_id": "bac099db",
       "gestational_age_weeks": 36,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2210,
@@ -7578,9 +7578,9 @@
     }
   },
   {
-    "night_id": "1bc3782a",
+    "night_id": "64e614f3",
     "baby": {
-      "baby_id": "426e77b7",
+      "baby_id": "738f9b1c",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2189,
@@ -7604,9 +7604,9 @@
     }
   },
   {
-    "night_id": "a56efdb7",
+    "night_id": "a5a0816b",
     "baby": {
-      "baby_id": "426e77b7",
+      "baby_id": "738f9b1c",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2189,
@@ -7630,9 +7630,9 @@
     }
   },
   {
-    "night_id": "30c88b85",
+    "night_id": "60cbc0a0",
     "baby": {
-      "baby_id": "426e77b7",
+      "baby_id": "738f9b1c",
       "gestational_age_weeks": 34,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2189,
@@ -7656,9 +7656,9 @@
     }
   },
   {
-    "night_id": "9a458875",
+    "night_id": "d83c62bf",
     "baby": {
-      "baby_id": "9726285d",
+      "baby_id": "ea5cca0a",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1431,
@@ -7682,9 +7682,9 @@
     }
   },
   {
-    "night_id": "e790d562",
+    "night_id": "68a75aab",
     "baby": {
-      "baby_id": "9726285d",
+      "baby_id": "ea5cca0a",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1431,
@@ -7708,9 +7708,9 @@
     }
   },
   {
-    "night_id": "e3ca9a9d",
+    "night_id": "194ed618",
     "baby": {
-      "baby_id": "9726285d",
+      "baby_id": "ea5cca0a",
       "gestational_age_weeks": 30,
       "ga_category": "very_preterm",
       "birth_weight_grams": 1431,
@@ -7734,9 +7734,9 @@
     }
   },
   {
-    "night_id": "60f4e44f",
+    "night_id": "e655b7f3",
     "baby": {
-      "baby_id": "a1f68a91",
+      "baby_id": "6c39936d",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2101,
@@ -7760,9 +7760,9 @@
     }
   },
   {
-    "night_id": "142192d5",
+    "night_id": "76942d3d",
     "baby": {
-      "baby_id": "a1f68a91",
+      "baby_id": "6c39936d",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2101,
@@ -7777,7 +7777,7 @@
     "ground_truth_label": "borderline",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.989,
+    "confidence": 0.99,
     "stats": {
       "mean_spo2": 94.0,
       "min_spo2": 90.7,
@@ -7786,9 +7786,9 @@
     }
   },
   {
-    "night_id": "73d01a91",
+    "night_id": "fa7f299f",
     "baby": {
-      "baby_id": "a1f68a91",
+      "baby_id": "6c39936d",
       "gestational_age_weeks": 33,
       "ga_category": "moderate_preterm",
       "birth_weight_grams": 2101,
@@ -7803,7 +7803,7 @@
     "ground_truth_label": "normal",
     "final_label": "borderline",
     "source": "tier2_classifier",
-    "confidence": 0.932,
+    "confidence": 0.937,
     "stats": {
       "mean_spo2": 94.0,
       "min_spo2": 92.6,
