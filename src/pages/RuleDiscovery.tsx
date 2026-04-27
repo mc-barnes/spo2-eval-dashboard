@@ -37,7 +37,7 @@ export default function RuleDiscovery() {
   const fiColors = [TEAL_DARK, TEAL_PRIMARY, TEAL_LIGHT, SAGE, AMBER];
   const fiItems = rules.feature_importance.map((fi, i) => ({
     label: fi.feature,
-    value: Math.round(fi.importance * 100),
+    value: Math.round(fi.importance),
     color: fiColors[i % fiColors.length],
   }));
 

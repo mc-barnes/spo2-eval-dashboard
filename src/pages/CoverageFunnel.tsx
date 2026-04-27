@@ -90,7 +90,7 @@ export default function CoverageFunnel() {
             items={Object.entries(coverage.tier_accuracy).map(
               ([tier, acc], i) => ({
                 label: tier,
-                value: Math.round(acc * 100),
+                value: Math.round(acc),
                 color: TIER_COLORS[i] ?? TIER_COLORS[0],
               })
             )}

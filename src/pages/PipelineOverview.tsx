@@ -75,9 +75,9 @@ export default function PipelineOverview() {
     ? Object.entries(coverage.per_label_metrics).map(([label, m]) => ({
         label,
         sensitivityRaw: m.sensitivity,
-        sensitivity: (m.sensitivity * 100).toFixed(1) + "%",
-        ppv: (m.ppv * 100).toFixed(1) + "%",
-        f1: (m.f1 * 100).toFixed(1) + "%",
+        sensitivity: m.sensitivity.toFixed(1) + "%",
+        ppv: m.ppv.toFixed(1) + "%",
+        f1: m.f1.toFixed(1) + "%",
         n: m.support,
         isHighStakes: label === "urgent" || label === "emergency",
       }))
@@ -92,7 +92,7 @@ export default function PipelineOverview() {
       <PageIntro>
         {summary.total_traces} traces processed &middot; Tier 1 covers{" "}
         {summary.tier1_pct.toFixed(1)}% of traces automatically &middot; Tier 1
-        accuracy {(summary.tier1_accuracy * 100).toFixed(1)}%
+        accuracy {summary.tier1_accuracy.toFixed(1)}%
       </PageIntro>
 
       {/* ─── How It Works: pipeline flow diagram ─────────────────── */}
@@ -178,17 +178,17 @@ export default function PipelineOverview() {
             items={[
               {
                 label: "Tier 1 — Rule-Based",
-                value: Math.round(summary.tier1_accuracy * 100),
+                value: Math.round(summary.tier1_accuracy),
                 color: TIER_COLORS[0],
               },
               {
                 label: "Tier 2 — ML Classifier",
-                value: Math.round(summary.tier2_accuracy * 100),
+                value: Math.round(summary.tier2_accuracy),
                 color: TIER_COLORS[1],
               },
               {
                 label: "Expert Review",
-                value: Math.round(summary.expert_accuracy * 100),
+                value: Math.round(summary.expert_accuracy),
                 color: TIER_COLORS[2],
               },
             ]}
@@ -309,7 +309,7 @@ export default function PipelineOverview() {
               <tbody>
                 {metricsRows.map((row) => {
                   const sensColor =
-                    row.isHighStakes && row.sensitivityRaw < 0.95
+                    row.isHighStakes && row.sensitivityRaw < 95
                       ? URGENT_RED
                       : undefined;
                   const labelColor =

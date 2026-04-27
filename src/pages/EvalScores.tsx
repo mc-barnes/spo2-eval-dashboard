@@ -51,7 +51,7 @@ export default function EvalScores() {
       <PageIntro>
         {data.overall_total} evaluations run across {evaluatorEntries.length}{" "}
         evaluators. Overall pass rate:{" "}
-        {(data.overall_pass_rate * 100).toFixed(1)}%. These LLM-as-judge checks
+        {data.overall_pass_rate.toFixed(1)}%. These LLM-as-judge checks
         validate clinical accuracy, handoff quality, and artifact handling.
       </PageIntro>
 
@@ -61,7 +61,7 @@ export default function EvalScores() {
           <MetricCard
             key={key}
             label={PRETTY_NAMES[key] ?? key}
-            value={`${(evalSummary.pass_rate * 100).toFixed(1)}%`}
+            value={`${evalSummary.pass_rate.toFixed(1)}%`}
             accentColor={EVAL_COLORS[i % EVAL_COLORS.length]}
             delta={`${evalSummary.pass_count}/${evalSummary.total} passed`}
             deltaColor={EVAL_COLORS[i % EVAL_COLORS.length]}
@@ -77,7 +77,7 @@ export default function EvalScores() {
         <HorizontalBar
           items={evaluatorEntries.map(([key, evalSummary], i) => ({
             label: PRETTY_NAMES[key] ?? key,
-            value: Math.round(evalSummary.pass_rate * 100),
+            value: Math.round(evalSummary.pass_rate),
             color: EVAL_COLORS[i % EVAL_COLORS.length],
           }))}
         />
