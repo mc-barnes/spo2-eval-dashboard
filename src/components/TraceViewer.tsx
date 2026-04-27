@@ -2,8 +2,7 @@
  * TraceViewer — Plotly scatter chart for SpO2 waveform data.
  * Renders SpO2 line over hours with clinical threshold lines.
  */
-import * as factoryModule from "react-plotly.js/factory";
-import * as PlotlyModule from "plotly.js-basic-dist-min";
+import Plot from "react-plotly.js";
 import type { WaveformData } from "../data/types.ts";
 import {
   TEAL_PRIMARY,
@@ -11,11 +10,6 @@ import {
   EMERGENCY,
   PLOTLY_LAYOUT,
 } from "../config/theme.ts";
-
-// CJS interop: handle both `module.exports = fn` and `exports.default = fn`
-const createPlotlyComponent = (factoryModule as any).default ?? factoryModule;
-const Plotly = (PlotlyModule as any).default ?? PlotlyModule;
-const Plot = createPlotlyComponent(Plotly);
 
 interface TraceViewerProps {
   waveform: WaveformData;

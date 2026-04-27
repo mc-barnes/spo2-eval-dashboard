@@ -1,10 +1,5 @@
-declare module "plotly.js-basic-dist-min" {
-  const Plotly: object;
-  export default Plotly;
-}
-
-declare module "react-plotly.js/factory" {
+declare module "react-plotly.js" {
   import type { ComponentType } from "react";
-  function createPlotlyComponent(plotly: object): ComponentType<Record<string, unknown>>;
-  export default createPlotlyComponent;
+  const Plot: ComponentType<Record<string, unknown>>;
+  export default Plot;
 }
