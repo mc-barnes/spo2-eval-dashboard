@@ -1,12 +1,13 @@
 /**
  * AgenticStrategy — strategy page targeting VP of Product audience.
- * Explains how agentic AI applies to a neonatal SpO2 monitoring pipeline,
- * covering current architecture, agent opportunity map, cost model, and roadmap.
+ * Assumes no prior knowledge of the pipeline. Frames agentic AI
+ * opportunity in business outcomes, not implementation details.
  */
 import MetricCard from "../components/ui/MetricCard.tsx";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import {
+  TEAL_DARK,
   TEAL_PRIMARY,
   SAGE,
   AMBER,
@@ -18,15 +19,15 @@ import {
 function AgentCard({
   name,
   accent,
-  trigger,
-  volume,
-  value,
+  when,
+  scale,
+  outcome,
 }: {
   name: string;
   accent: string;
-  trigger: string;
-  volume: string;
-  value: string;
+  when: string;
+  scale: string;
+  outcome: string;
 }) {
   return (
     <div className="bg-warm-white border border-border rounded-card shadow-sm overflow-hidden h-full">
@@ -39,9 +40,9 @@ function AgentCard({
           {name}
         </div>
         {[
-          { label: "Trigger", text: trigger },
-          { label: "Volume", text: volume },
-          { label: "Value", text: value },
+          { label: "When it fires", text: when },
+          { label: "Scale", text: scale },
+          { label: "Business outcome", text: outcome },
         ].map(({ label, text }) => (
           <div key={label} className="mb-2.5">
             <div
@@ -98,57 +99,122 @@ function RoadmapCard({
   );
 }
 
+function Callout({ children, accent = TEAL_PRIMARY }: { children: React.ReactNode; accent?: string }) {
+  return (
+    <div
+      className="bg-sage-bg mt-4 px-5 py-4 text-sm text-body leading-relaxed"
+      style={{
+        borderLeft: `4px solid ${accent}`,
+        borderRadius: "0 12px 12px 0",
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
 /* ── Flow diagram step data ─────────────────────────────────────── */
 
 const FLOW_STEPS = [
-  { label: "SpO2 Traces", tier: false },
-  { label: "Tier 1 Rules (58%)", tier: true, color: TEAL_PRIMARY },
-  { label: "Tier 2 Classifier (39.3%)", tier: true, color: SAGE },
-  { label: "Expert Queue (2.7%)", tier: true, color: AMBER },
-  { label: "Handoff", tier: false },
+  { label: "Overnight SpO2 data", color: TEAL_DARK },
+  { label: "Auto-classify clear cases", pct: "58%", color: TEAL_PRIMARY },
+  { label: "ML handles ambiguous cases", pct: "39%", color: SAGE },
+  { label: "Clinician reviews the rest", pct: "3%", color: AMBER },
+  { label: "Nurse handoff generated", color: TEAL_DARK },
 ] as const;
 
 /* ── Cost table data ────────────────────────────────────────────── */
 
 const COST_ROWS = [
-  { layer: "Triage (Rules + ML)", volume: "225M traces/yr", processing: "Deterministic", costModel: "Compute only", annual: "~$2,400/yr" },
-  { layer: "Expert Queue Agent", volume: "~67.5K traces/yr", processing: "LLM (Haiku)", costModel: "~$0.003/trace", annual: "~$200/yr" },
-  { layer: "Escalation Agent", volume: "~10K events/yr", processing: "LLM (Haiku)", costModel: "~$0.01/event", annual: "~$100/yr" },
-  { layer: "Quality Audit Agent", volume: "~25K samples/yr", processing: "LLM (Sonnet)", costModel: "~$0.02/sample", annual: "~$500/yr" },
-  { layer: "Prior Auth Agent", volume: "~50K encounters/yr", processing: "LLM (Sonnet)", costModel: "~$0.05/encounter", annual: "~$2,500/yr" },
+  { layer: "Core triage engine", volume: "225M traces/yr", processing: "Rules + ML", costModel: "Compute only", annual: "~$2,400" },
+  { layer: "Clinician review assistant", volume: "~67.5K traces/yr", processing: "AI (lightweight)", costModel: "~$0.003/trace", annual: "~$200" },
+  { layer: "Alert follow-up agent", volume: "~10K events/yr", processing: "AI (lightweight)", costModel: "~$0.01/event", annual: "~$100" },
+  { layer: "Quality monitoring agent", volume: "~25K samples/yr", processing: "AI (standard)", costModel: "~$0.02/sample", annual: "~$500" },
+  { layer: "Prior auth agent", volume: "~50K encounters/yr", processing: "AI (standard)", costModel: "~$0.05/encounter", annual: "~$2,500" },
 ];
 
-const COST_HEADERS = ["Layer", "Volume", "Processing", "Cost Model", "Annual Est."];
+const COST_HEADERS = ["Layer", "Volume", "Processing", "Unit Cost", "Annual Est."];
 
 /* ── Main page component ────────────────────────────────────────── */
 
 export default function AgenticStrategy() {
   return (
     <div className="space-y-6">
-      {/* ─── Page Header + Intro ─────────────────────────────────── */}
+      {/* ─── Page Header ───────────────────────────────────────────── */}
       <h2 className="font-heading text-2xl font-semibold text-teal-dark mb-1">
         Agentic AI Strategy
       </h2>
       <p className="text-muted text-sm mb-6">
-        Strategic roadmap for VP of Product &mdash; where agents add value
+        Where autonomous AI agents unlock clinical and financial value
       </p>
+
+      {/* ─── The Problem ───────────────────────────────────────────── */}
       <PageIntro>
-        Strategic view: how agentic AI transforms this pipeline from a batch
-        classification tool into a closed-loop clinical operating system &mdash;
-        and where the ROI justifies the investment.
+        <strong>The context:</strong> Consumer pulse oximeters can monitor a
+        baby&rsquo;s blood oxygen levels overnight &mdash; but the data is
+        useless without clinical triage. This pipeline processes overnight
+        recordings for 2.5 million babies, classifies each night as normal,
+        borderline, or urgent, and generates a nurse handoff. Today it runs as
+        a batch process. The opportunity is turning it into a closed-loop
+        system where AI agents act on the results, verify follow-through, and
+        improve over time &mdash; at a cost that pays for itself many times
+        over.
       </PageIntro>
 
-      {/* ─── Current Architecture ────────────────────────────────── */}
-      <SectionCard title="What We Built: Deterministic Pipeline">
+      {/* ─── The Bottom Line (cost teaser) ─────────────────────────── */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <MetricCard
+          label="Agentic layer cost"
+          value="~$5,700/yr"
+          accentColor={TEAL_PRIMARY}
+          delta="For the full agent suite"
+        />
+        <MetricCard
+          label="One prevented readmission"
+          value="$50-100K"
+          accentColor={URGENT_RED}
+          delta="Average NICU readmission cost"
+        />
+        <MetricCard
+          label="One FTE saved"
+          value="$65K+/yr"
+          accentColor={AMBER}
+          delta="Prior auth processing staff"
+        />
+      </div>
+
+      <Callout>
+        The ROI case is straightforward: preventing a single NICU readmission
+        or replacing one full-time prior authorization processor covers the
+        entire agentic layer cost 10&times; over.
+      </Callout>
+
+      {/* ─── What We Built ─────────────────────────────────────────── */}
+      <SectionCard title="What We Built: The Triage Engine">
+        <p className="text-body text-sm leading-relaxed mb-4">
+          The pipeline processes each baby&rsquo;s overnight SpO2 recording
+          through three layers. Most nights are clear-cut and classified
+          automatically. Ambiguous cases go to a machine learning model.
+          The hardest 3% route to a clinician for manual review.
+        </p>
+
         {/* Flow diagram */}
         <div className="flex items-center flex-wrap gap-y-2 overflow-x-auto py-2">
           {FLOW_STEPS.map((step, i) => (
             <div key={step.label} className="flex items-center shrink-0">
               <div
                 className="bg-warm-white border border-border rounded-table px-4 py-2.5 text-center text-sm font-medium text-teal-dark"
-                style={step.tier ? { borderLeft: `2px solid ${step.color}` } : undefined}
+                style={{ borderLeft: `3px solid ${step.color}` }}
               >
-                {step.label}
+                <div>{step.label}</div>
+                {"pct" in step && (
+                  <div
+                    className="font-semibold mt-0.5"
+                    style={{ fontSize: "0.75rem", color: step.color }}
+                  >
+                    {step.pct}
+                  </div>
+                )}
               </div>
               {i < FLOW_STEPS.length - 1 && (
                 <span className="text-muted text-lg px-2">&rarr;</span>
@@ -160,84 +226,118 @@ export default function AgenticStrategy() {
         {/* KPI cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
           <MetricCard
-            label="Processing Cost"
+            label="Processing cost"
             value="~$0/trace"
             accentColor={TEAL_PRIMARY}
-            delta="NumPy + sklearn"
+            delta="Rules + ML, no AI inference"
           />
           <MetricCard
-            label="Scalability"
-            value="225M traces"
+            label="Scale"
+            value="225M traces/yr"
             accentColor={TEAL_PRIMARY}
-            delta="Linear compute"
+            delta="2.5M babies &times; 90 nights"
           />
           <MetricCard
-            label="Accuracy"
+            label="Triage accuracy"
             value="88.3%"
             accentColor={TEAL_PRIMARY}
-            delta="96% Tier 1"
+            delta="96% on clear-cut cases"
           />
         </div>
 
-        {/* Callout */}
-        <div
-          className="bg-sage-bg mt-4 px-5 py-4 text-sm text-body leading-relaxed"
-          style={{
-            borderLeft: `4px solid ${TEAL_PRIMARY}`,
-            borderRadius: "0 12px 12px 0",
-          }}
-        >
-          This pipeline handles volume. Rules and classifiers process 225M
-          traces at near-zero marginal cost. The question isn&rsquo;t whether to
-          replace this layer &mdash; it&rsquo;s where to add intelligence on top
-          of it.
-        </div>
+        <Callout>
+          This engine handles volume at near-zero cost. The question
+          isn&rsquo;t whether to replace it &mdash; it&rsquo;s where to add
+          intelligence on top of it.
+        </Callout>
       </SectionCard>
 
-      {/* ─── Agent Opportunity Map ───────────────────────────────── */}
+      {/* ─── The Gap ───────────────────────────────────────────────── */}
+      <SectionCard title="The Gap: What Happens After Triage?">
+        <p className="text-body text-sm leading-relaxed mb-2">
+          Today the pipeline ends at handoff generation. It tells a nurse
+          &ldquo;this baby had an urgent night&rdquo; &mdash; but nobody
+          verifies the nurse saw it, acted on it, or what the outcome was.
+          The system is <strong>open-loop</strong>.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+          {[
+            { q: "Did the nurse acknowledge the alert?", a: "Unknown" },
+            { q: "Did the family follow through on the referral?", a: "Unknown" },
+            { q: "Is triage accuracy drifting over time?", a: "Checked manually, if at all" },
+            { q: "Was prior auth started before the ED visit?", a: "No \u2014 reactive process" },
+          ].map(({ q, a }) => (
+            <div
+              key={q}
+              className="bg-warm-white border border-border rounded-table px-4 py-3"
+            >
+              <div className="text-body text-sm font-medium">{q}</div>
+              <div className="text-urgent-red text-sm mt-1" style={{ color: URGENT_RED }}>{a}</div>
+            </div>
+          ))}
+        </div>
+        <Callout accent={URGENT_RED}>
+          Every unanswered question is a gap where a baby could fall through
+          the cracks, a readmission could have been prevented, or revenue
+          is left on the table. Agentic AI closes these gaps.
+        </Callout>
+      </SectionCard>
+
+      {/* ─── Agent Opportunity Map ─────────────────────────────────── */}
       <div>
         <h3
           className="font-heading text-teal-dark"
           style={{ fontSize: "1.15rem", fontWeight: 500 }}
         >
-          Where Agents Add Value: The 2.7%, Not the 97.3%
+          Four Agents That Close the Loop
         </h3>
-        <hr className="border-border my-3" />
+        <p className="text-muted text-sm mt-1 mb-3">
+          Each agent targets a specific gap. They run on the margins &mdash;
+          the 3% that needs human judgment, the events that need follow-up
+          &mdash; not on the 97% the engine already handles.
+        </p>
+        <hr className="border-border mb-4" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <AgentCard
-            name="Expert Queue Agent"
+            name="Clinician Review Assistant"
             accent={AMBER}
-            trigger="Trace reaches expert queue (confidence < threshold)"
-            volume="~67,500 traces/year (2.7% of 2.5M)"
-            value="Pre-annotates with reasoning, groups similar cases, prioritizes by severity. Reduces clinician review time by 40-60%."
+            when="A case is too ambiguous for the engine and routes to clinician review"
+            scale="~67,500 cases/year (3% of total)"
+            outcome="Pre-sorts and pre-annotates the review queue so clinicians spend 40-60% less time per case. Reduces backlog without adding headcount."
           />
           <AgentCard
-            name="Escalation Agent"
+            name="Alert Follow-Up Agent"
             accent={URGENT_RED}
-            trigger="Event-driven: nurse non-acknowledgment, consecutive borderline nights"
-            volume="Dozens of events/day"
-            value="Closes the loop between handoff and action. Currently the pipeline ends at handoff generation — nobody verifies the nurse acted."
+            when="A nurse hasn't acknowledged an urgent or emergency alert, or a baby has 3+ concerning nights in a row"
+            scale="Dozens of events per day"
+            outcome="Ensures every critical alert gets a response. Escalates automatically: nurse \u2192 charge nurse \u2192 attending. Closes the handoff-to-action gap."
           />
           <AgentCard
-            name="Quality Audit Agent"
+            name="Quality Monitoring Agent"
             accent={TEAL_PRIMARY}
-            trigger="Scheduled: samples 50-100 traces/day for eval"
-            volume="~$0.50-1.00/day"
-            value="Automates the LLM-as-judge eval loop. Detects drift (e.g., Tier 2 accuracy dropping) and triggers retraining alerts."
+            when="Runs daily on a sample of cases to audit triage quality"
+            scale="50-100 cases/day (~$0.50-1.00/day)"
+            outcome="Catches accuracy drift before it becomes a patient safety issue. Triggers retraining alerts when performance degrades. Replaces manual spot-checks."
           />
           <AgentCard
-            name="Prior Auth Agent"
+            name="Prior Authorization Agent"
             accent={SAGE}
-            trigger="Clinical action required: ED referral, specialist consult"
-            volume="Hundreds/day"
-            value="Initiates prior authorization with payer before family arrives. Uses HL7 integration layer already built."
+            when="Triage triggers a clinical action (ED referral, specialist consult)"
+            scale="Hundreds of encounters per day"
+            outcome="Starts the prior auth process with the payer before the family arrives at the ED. Uses the HL7 integration layer already built into the pipeline."
           />
         </div>
       </div>
 
-      {/* ─── Cost Model ──────────────────────────────────────────── */}
+      {/* ─── Cost Model ────────────────────────────────────────────── */}
       <SectionCard title="Cost Architecture: Agents at the Margins">
+        <p className="text-body text-sm leading-relaxed mb-4">
+          The core triage engine runs on standard compute at near-zero
+          marginal cost. AI inference is only used for the small fraction
+          of cases that need judgment &mdash; keeping total agent costs
+          under $6,000/year.
+        </p>
         <div className="overflow-x-auto">
           <table
             className="w-full text-sm"
@@ -287,23 +387,9 @@ export default function AgenticStrategy() {
             </tbody>
           </table>
         </div>
-
-        {/* Cost callout */}
-        <div
-          className="bg-sage-bg mt-4 px-5 py-4 text-sm text-body leading-relaxed"
-          style={{
-            borderLeft: `4px solid ${TEAL_PRIMARY}`,
-            borderRadius: "0 12px 12px 0",
-          }}
-        >
-          Total agentic layer cost: ~$5,700/year. Compare to one prevented NICU
-          readmission ($50,000&ndash;$100,000) or one FTE saved on prior auth
-          processing ($65,000+/year). The ROI case is the cost of{" "}
-          <em>NOT</em> closing the loop.
-        </div>
       </SectionCard>
 
-      {/* ─── Implementation Roadmap ──────────────────────────────── */}
+      {/* ─── Implementation Roadmap ────────────────────────────────── */}
       <div>
         <h3
           className="font-heading text-teal-dark"
@@ -311,51 +397,50 @@ export default function AgenticStrategy() {
         >
           Implementation Roadmap
         </h3>
-        <hr className="border-border my-3" />
+        <p className="text-muted text-sm mt-1 mb-3">
+          Phased rollout &mdash; each phase delivers standalone value while
+          building toward the full closed-loop operating model.
+        </p>
+        <hr className="border-border mb-4" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <RoadmapCard
-            title="Phase 1: Quick Wins (0-3 months)"
+            title="Phase 1: Quick Wins (0-3 mo)"
             accent={TEAL_PRIMARY}
             items={[
-              "Quality audit agent on eval sampling",
-              "Automated drift detection alerts",
-              "Dashboard integration for agent outputs",
+              "Automated quality monitoring on daily case samples",
+              "Drift detection alerts to the clinical ops team",
+              "Agent output integrated into the existing dashboard",
             ]}
           />
           <RoadmapCard
-            title="Phase 2: Strategic (3-9 months)"
+            title="Phase 2: Close the Loop (3-9 mo)"
             accent={AMBER}
             items={[
-              "Expert queue agent with LLM pre-annotation",
-              "Escalation agent for non-acknowledged alerts",
-              "Multi-night trend agent (consecutive borderline detection)",
+              "AI-assisted clinician review queue (pre-sorted, pre-annotated)",
+              "Alert follow-up agent with automatic escalation",
+              "Multi-night trend detection (flag babies trending worse)",
             ]}
           />
           <RoadmapCard
-            title="Phase 3: Operating Model (9-18 months)"
+            title="Phase 3: Operating Model (9-18 mo)"
             accent={URGENT_RED}
             items={[
-              "Prior auth agent with HL7 payer integration",
-              "Closed-loop outcome tracking (handoff \u2192 action \u2192 outcome)",
+              "Prior auth agent with payer integration via HL7",
+              "End-to-end outcome tracking (alert \u2192 action \u2192 result)",
               "Multi-agent orchestration across clinical and admin workflows",
             ]}
           />
         </div>
 
         {/* Deloitte source callout */}
-        <div
-          className="bg-sage-bg mt-4 px-5 py-4 text-sm text-body leading-relaxed"
-          style={{
-            borderLeft: `4px solid ${TEAL_PRIMARY}`,
-            borderRadius: "0 12px 12px 0",
-          }}
-        >
-          Source: Deloitte Center for Health Solutions, Feb 2026 &mdash; 85% of
-          health care leaders plan to increase agentic AI investment in 2&ndash;3
-          years. Early adopters using multi-agent systems expect 20%+ cost
-          savings vs. 13% for point-solution watchers.
-        </div>
+        <Callout>
+          <strong>Industry context:</strong> Deloitte Center for Health
+          Solutions (Feb 2026) reports 85% of health care leaders plan to
+          increase agentic AI investment in 2&ndash;3 years. Early adopters
+          using multi-agent systems expect 20%+ cost savings vs. 13% for
+          organizations deploying point solutions.
+        </Callout>
       </div>
     </div>
   );
