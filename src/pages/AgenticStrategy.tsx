@@ -145,7 +145,8 @@ export default function AgenticStrategy() {
         Agentic AI Strategy
       </h2>
       <p className="text-muted text-sm mb-6">
-        Where autonomous AI agents unlock clinical and financial value
+        Turn cold telehealth calls into warm handoffs &mdash; and close the
+        loop from triage to outcome
       </p>
 
       {/* ─── The Problem ───────────────────────────────────────────── */}
@@ -154,11 +155,13 @@ export default function AgenticStrategy() {
         baby&rsquo;s blood oxygen levels overnight &mdash; but the data is
         useless without clinical triage. This pipeline processes overnight
         recordings for 2.5 million babies, classifies each night as normal,
-        borderline, or urgent, and generates a nurse handoff. Today it runs as
-        a batch process. The opportunity is turning it into a closed-loop
-        system where AI agents act on the results, verify follow-through, and
-        improve over time &mdash; at a cost that pays for itself many times
-        over.
+        borderline, or urgent, and generates a handoff that triggers a
+        telehealth nurse call to the family. Today the pipeline runs as a
+        batch process and the nurse starts the call cold. The opportunity is
+        turning it into a closed-loop system where AI agents enrich the
+        telehealth handoff, verify follow-through, and improve over time
+        &mdash; shifting families from ER visits to informed telehealth
+        triage.
       </PageIntro>
 
       {/* ─── The Bottom Line (cost teaser) ─────────────────────────── */}
@@ -167,7 +170,7 @@ export default function AgenticStrategy() {
           label="AI inference cost"
           value="~$5,700/yr"
           accentColor={TEAL_PRIMARY}
-          delta="For the full agent suite"
+          delta="Excludes infra, integration, and compliance"
         />
         <MetricCard
           label="One prevented readmission"
@@ -177,19 +180,13 @@ export default function AgenticStrategy() {
         />
       </div>
 
-      <Callout>
-        The AI inference cost alone pays for itself if even one NICU
-        readmission is prevented. Infrastructure, integration, and compliance
-        costs are deployment-dependent and scoped below.
-      </Callout>
-
-      {/* ─── What We Built ─────────────────────────────────────────── */}
-      <SectionCard title="What We Built: The Triage Engine">
+      {/* ─── What Was Built ─────────────────────────────────────────── */}
+      <SectionCard title="What Was Built: The Triage Engine">
         <p className="text-body text-sm leading-relaxed mb-4">
-          The pipeline processes each baby&rsquo;s overnight SpO2 recording
-          through three layers. Most nights are clear-cut and classified
-          automatically. Ambiguous cases go to a machine learning model.
-          The hardest 3% route to a clinician for manual review.
+          97% of overnight recordings are triaged automatically &mdash; no
+          human involvement needed. Only the hardest 3% of cases route to a
+          clinician for review. The engine scales to the full 2.5M-baby
+          dataset at near-zero marginal cost.
         </p>
 
         {/* Flow diagram */}
@@ -249,17 +246,18 @@ export default function AgenticStrategy() {
       {/* ─── The Gap ───────────────────────────────────────────────── */}
       <SectionCard title="The Gap: What Happens After Triage?">
         <p className="text-body text-sm leading-relaxed mb-2">
-          Today the pipeline ends at handoff generation. It tells a nurse
-          &ldquo;this baby had an urgent night&rdquo; &mdash; but nobody
-          verifies the nurse saw it, acted on it, or what the outcome was.
-          The system is <strong>open-loop</strong>.
+          Today the pipeline generates a handoff that triggers a telehealth
+          nurse call. But the nurse starts cold &mdash; reading a summary
+          while a tired parent tries to describe what happened overnight.
+          And after the call, nobody tracks whether the family followed
+          through. The system is <strong>open-loop</strong>.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
           {[
-            { q: "Did the nurse acknowledge the alert?", a: "Unknown" },
+            { q: "Does the telehealth nurse have full clinical context before the call?", a: "No \u2014 starts cold from a summary" },
+            { q: "Could this have been resolved via telehealth instead of an ER visit?", a: "Often yes, but nurse lacked context to triage confidently" },
             { q: "Did the family follow through on the referral?", a: "Unknown" },
-            { q: "Is triage accuracy drifting over time?", a: "Checked manually, if at all" },
-            { q: "Was prior auth started before the ED visit?", a: "No \u2014 reactive process" },
+            { q: "Are we catching quality problems before they become patient safety events?", a: "Spot-checked manually, if at all" },
           ].map(({ q, a }) => (
             <div
               key={q}
@@ -272,8 +270,9 @@ export default function AgenticStrategy() {
         </div>
         <Callout accent={URGENT_RED}>
           Every unanswered question is a gap where a baby could fall through
-          the cracks, a readmission could have been prevented, or revenue
-          is left on the table. Agentic AI closes these gaps.
+          the cracks, a family ends up in the ER when telehealth could have
+          resolved it, or a readmission could have been prevented. Agentic AI
+          closes these gaps.
         </Callout>
       </SectionCard>
 
@@ -305,7 +304,7 @@ export default function AgenticStrategy() {
             accent={URGENT_RED}
             when="A nurse hasn't acknowledged an urgent or emergency alert, or a baby has 3+ concerning nights in a row"
             scale="Dozens of events per day"
-            outcome="Ensures every critical alert gets a response. Escalates automatically: nurse \u2192 charge nurse \u2192 attending. Closes the handoff-to-action gap."
+            outcome="Ensures every critical alert gets a response. Escalates automatically: nurse \u2192 charge nurse \u2192 attending. When a telehealth call connects, the agent pre-loads the nurse with triage context, SpO2 trends, and clinical history \u2014 so a tired parent doesn\u2019t have to interpret a graph at 2am. Turns a cold call into a warm handoff that can avoid unnecessary ER trips."
           />
           <AgentCard
             name="Quality Monitoring Agent"
@@ -319,7 +318,7 @@ export default function AgenticStrategy() {
             accent={SAGE}
             when="Triage triggers a clinical action (ED referral, specialist consult)"
             scale="Hundreds of encounters per day"
-            outcome="Starts the prior auth process with the payer before the family arrives at the ED. Uses the HL7 integration layer already built into the pipeline."
+            outcome="Starts the prior auth process with the payer before the family arrives. Routes through the HL7/Rhapsody interoperability layer already built into the pipeline."
           />
         </div>
       </div>
@@ -382,16 +381,6 @@ export default function AgenticStrategy() {
           </table>
         </div>
 
-        <Callout accent={AMBER}>
-          <strong>Note:</strong> The table above covers AI inference only.
-          A production deployment would also require infrastructure (compute,
-          message queues, database), EHR/payer integration (HL7 connectivity,
-          API setup), monitoring and observability, and HIPAA compliance
-          controls (audit logging, encryption, access management). These costs
-          are deployment-dependent and would need scoping based on the
-          specific health system&rsquo;s existing infrastructure and vendor
-          landscape.
-        </Callout>
       </SectionCard>
 
       {/* ─── Implementation Roadmap ────────────────────────────────── */}
@@ -431,21 +420,20 @@ export default function AgenticStrategy() {
             title="Phase 3: Operating Model (9-18 mo)"
             accent={URGENT_RED}
             items={[
-              "Prior auth agent with payer integration via HL7",
+              "Prior auth agent with payer integration via HL7/Rhapsody",
               "End-to-end outcome tracking (alert \u2192 action \u2192 result)",
               "Multi-agent orchestration across clinical and admin workflows",
             ]}
           />
         </div>
 
-        {/* Deloitte source callout */}
-        <Callout>
-          <strong>Industry context:</strong> Deloitte Center for Health
-          Solutions (Feb 2026) reports 85% of health care leaders plan to
-          increase agentic AI investment in 2&ndash;3 years. Early adopters
-          using multi-agent systems expect 20%+ cost savings vs. 13% for
-          organizations deploying point solutions.
-        </Callout>
+        {/* Deloitte source footnote */}
+        <p className="text-muted mt-6" style={{ fontSize: "0.75rem", lineHeight: 1.6 }}>
+          Source: Deloitte Center for Health Solutions, Feb 2026. 85% of
+          health care leaders plan to increase agentic AI investment in
+          2&ndash;3 years. Early adopters using multi-agent systems expect
+          20%+ cost savings vs. 13% for point-solution adopters.
+        </p>
       </div>
     </div>
   );
