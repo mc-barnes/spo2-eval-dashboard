@@ -162,9 +162,9 @@ export default function AgenticStrategy() {
       </PageIntro>
 
       {/* ─── The Bottom Line (cost teaser) ─────────────────────────── */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <MetricCard
-          label="Agentic layer cost"
+          label="AI inference cost"
           value="~$5,700/yr"
           accentColor={TEAL_PRIMARY}
           delta="For the full agent suite"
@@ -175,18 +175,12 @@ export default function AgenticStrategy() {
           accentColor={URGENT_RED}
           delta="Average NICU readmission cost"
         />
-        <MetricCard
-          label="One FTE saved"
-          value="$65K+/yr"
-          accentColor={AMBER}
-          delta="Prior auth processing staff"
-        />
       </div>
 
       <Callout>
-        The ROI case is straightforward: preventing a single NICU readmission
-        or replacing one full-time prior authorization processor covers the
-        entire agentic layer cost 10&times; over.
+        The AI inference cost alone pays for itself if even one NICU
+        readmission is prevented. Infrastructure, integration, and compliance
+        costs are deployment-dependent and scoped below.
       </Callout>
 
       {/* ─── What We Built ─────────────────────────────────────────── */}
@@ -331,11 +325,11 @@ export default function AgenticStrategy() {
       </div>
 
       {/* ─── Cost Model ────────────────────────────────────────────── */}
-      <SectionCard title="Cost Architecture: Agents at the Margins">
+      <SectionCard title="AI Inference Costs: Agents at the Margins">
         <p className="text-body text-sm leading-relaxed mb-4">
           The core triage engine runs on standard compute at near-zero
           marginal cost. AI inference is only used for the small fraction
-          of cases that need judgment &mdash; keeping total agent costs
+          of cases that need judgment &mdash; keeping inference costs
           under $6,000/year.
         </p>
         <div className="overflow-x-auto">
@@ -387,6 +381,17 @@ export default function AgenticStrategy() {
             </tbody>
           </table>
         </div>
+
+        <Callout accent={AMBER}>
+          <strong>Note:</strong> The table above covers AI inference only.
+          A production deployment would also require infrastructure (compute,
+          message queues, database), EHR/payer integration (HL7 connectivity,
+          API setup), monitoring and observability, and HIPAA compliance
+          controls (audit logging, encryption, access management). These costs
+          are deployment-dependent and would need scoping based on the
+          specific health system&rsquo;s existing infrastructure and vendor
+          landscape.
+        </Callout>
       </SectionCard>
 
       {/* ─── Implementation Roadmap ────────────────────────────────── */}
