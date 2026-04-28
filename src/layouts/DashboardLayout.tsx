@@ -4,12 +4,12 @@ import { NavLink, Outlet } from "react-router-dom";
 /** Navigation items for the sidebar. */
 const NAV_ITEMS = [
   { to: "/", label: "Pipeline Overview", end: true },
+  { to: "/strategy", label: "Agentic AI Strategy" },
   { to: "/coverage", label: "Coverage & Accuracy" },
   { to: "/rules", label: "Rule Discovery" },
   { to: "/evals", label: "Eval Scores" },
   { to: "/traces", label: "Trace Explorer" },
   { to: "/interop", label: "Interoperability" },
-  { to: "/strategy", label: "Agentic AI Strategy" },
 ] as const;
 
 export default function DashboardLayout() {
