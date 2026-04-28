@@ -11,6 +11,7 @@ const RuleDiscovery = lazy(() => import("./pages/RuleDiscovery.tsx"));
 const EvalScores = lazy(() => import("./pages/EvalScores.tsx"));
 const TraceExplorer = lazy(() => import("./pages/TraceExplorer.tsx"));
 const Interoperability = lazy(() => import("./pages/Interoperability.tsx"));
+const AgenticStrategy = lazy(() => import("./pages/AgenticStrategy.tsx"));
 
 function LoadingFallback() {
   return (
@@ -72,6 +73,14 @@ export default function App() {
                 element={
                   <Suspense fallback={<LoadingFallback />}>
                     <Interoperability />
+                  </Suspense>
+                }
+              />
+              <Route
+                path="strategy"
+                element={
+                  <Suspense fallback={<LoadingFallback />}>
+                    <AgenticStrategy />
                   </Suspense>
                 }
               />

@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { to: "/evals", label: "Eval Scores" },
   { to: "/traces", label: "Trace Explorer" },
   { to: "/interop", label: "Interoperability" },
+  { to: "/strategy", label: "Agentic AI Strategy" },
 ] as const;
 
 export default function DashboardLayout() {
