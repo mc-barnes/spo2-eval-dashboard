@@ -3,6 +3,7 @@
  * accuracy breakdown, ground truth distribution, triage bar, and clinical metrics.
  */
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import {
   PieChart,
   Pie,
@@ -11,8 +12,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { usePipelineData } from "../hooks/usePipelineData.tsx";
-import { loadCoverageBreakdown } from "../data/loader.ts";
-import type { CoverageBreakdown } from "../data/types.ts";
+import { loadCoverageBreakdown, loadTrendFeatures } from "../data/loader.ts";
+import type { CoverageBreakdown, TrendFeatures } from "../data/types.ts";
 import MetricCard from "../components/ui/MetricCard.tsx";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
@@ -44,9 +45,11 @@ const PHASES = [
 export default function PipelineOverview() {
   const { summary, traces, loading, error } = usePipelineData();
   const [coverage, setCoverage] = useState<CoverageBreakdown | null>(null);
+  const [trend, setTrend] = useState<TrendFeatures | null>(null);
 
   useEffect(() => {
     loadCoverageBreakdown().then(setCoverage).catch(console.error);
+    loadTrendFeatures().then(setTrend).catch(console.error);
   }, []);
 
   if (loading) {
@@ -169,6 +172,28 @@ export default function PipelineOverview() {
           deltaColor={AMBER}
         />
       </div>
+
+      {/* ─── Trend tier tile (per-baby denominator) ──────────────── */}
+      {trend && (() => {
+        const babies = Object.values(trend.babies);
+        const flagged = babies.filter((b) => b.flagged).length;
+        return (
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <Link
+              to="/pipeline/trends"
+              className="block lg:col-span-2 transition-shadow hover:shadow-md rounded-card"
+            >
+              <MetricCard
+                label="Trend tier (multi-night)"
+                value={String(flagged)}
+                accentColor={URGENT_RED}
+                delta={`${flagged} of ${babies.length} babies flagged · click Trends →`}
+                deltaColor={URGENT_RED}
+              />
+            </Link>
+          </div>
+        );
+      })()}
 
       {/* ─── Two-column: Accuracy + Pie ──────────────────────────── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
