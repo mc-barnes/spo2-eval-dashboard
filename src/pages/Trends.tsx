@@ -224,8 +224,12 @@ export default function Trends() {
     return out;
   }, [babies, conditionFilter, flaggedOnly, sortKey]);
 
+  // Find selection inside the *filtered* list so the cohort list and
+  // detail pane stay in sync when filters narrow past the current selection.
   const selectedBaby =
-    babies.find((b) => b.baby_id === selectedId) ?? filteredBabies[0] ?? null;
+    filteredBabies.find((b) => b.baby_id === selectedId) ??
+    filteredBabies[0] ??
+    null;
 
   if (loadError) {
     return <div className="text-urgent-red text-sm">Error: {loadError}</div>;
