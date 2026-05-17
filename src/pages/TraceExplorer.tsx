@@ -4,13 +4,70 @@
  */
 import { useEffect, useState, lazy, Suspense } from "react";
 import { usePipelineData } from "../hooks/usePipelineData.tsx";
-import { loadWaveform, loadHandoffSamples } from "../data/loader.ts";
-import type { WaveformData, HandoffSamples } from "../data/types.ts";
+import {
+  loadWaveform,
+  loadHandoffSamples,
+  loadTrendFeatures,
+} from "../data/loader.ts";
+import type {
+  WaveformData,
+  HandoffSamples,
+  TrendFeatures,
+} from "../data/types.ts";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import UrgencyBadge from "../components/ui/UrgencyBadge.tsx";
 import DetailRow from "../components/ui/DetailRow.tsx";
-import { MUTED } from "../config/theme.ts";
+import {
+  MUTED,
+  TEAL_DARK,
+  TEAL_PRIMARY,
+  SAGE,
+  AMBER,
+  SAGE_BG,
+} from "../config/theme.ts";
+
+const CONDITION_LABELS: Record<string, string> = {
+  AOP: "AOP",
+  BPD: "BPD",
+  CHD_interstage: "CHD interstage",
+};
+
+const CONDITION_COLORS: Record<string, string> = {
+  AOP: TEAL_PRIMARY,
+  BPD: SAGE,
+  CHD_interstage: AMBER,
+};
+
+function ConditionChip({ condition }: { condition: string }) {
+  const color = CONDITION_COLORS[condition] ?? MUTED;
+  const label = CONDITION_LABELS[condition] ?? condition;
+  return (
+    <span
+      className="inline-flex items-center rounded-full font-medium"
+      style={{
+        backgroundColor: `${color}22`,
+        color: TEAL_DARK,
+        border: `1px solid ${color}`,
+        padding: "2px 10px",
+        fontSize: "0.7rem",
+        letterSpacing: "0.02em",
+      }}
+    >
+      {label}
+    </span>
+  );
+}
+
+/** Split handoff text into the per-night portion and a trailing [TREND] block. */
+function splitTrendBlock(text: string): { main: string; trend: string | null } {
+  const idx = text.indexOf("[TREND]");
+  if (idx === -1) return { main: text, trend: null };
+  return {
+    main: text.slice(0, idx).trimEnd(),
+    trend: text.slice(idx + "[TREND]".length).trim(),
+  };
+}
 
 const TraceViewer = lazy(() => import("../components/TraceViewer.tsx"));
 
@@ -26,12 +83,14 @@ export default function TraceExplorer() {
   // Lazy-loaded data
   const [waveform, setWaveform] = useState<WaveformData | null>(null);
   const [handoffs, setHandoffs] = useState<HandoffSamples | null>(null);
+  const [trendFeatures, setTrendFeatures] = useState<TrendFeatures | null>(null);
   const [waveformLoading, setWaveformLoading] = useState(false);
   const [waveformError, setWaveformError] = useState<string | null>(null);
 
-  // Load handoffs once
+  // Load handoffs + trend features once
   useEffect(() => {
     loadHandoffSamples().then(setHandoffs).catch(console.error);
+    loadTrendFeatures().then(setTrendFeatures).catch(console.error);
   }, []);
 
   // Load waveform when a trace is selected
@@ -71,6 +130,13 @@ export default function TraceExplorer() {
   // Selected trace metadata
   const selectedTrace = traces.find((t) => t.night_id === selectedNightId);
   const handoff = selectedNightId ? handoffs?.[selectedNightId] : null;
+  const trendBaby =
+    selectedTrace && trendFeatures
+      ? trendFeatures.babies[selectedTrace.baby.baby_id] ?? null
+      : null;
+  const handoffSplit = handoff
+    ? splitTrendBlock(handoff.summary_text)
+    : { main: "", trend: null };
 
   return (
     <div className="space-y-6">
@@ -163,9 +229,41 @@ export default function TraceExplorer() {
               {handoff ? (
                 <div className="space-y-3">
                   <UrgencyBadge level={handoff.urgency_level} />
-                  <p className="text-body leading-relaxed mt-2" style={{ fontSize: "0.85rem" }}>
-                    {handoff.summary_text}
+                  <p
+                    className="text-body leading-relaxed mt-2 whitespace-pre-line"
+                    style={{ fontSize: "0.85rem" }}
+                  >
+                    {handoffSplit.main}
                   </p>
+                  {handoffSplit.trend && (
+                    <div
+                      className="rounded-lg"
+                      style={{
+                        backgroundColor: SAGE_BG,
+                        borderLeft: `3px solid ${TEAL_PRIMARY}`,
+                        padding: "10px 12px",
+                      }}
+                    >
+                      <span
+                        className="inline-flex items-center rounded-full font-semibold uppercase"
+                        style={{
+                          backgroundColor: TEAL_PRIMARY,
+                          color: "#FFFFFF",
+                          padding: "1px 8px",
+                          fontSize: "0.65rem",
+                          letterSpacing: "0.05em",
+                        }}
+                      >
+                        Trend tier
+                      </span>
+                      <p
+                        className="text-body leading-relaxed mt-2 whitespace-pre-line"
+                        style={{ fontSize: "0.82rem" }}
+                      >
+                        {handoffSplit.trend}
+                      </p>
+                    </div>
+                  )}
                   <p className="text-muted" style={{ fontSize: "0.8rem" }}>
                     Source: {handoff.source}
                   </p>
@@ -179,6 +277,19 @@ export default function TraceExplorer() {
 
             {/* Patient Details */}
             <SectionCard title="Patient Details">
+              {trendBaby && (
+                <div className="flex items-center gap-2 mb-3">
+                  <ConditionChip condition={trendBaby.condition} />
+                  {trendBaby.flagged && (
+                    <span
+                      className="text-muted"
+                      style={{ fontSize: "0.75rem" }}
+                    >
+                      trend-tier flagged
+                    </span>
+                  )}
+                </div>
+              )}
               <DetailRow label="Baby ID" value={selectedTrace.baby.baby_id} />
               <DetailRow
                 label="Gestational Age"
