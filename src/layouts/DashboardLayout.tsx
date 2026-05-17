@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { to: "/pipeline/rules", label: "Rule Discovery" },
   { to: "/pipeline/evals", label: "Eval Scores" },
   { to: "/pipeline/traces", label: "Trace Explorer" },
+  { to: "/pipeline/trends", label: "Trends" },
   { to: "/pipeline/interop", label: "Interoperability" },
 ] as const;
 

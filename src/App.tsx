@@ -13,6 +13,7 @@ const CoverageFunnel = lazy(() => import("./pages/CoverageFunnel.tsx"));
 const RuleDiscovery = lazy(() => import("./pages/RuleDiscovery.tsx"));
 const EvalScores = lazy(() => import("./pages/EvalScores.tsx"));
 const TraceExplorer = lazy(() => import("./pages/TraceExplorer.tsx"));
+const Trends = lazy(() => import("./pages/Trends.tsx"));
 const Interoperability = lazy(() => import("./pages/Interoperability.tsx"));
 
 function LoadingFallback() {
@@ -45,6 +46,7 @@ export default function App() {
                 <Route path="rules" element={<Lazy><RuleDiscovery /></Lazy>} />
                 <Route path="evals" element={<Lazy><EvalScores /></Lazy>} />
                 <Route path="traces" element={<Lazy><TraceExplorer /></Lazy>} />
+                <Route path="trends" element={<Lazy><Trends /></Lazy>} />
                 <Route path="interop" element={<Lazy><Interoperability /></Lazy>} />
               </Route>
             </Route>

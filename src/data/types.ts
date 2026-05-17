@@ -132,6 +132,26 @@ export interface HandoffSample {
 
 export type HandoffSamples = Record<string, HandoffSample>;
 
+// ── Trend tier (multi-night EWMA features) ────────────────────
+export interface TrendBaby {
+  baby_id: string;
+  condition: string;
+  n_nights: number;
+  sat_seconds_series: number[];
+  ewma_series: number[];
+  trend_score: number;
+  trend_direction: "deteriorating" | "stable" | string;
+  flagged: boolean;
+  flag_reason: string;
+  baseline_sat_seconds: number;
+}
+
+export interface TrendFeatures {
+  schema_version: number;
+  generated_at: string;
+  babies: Record<string, TrendBaby>;
+}
+
 // ── Waveform data ─────────────────────────────────────────────
 export interface WaveformData {
   spo2: number[];

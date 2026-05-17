@@ -11,6 +11,7 @@ import type {
   HandoffSamples,
   HL7Messages,
   WaveformData,
+  TrendFeatures,
 } from "./types.ts";
 
 const cache = new Map<string, unknown>();
@@ -58,4 +59,8 @@ export function loadHL7Messages(): Promise<HL7Messages> {
 
 export function loadWaveform(traceId: string): Promise<WaveformData> {
   return fetchJson<WaveformData>(`/data/waveforms/${traceId}.json`);
+}
+
+export function loadTrendFeatures(): Promise<TrendFeatures> {
+  return fetchJson<TrendFeatures>("/data/trend-features.json");
 }
