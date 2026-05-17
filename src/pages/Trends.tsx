@@ -203,6 +203,14 @@ export default function Trends() {
     filteredBabies[0] ??
     null;
 
+  // Sync state to the resolved fallback so selectedId never drifts from
+  // what the detail pane is actually showing.
+  useEffect(() => {
+    if (selectedBaby && selectedBaby.baby_id !== selectedId) {
+      setSelectedId(selectedBaby.baby_id);
+    }
+  }, [selectedBaby, selectedId]);
+
   if (loadError) {
     return <div className="text-urgent-red text-sm">Error: {loadError}</div>;
   }
