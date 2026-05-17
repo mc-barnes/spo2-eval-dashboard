@@ -3,6 +3,7 @@
  * Assumes no prior knowledge of the pipeline. Frames agentic AI
  * opportunity in business outcomes, not implementation details.
  */
+import { Link } from "react-router-dom";
 import MetricCard from "../components/ui/MetricCard.tsx";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
@@ -381,6 +382,17 @@ export default function AgenticStrategy() {
           </table>
         </div>
 
+        <p className="text-muted mt-5" style={{ fontSize: "0.8rem", lineHeight: 1.6 }}>
+          For the full reimbursement framing &mdash; CPT parity ceiling,
+          capped-rental model, and caregiver continuation tier &mdash; see{" "}
+          <Link
+            to="/rpm"
+            className="text-teal-primary hover:text-teal-dark underline underline-offset-4 decoration-1 font-medium"
+          >
+            Pediatric home monitoring &rarr;
+          </Link>
+          .
+        </p>
       </SectionCard>
 
       {/* ─── Implementation Roadmap ────────────────────────────────── */}
