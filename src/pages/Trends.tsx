@@ -8,52 +8,21 @@ import type { TrendBaby, TrendFeatures } from "../data/types.ts";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import MetricCard from "../components/ui/MetricCard.tsx";
+import ConditionChip from "../components/ui/ConditionChip.tsx";
 import {
   TEAL_DARK,
   TEAL_PRIMARY,
   SAGE,
   SAGE_BG,
-  AMBER,
   URGENT_RED,
   BORDER,
   MUTED,
+  CONDITION_LABELS,
   PLOTLY_LAYOUT,
 } from "../config/theme.ts";
 
-const CONDITION_LABELS: Record<string, string> = {
-  AOP: "AOP",
-  BPD: "BPD",
-  CHD_interstage: "CHD interstage",
-};
-
-const CONDITION_COLORS: Record<string, string> = {
-  AOP: TEAL_PRIMARY,
-  BPD: SAGE,
-  CHD_interstage: AMBER,
-};
-
 type ConditionFilter = "all" | "AOP" | "BPD" | "CHD_interstage";
 type SortKey = "trend_score_desc" | "trend_score_asc" | "baby_id";
-
-function ConditionChip({ condition }: { condition: string }) {
-  const color = CONDITION_COLORS[condition] ?? MUTED;
-  const label = CONDITION_LABELS[condition] ?? condition;
-  return (
-    <span
-      className="inline-flex items-center rounded-full font-medium"
-      style={{
-        backgroundColor: `${color}22`,
-        color: TEAL_DARK,
-        border: `1px solid ${color}`,
-        padding: "2px 10px",
-        fontSize: "0.7rem",
-        letterSpacing: "0.02em",
-      }}
-    >
-      {label}
-    </span>
-  );
-}
 
 function FlagBadge({ direction }: { direction: string }) {
   const color = direction === "deteriorating" ? URGENT_RED : MUTED;
