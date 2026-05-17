@@ -3,6 +3,7 @@
  * Assumes no prior knowledge of the pipeline. Frames agentic AI
  * opportunity in business outcomes, not implementation details.
  */
+import { Link } from "react-router-dom";
 import MetricCard from "../components/ui/MetricCard.tsx";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
@@ -139,7 +140,7 @@ const COST_HEADERS = ["Layer", "Volume", "Processing", "Unit Cost", "Annual Est.
 
 export default function AgenticStrategy() {
   return (
-    <div className="space-y-6">
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
       {/* ─── Page Header ───────────────────────────────────────────── */}
       <h2 className="font-heading text-2xl font-semibold text-teal-dark mb-1">
         Agentic AI Strategy
@@ -381,6 +382,17 @@ export default function AgenticStrategy() {
           </table>
         </div>
 
+        <p className="text-muted mt-5" style={{ fontSize: "0.8rem", lineHeight: 1.6 }}>
+          For the full reimbursement framing &mdash; CPT parity ceiling,
+          capped-rental model, and caregiver continuation tier &mdash; see{" "}
+          <Link
+            to="/rpm"
+            className="text-teal-primary hover:text-teal-dark underline underline-offset-4 decoration-1 font-medium"
+          >
+            Pediatric home monitoring &rarr;
+          </Link>
+          .
+        </p>
       </SectionCard>
 
       {/* ─── Implementation Roadmap ────────────────────────────────── */}
@@ -435,6 +447,6 @@ export default function AgenticStrategy() {
           20%+ cost savings vs. 13% for point-solution adopters.
         </p>
       </div>
-    </div>
+    </main>
   );
 }

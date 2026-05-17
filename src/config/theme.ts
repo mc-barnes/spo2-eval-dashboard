@@ -37,6 +37,19 @@ export const URGENCY_COLORS: Record<string, string> = {
   "ARTIFACT REVIEW": NEUTRAL_GRAY,
 };
 
+// ── Trend-tier condition labels + colors ──────────────────────
+export const CONDITION_LABELS: Record<string, string> = {
+  AOP: "AOP",
+  BPD: "BPD",
+  CHD_interstage: "CHD interstage",
+};
+
+export const CONDITION_COLORS: Record<string, string> = {
+  AOP: TEAL_PRIMARY,
+  BPD: SAGE,
+  CHD_interstage: AMBER,
+};
+
 // ── Tier chart colors (Tier 1, Tier 2, Expert) ────────────────
 export const TIER_COLORS = [TEAL_PRIMARY, SAGE, AMBER] as const;
 

@@ -3,22 +3,25 @@
  * showing how ground truth labels distribute across tiers.
  */
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { usePipelineData } from "../hooks/usePipelineData.tsx";
-import { loadCoverageBreakdown } from "../data/loader.ts";
-import type { CoverageBreakdown } from "../data/types.ts";
+import { loadCoverageBreakdown, loadTrendFeatures } from "../data/loader.ts";
+import type { CoverageBreakdown, TrendFeatures } from "../data/types.ts";
 import MetricCard from "../components/ui/MetricCard.tsx";
 import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import HorizontalBar from "../components/ui/HorizontalBar.tsx";
 import DataTable from "../components/ui/DataTable.tsx";
-import { TIER_COLORS, LABEL_COLORS } from "../config/theme.ts";
+import { TIER_COLORS, LABEL_COLORS, URGENT_RED } from "../config/theme.ts";
 
 export default function CoverageFunnel() {
   const { summary, loading, error } = usePipelineData();
   const [coverage, setCoverage] = useState<CoverageBreakdown | null>(null);
+  const [trend, setTrend] = useState<TrendFeatures | null>(null);
 
   useEffect(() => {
     loadCoverageBreakdown().then(setCoverage).catch(console.error);
+    loadTrendFeatures().then(setTrend).catch(console.error);
   }, []);
 
   if (loading) {
@@ -49,10 +52,11 @@ export default function CoverageFunnel() {
       </h1>
 
       <PageIntro>
-        {summary.total_traces} traces triaged across 3 pipeline tiers. Tier 1
+        {summary.total_traces} traces triaged across 3 single-night tiers. Tier 1
         rule-based engine handles {summary.tier1_pct.toFixed(1)}% automatically,
         Tier 2 ML covers {summary.tier2_pct.toFixed(1)}%, and{" "}
-        {summary.expert_pct.toFixed(1)}% route to expert review.
+        {summary.expert_pct.toFixed(1)}% route to expert review. A separate
+        multi-night trend tier flags babies on a per-baby denominator.
       </PageIntro>
 
       {/* ─── Metric cards ────────────────────────────────────────── */}
@@ -79,6 +83,25 @@ export default function CoverageFunnel() {
           deltaColor={TIER_COLORS[2]}
         />
       </div>
+
+      {/* ─── Trend tier (separate denominator: per-baby, not per-trace) ── */}
+      {trend && (() => {
+        const babies = Object.values(trend.babies);
+        const flagged = babies.filter((b) => b.flagged).length;
+        return (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link to="/pipeline/trends" className="block transition-shadow hover:shadow-md rounded-card">
+              <MetricCard
+                label="Tier 4 — Trend (multi-night)"
+                value={String(flagged)}
+                accentColor={URGENT_RED}
+                delta={`${flagged} of ${babies.length} babies · per-baby, not per-trace`}
+                deltaColor={URGENT_RED}
+              />
+            </Link>
+          </div>
+        );
+      })()}
 
       {/* ─── Coverage by Tier bar chart ──────────────────────────── */}
       {coverage && (
