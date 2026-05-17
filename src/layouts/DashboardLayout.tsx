@@ -3,13 +3,12 @@ import { NavLink, Outlet } from "react-router-dom";
 
 /** Navigation items for the sidebar. */
 const NAV_ITEMS = [
-  { to: "/", label: "Pipeline Overview", end: true },
-  { to: "/strategy", label: "Agentic AI Strategy" },
-  { to: "/coverage", label: "Coverage & Accuracy" },
-  { to: "/rules", label: "Rule Discovery" },
-  { to: "/evals", label: "Eval Scores" },
-  { to: "/traces", label: "Trace Explorer" },
-  { to: "/interop", label: "Interoperability" },
+  { to: "/pipeline", label: "Pipeline Overview", end: true },
+  { to: "/pipeline/coverage", label: "Coverage & Accuracy" },
+  { to: "/pipeline/rules", label: "Rule Discovery" },
+  { to: "/pipeline/evals", label: "Eval Scores" },
+  { to: "/pipeline/traces", label: "Trace Explorer" },
+  { to: "/pipeline/interop", label: "Interoperability" },
 ] as const;
 
 export default function DashboardLayout() {
@@ -39,12 +38,12 @@ export default function DashboardLayout() {
       >
         {/* Header */}
         <div className="px-6 pt-6 pb-4">
-          <h1 className="font-heading text-xl font-semibold text-teal-dark leading-tight">
-            SpO2 Pipeline
-          </h1>
-          <p className="text-muted text-sm mt-1">
-            Neonatal monitoring demo
+          <p className="text-xs uppercase tracking-wider text-muted">
+            Section
           </p>
+          <h2 className="font-heading text-lg font-semibold text-teal-dark leading-tight mt-1">
+            Dashboard
+          </h2>
         </div>
 
         {/* Divider */}
@@ -90,7 +89,7 @@ export default function DashboardLayout() {
       {/* Main content */}
       <div className="flex-1 min-w-0">
         {/* Mobile header bar */}
-        <header className="md:hidden sticky top-0 z-20 bg-warm-white border-b border-border px-4 py-3 flex items-center gap-3">
+        <header className="md:hidden sticky top-14 z-20 bg-warm-white border-b border-border px-4 py-3 flex items-center gap-3">
           <button
             onClick={() => setSidebarOpen(true)}
             className="p-1.5 rounded-lg hover:bg-sage-bg text-body"
@@ -109,7 +108,7 @@ export default function DashboardLayout() {
             </svg>
           </button>
           <span className="font-heading text-base font-semibold text-teal-dark">
-            SpO2 Pipeline
+            Dashboard
           </span>
         </header>
 
