@@ -10,19 +10,11 @@ import {
   EMERGENCY,
   PLOTLY_LAYOUT,
 } from "../config/theme.ts";
+import { getPlotly } from "../lib/plotly.ts";
 
 interface TraceViewerProps {
   waveform: WaveformData;
 }
-
-/** Lazily loaded Plotly module. */
-let plotlyLib: any = null;
-const getPlotly = async () => {
-  if (plotlyLib) return plotlyLib;
-  const mod = await import("plotly.js-basic-dist-min");
-  plotlyLib = mod.default ?? mod;
-  return plotlyLib;
-};
 
 export default function TraceViewer({ waveform }: TraceViewerProps) {
   const containerRef = useRef<HTMLDivElement>(null);

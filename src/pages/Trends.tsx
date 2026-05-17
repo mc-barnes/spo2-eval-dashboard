@@ -9,6 +9,7 @@ import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import MetricCard from "../components/ui/MetricCard.tsx";
 import ConditionChip from "../components/ui/ConditionChip.tsx";
+import { getPlotly } from "../lib/plotly.ts";
 import {
   TEAL_DARK,
   TEAL_PRIMARY,
@@ -44,14 +45,6 @@ function FlagBadge({ direction }: { direction: string }) {
   );
 }
 
-let plotlyLib: any = null;
-const getPlotly = async () => {
-  if (plotlyLib) return plotlyLib;
-  const mod = await import("plotly.js-basic-dist-min");
-  plotlyLib = mod.default ?? mod;
-  return plotlyLib;
-};
-
 function TrendChart({ baby }: { baby: TrendBaby }) {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -59,6 +52,7 @@ function TrendChart({ baby }: { baby: TrendBaby }) {
     let cancelled = false;
     const el = containerRef.current;
     if (!el) return;
+    if (baby.ewma_series.length === 0) return;
 
     const nights = baby.ewma_series.map((_, i) => i + 1);
 
@@ -177,6 +171,15 @@ export default function Trends() {
     [babies]
   );
 
+  // Honest window label across the cohort — single value if uniform,
+  // range if any baby has a different night count.
+  const windowLabel = useMemo(() => {
+    if (babies.length === 0) return "";
+    const counts = new Set(babies.map((b) => b.n_nights));
+    if (counts.size === 1) return `${babies[0].n_nights}-night window`;
+    return `${Math.min(...counts)}–${Math.max(...counts)}-night window`;
+  }, [babies]);
+
   const filteredBabies = useMemo(() => {
     let out = babies;
     if (conditionFilter !== "all") {
@@ -229,7 +232,7 @@ export default function Trends() {
           label="Babies Monitored"
           value={String(babies.length)}
           accentColor={TEAL_PRIMARY}
-          delta={`${data.schema_version === 1 ? "EWMA v1" : `schema v${data.schema_version}`} · ${babies[0]?.n_nights ?? 0}-night window`}
+          delta={`${data.schema_version === 1 ? "EWMA v1" : `schema v${data.schema_version}`} · ${windowLabel}`}
         />
         <MetricCard
           label="Flagged by Trend Tier"
@@ -359,44 +362,42 @@ export default function Trends() {
         {/* Selected baby detail */}
         <div className="lg:col-span-2">
           {selectedBaby ? (
-            <>
-              <SectionCard
-                title={`Baby ${selectedBaby.baby_id}`}
-                subtitle={`${CONDITION_LABELS[selectedBaby.condition] ?? selectedBaby.condition} · ${selectedBaby.n_nights}-night window`}
-              >
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <ConditionChip condition={selectedBaby.condition} />
-                  {selectedBaby.flagged && (
-                    <FlagBadge direction={selectedBaby.trend_direction} />
-                  )}
-                  <span
-                    className="text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Trend score {selectedBaby.trend_score.toFixed(1)} · baseline{" "}
-                    {selectedBaby.baseline_sat_seconds.toFixed(1)}
-                  </span>
-                </div>
-                <TrendChart baby={selectedBaby} />
-                <p
-                  className="text-body mt-3"
-                  style={{ fontSize: "0.85rem", lineHeight: 1.5 }}
+            <SectionCard
+              title={`Baby ${selectedBaby.baby_id}`}
+              subtitle={`${CONDITION_LABELS[selectedBaby.condition] ?? selectedBaby.condition} · ${selectedBaby.n_nights}-night window`}
+            >
+              <div className="flex flex-wrap items-center gap-2 mb-3">
+                <ConditionChip condition={selectedBaby.condition} />
+                {selectedBaby.flagged && (
+                  <FlagBadge direction={selectedBaby.trend_direction} />
+                )}
+                <span
+                  className="text-muted"
+                  style={{ fontSize: "0.8rem" }}
                 >
-                  {selectedBaby.flag_reason}
-                </p>
-                {selectedBaby.flagged &&
-                  selectedBaby.trend_direction === "deteriorating" && (
-                    <p
-                      className="text-muted mt-2"
-                      style={{ fontSize: "0.75rem", fontStyle: "italic" }}
-                    >
-                      Ground truth for demo: deteriorating trajectory planted in
-                      this baby's later nights so the EWMA crossing is
-                      reproducible.
-                    </p>
-                  )}
-              </SectionCard>
-            </>
+                  Trend score {selectedBaby.trend_score.toFixed(1)} · baseline{" "}
+                  {selectedBaby.baseline_sat_seconds.toFixed(1)}
+                </span>
+              </div>
+              <TrendChart baby={selectedBaby} />
+              <p
+                className="text-body mt-3"
+                style={{ fontSize: "0.85rem", lineHeight: 1.5 }}
+              >
+                {selectedBaby.flag_reason}
+              </p>
+              {selectedBaby.flagged &&
+                selectedBaby.trend_direction === "deteriorating" && (
+                  <p
+                    className="text-muted mt-2"
+                    style={{ fontSize: "0.75rem", fontStyle: "italic" }}
+                  >
+                    Ground truth for demo: deteriorating trajectory planted in
+                    this baby's later nights so the EWMA crossing is
+                    reproducible.
+                  </p>
+                )}
+            </SectionCard>
           ) : (
             <SectionCard>
               <p className="text-muted" style={{ fontSize: "0.85rem" }}>
