@@ -8,7 +8,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -37,7 +37,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -66,7 +66,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -95,7 +95,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -124,7 +124,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -153,7 +153,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -182,7 +182,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -211,7 +211,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -240,7 +240,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -269,7 +269,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -298,7 +298,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -327,7 +327,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -356,7 +356,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -385,7 +385,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -414,7 +414,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -443,7 +443,7 @@
       "birth_weight_grams": 3590,
       "days_since_birth": 40,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.91,
@@ -472,7 +472,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -501,7 +501,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -530,7 +530,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -559,7 +559,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -588,7 +588,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -617,7 +617,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -646,7 +646,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -675,7 +675,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -704,7 +704,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -733,7 +733,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -762,7 +762,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -791,7 +791,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -820,7 +820,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -849,7 +849,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -878,7 +878,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -907,7 +907,7 @@
       "birth_weight_grams": 913,
       "days_since_birth": 25,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 92.2,
       "spo2_variability": 1.95,
@@ -936,7 +936,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -965,7 +965,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -994,7 +994,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1023,7 +1023,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1052,7 +1052,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1081,7 +1081,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1110,7 +1110,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1139,7 +1139,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1168,7 +1168,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1197,7 +1197,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1226,7 +1226,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1255,7 +1255,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1284,7 +1284,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1313,7 +1313,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1342,7 +1342,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1371,7 +1371,7 @@
       "birth_weight_grams": 4019,
       "days_since_birth": 18,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 98.5,
       "spo2_variability": 0.91,
@@ -1400,7 +1400,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1429,7 +1429,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1458,7 +1458,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1487,7 +1487,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1516,7 +1516,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1545,7 +1545,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1574,7 +1574,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1603,7 +1603,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1632,7 +1632,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1661,7 +1661,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1690,7 +1690,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1719,7 +1719,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1748,7 +1748,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1777,7 +1777,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1806,7 +1806,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1835,7 +1835,7 @@
       "birth_weight_grams": 841,
       "days_since_birth": 84,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 90.2,
       "spo2_variability": 2.18,
@@ -1864,7 +1864,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -1893,7 +1893,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -1922,7 +1922,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -1951,7 +1951,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -1980,7 +1980,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2009,7 +2009,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2038,7 +2038,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2067,7 +2067,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2096,7 +2096,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2125,7 +2125,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2154,7 +2154,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2183,7 +2183,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2212,7 +2212,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2241,7 +2241,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2270,7 +2270,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2299,7 +2299,7 @@
       "birth_weight_grams": 731,
       "days_since_birth": 12,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.7,
       "spo2_variability": 2.22,
@@ -2328,7 +2328,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2357,7 +2357,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2386,7 +2386,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2415,7 +2415,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2444,7 +2444,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2473,7 +2473,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2502,7 +2502,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2531,7 +2531,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2560,7 +2560,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2589,7 +2589,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2618,7 +2618,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2647,7 +2647,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2676,7 +2676,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2705,7 +2705,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2734,7 +2734,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -2763,7 +2763,7 @@
       "birth_weight_grams": 3900,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.3,
       "spo2_variability": 0.87,
@@ -3256,7 +3256,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3285,7 +3285,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3314,7 +3314,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3343,7 +3343,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3372,7 +3372,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3401,7 +3401,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3430,7 +3430,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3459,7 +3459,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3488,7 +3488,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3517,7 +3517,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3546,7 +3546,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3575,7 +3575,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3604,7 +3604,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3633,7 +3633,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3662,7 +3662,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3691,7 +3691,7 @@
       "birth_weight_grams": 3829,
       "days_since_birth": 43,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.7,
       "spo2_variability": 0.66,
@@ -3720,7 +3720,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3749,7 +3749,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3778,7 +3778,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3807,7 +3807,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3836,7 +3836,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3865,7 +3865,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3894,7 +3894,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3923,7 +3923,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3952,7 +3952,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -3981,7 +3981,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4010,7 +4010,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4039,7 +4039,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4068,7 +4068,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4097,7 +4097,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4126,7 +4126,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4155,7 +4155,7 @@
       "birth_weight_grams": 1826,
       "days_since_birth": 13,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 94.1,
       "spo2_variability": 1.29,
@@ -4184,7 +4184,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4213,7 +4213,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4242,7 +4242,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4271,7 +4271,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4300,7 +4300,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4329,7 +4329,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4358,7 +4358,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4387,7 +4387,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4416,7 +4416,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4445,7 +4445,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4474,7 +4474,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4503,7 +4503,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4532,7 +4532,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4561,7 +4561,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4590,7 +4590,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -4619,7 +4619,7 @@
       "birth_weight_grams": 2335,
       "days_since_birth": 52,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 95.7,
       "spo2_variability": 1.24,
@@ -5112,7 +5112,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5141,7 +5141,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5170,7 +5170,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5199,7 +5199,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5228,7 +5228,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5257,7 +5257,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5286,7 +5286,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5315,7 +5315,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5344,7 +5344,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5373,7 +5373,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5402,7 +5402,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5431,7 +5431,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5460,7 +5460,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5489,7 +5489,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5518,7 +5518,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5547,7 +5547,7 @@
       "birth_weight_grams": 640,
       "days_since_birth": 83,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 2.19,
@@ -5577,7 +5577,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5607,7 +5608,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5637,7 +5639,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5667,7 +5670,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5697,7 +5701,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5727,7 +5732,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5757,7 +5763,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5787,7 +5794,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5817,7 +5825,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5847,7 +5856,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5877,7 +5887,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5907,7 +5918,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5937,7 +5949,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5967,7 +5980,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -5997,7 +6011,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -6027,7 +6042,8 @@
       "days_since_birth": 74,
       "known_conditions": [
         "apnea_of_prematurity",
-        "bpd"
+        "bpd",
+        "chd_interstage"
       ],
       "spo2_baseline": 92.6,
       "spo2_variability": 1.14,
@@ -6056,7 +6072,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6085,7 +6101,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6114,7 +6130,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6143,7 +6159,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6172,7 +6188,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6201,7 +6217,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6230,7 +6246,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6259,7 +6275,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6288,7 +6304,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6317,7 +6333,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6346,7 +6362,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6375,7 +6391,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6404,7 +6420,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6433,7 +6449,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6462,7 +6478,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6491,7 +6507,7 @@
       "birth_weight_grams": 1912,
       "days_since_birth": 82,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 95.4,
       "spo2_variability": 1.2,
@@ -6520,7 +6536,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6549,7 +6565,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6578,7 +6594,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6607,7 +6623,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6636,7 +6652,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6665,7 +6681,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6694,7 +6710,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6723,7 +6739,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6752,7 +6768,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6781,7 +6797,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6810,7 +6826,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6839,7 +6855,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6868,7 +6884,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6897,7 +6913,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6926,7 +6942,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6955,7 +6971,7 @@
       "birth_weight_grams": 1191,
       "days_since_birth": 28,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 91.6,
       "spo2_variability": 1.1,
@@ -6984,7 +7000,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7013,7 +7029,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7042,7 +7058,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7071,7 +7087,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7100,7 +7116,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7129,7 +7145,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7158,7 +7174,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7187,7 +7203,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7216,7 +7232,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7245,7 +7261,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7274,7 +7290,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7303,7 +7319,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7332,7 +7348,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7361,7 +7377,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7390,7 +7406,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7419,7 +7435,7 @@
       "birth_weight_grams": 4317,
       "days_since_birth": 45,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.6,
       "spo2_variability": 1.19,
@@ -7448,7 +7464,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7477,7 +7493,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7506,7 +7522,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7535,7 +7551,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7564,7 +7580,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7593,7 +7609,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7622,7 +7638,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7651,7 +7667,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7680,7 +7696,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7709,7 +7725,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7738,7 +7754,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7767,7 +7783,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7796,7 +7812,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7825,7 +7841,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7854,7 +7870,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7883,7 +7899,7 @@
       "birth_weight_grams": 3022,
       "days_since_birth": 65,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 97.1,
       "spo2_variability": 0.74,
@@ -7912,7 +7928,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -7941,7 +7958,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -7970,7 +7988,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -7999,7 +8018,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8028,7 +8048,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8057,7 +8078,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8086,7 +8108,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8115,7 +8138,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8144,7 +8168,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8173,7 +8198,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8202,7 +8228,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8231,7 +8258,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8260,7 +8288,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8289,7 +8318,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8318,7 +8348,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8347,7 +8378,8 @@
       "birth_weight_grams": 951,
       "days_since_birth": 12,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "bpd"
       ],
       "spo2_baseline": 91.2,
       "spo2_variability": 1.82,
@@ -8376,7 +8408,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8405,7 +8437,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8434,7 +8466,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8463,7 +8495,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8492,7 +8524,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8521,7 +8553,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8550,7 +8582,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8579,7 +8611,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8608,7 +8640,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8637,7 +8669,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8666,7 +8698,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8695,7 +8727,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8724,7 +8756,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8753,7 +8785,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8782,7 +8814,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8811,7 +8843,7 @@
       "birth_weight_grams": 2539,
       "days_since_birth": 69,
       "known_conditions": [
-        "none"
+        "chd_interstage"
       ],
       "spo2_baseline": 97.5,
       "spo2_variability": 0.87,
@@ -8840,7 +8872,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -8869,7 +8901,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -8898,7 +8930,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -8927,7 +8959,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -8956,7 +8988,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -8985,7 +9017,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9014,7 +9046,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9043,7 +9075,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9072,7 +9104,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9101,7 +9133,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9130,7 +9162,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9159,7 +9191,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9188,7 +9220,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9217,7 +9249,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9246,7 +9278,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9275,7 +9307,7 @@
       "birth_weight_grams": 2208,
       "days_since_birth": 9,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 95.2,
       "spo2_variability": 1.07,
@@ -9304,7 +9336,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9333,7 +9365,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9362,7 +9394,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9391,7 +9423,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9420,7 +9452,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9449,7 +9481,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9478,7 +9510,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9507,7 +9539,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9536,7 +9568,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9565,7 +9597,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9594,7 +9626,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9623,7 +9655,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9652,7 +9684,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9681,7 +9713,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9710,7 +9742,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9739,7 +9771,7 @@
       "birth_weight_grams": 1931,
       "days_since_birth": 30,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 96.5,
       "spo2_variability": 0.64,
@@ -9768,7 +9800,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9797,7 +9830,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9826,7 +9860,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9855,7 +9890,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9884,7 +9920,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9913,7 +9950,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9942,7 +9980,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -9971,7 +10010,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10000,7 +10040,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10029,7 +10070,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10058,7 +10100,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10087,7 +10130,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10116,7 +10160,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10145,7 +10190,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10174,7 +10220,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10203,7 +10250,8 @@
       "birth_weight_grams": 962,
       "days_since_birth": 90,
       "known_conditions": [
-        "apnea_of_prematurity"
+        "apnea_of_prematurity",
+        "chd_interstage"
       ],
       "spo2_baseline": 90.8,
       "spo2_variability": 1.56,
@@ -10232,7 +10280,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10261,7 +10309,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10290,7 +10338,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10319,7 +10367,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10348,7 +10396,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10377,7 +10425,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10406,7 +10454,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10435,7 +10483,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10464,7 +10512,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10493,7 +10541,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10522,7 +10570,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10551,7 +10599,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10580,7 +10628,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10609,7 +10657,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10638,7 +10686,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10667,7 +10715,7 @@
       "birth_weight_grams": 2126,
       "days_since_birth": 71,
       "known_conditions": [
-        "none"
+        "apnea_of_prematurity"
       ],
       "spo2_baseline": 97.0,
       "spo2_variability": 1.87,
@@ -10696,7 +10744,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10725,7 +10773,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10754,7 +10802,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10783,7 +10831,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10812,7 +10860,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10841,7 +10889,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10870,7 +10918,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10899,7 +10947,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10928,7 +10976,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10957,7 +11005,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -10986,7 +11034,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -11015,7 +11063,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -11044,7 +11092,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -11073,7 +11121,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -11102,7 +11150,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,
@@ -11131,7 +11179,7 @@
       "birth_weight_grams": 3643,
       "days_since_birth": 49,
       "known_conditions": [
-        "none"
+        "bpd"
       ],
       "spo2_baseline": 98.3,
       "spo2_variability": 0.56,

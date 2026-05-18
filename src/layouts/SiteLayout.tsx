@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const NAV_ITEMS = [
   { to: "/clinical-ai", label: "Story" },
+  { to: "/scope", label: "Clinical Scope" },
   { to: "/rpm", label: "Business" },
   { to: "/pipeline", label: "Dashboard" },
   { to: "/strategy", label: "Strategy" },

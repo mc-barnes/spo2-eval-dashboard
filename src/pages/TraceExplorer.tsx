@@ -109,6 +109,14 @@ export default function TraceExplorer() {
         trace, and view the waveform alongside the pipeline handoff summary.
       </PageIntro>
 
+      <p
+        className="text-muted italic"
+        style={{ fontSize: "0.78rem", marginTop: "-12px" }}
+      >
+        Synthetic cohort — physiology is modeled, not measured. Handoff text and
+        ground-truth labels are generated alongside the waveforms.
+      </p>
+
       {/* ─── Filter controls ─────────────────────────────────────── */}
       <div className="flex flex-wrap items-end gap-4">
         {/* Label filter */}
@@ -178,7 +186,10 @@ export default function TraceExplorer() {
                     </div>
                   }
                 >
-                  <TraceViewer waveform={waveform} />
+                  <TraceViewer
+                    waveform={waveform}
+                    gestationalAgeWeeks={selectedTrace.baby.gestational_age_weeks}
+                  />
                 </Suspense>
               )}
             </SectionCard>

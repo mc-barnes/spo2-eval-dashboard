@@ -28,12 +28,13 @@ import {
   NEUTRAL_GRAY,
   MUTED,
   LABEL_COLORS,
+  LABEL_GLYPHS,
   TIER_COLORS,
 } from "../config/theme.ts";
 
 /** Phase data for the pipeline flow diagram. */
 const PHASES = [
-  { num: 1, name: "Synthetic Data", metric: "300 traces" },
+  { num: 1, name: "Synthetic Data", metric: "400 traces" },
   { num: 2, name: "Tier 1 Rules", metric: "58% auto" },
   { num: 3, name: "Pattern Mining", metric: "28 rules" },
   { num: 4, name: "Tier 2 ML", metric: "39% auto" },
@@ -74,17 +75,24 @@ export default function PipelineOverview() {
   }));
 
   // --- Per-label metrics table rows ---
+  // When support < 5, sensitivity/PPV/F1 are not statistically meaningful — render "—".
+  const LOW_SUPPORT_THRESHOLD = 5;
   const metricsRows = coverage
-    ? Object.entries(coverage.per_label_metrics).map(([label, m]) => ({
-        label,
-        sensitivityRaw: m.sensitivity,
-        sensitivity: m.sensitivity.toFixed(1) + "%",
-        ppv: m.ppv.toFixed(1) + "%",
-        f1: m.f1.toFixed(1) + "%",
-        n: m.support,
-        isHighStakes: label === "urgent" || label === "emergency",
-      }))
+    ? Object.entries(coverage.per_label_metrics).map(([label, m]) => {
+        const lowSupport = m.support < LOW_SUPPORT_THRESHOLD;
+        return {
+          label,
+          sensitivityRaw: m.sensitivity,
+          sensitivity: lowSupport ? "—" : m.sensitivity.toFixed(1) + "%",
+          ppv: lowSupport ? "—" : m.ppv.toFixed(1) + "%",
+          f1: lowSupport ? "—" : m.f1.toFixed(1) + "%",
+          n: m.support,
+          isHighStakes: label === "urgent" || label === "emergency",
+          lowSupport,
+        };
+      })
     : [];
+  const anyLowSupport = metricsRows.some((r) => r.lowSupport);
 
   return (
     <div className="space-y-6">
@@ -334,34 +342,51 @@ export default function PipelineOverview() {
               <tbody>
                 {metricsRows.map((row) => {
                   const sensColor =
-                    row.isHighStakes && row.sensitivityRaw < 95
+                    !row.lowSupport && row.isHighStakes && row.sensitivityRaw < 95
                       ? URGENT_RED
                       : undefined;
                   const labelColor =
                     LABEL_COLORS[row.label.toLowerCase()] ?? NEUTRAL_GRAY;
 
+                  const glyph = LABEL_GLYPHS[row.label.toLowerCase()];
+                  const isEmergency = row.label.toLowerCase() === "emergency";
+
                   return (
                     <tr key={row.label} className="border-b border-border">
                       <td style={{ padding: "10px 16px" }}>
                         <span
-                          className="inline-block text-white font-semibold rounded-badge"
+                          className="inline-flex items-center gap-1 text-white font-semibold rounded-badge"
                           style={{
                             backgroundColor: labelColor,
                             fontSize: "0.78rem",
                             padding: "3px 12px",
+                            ...(isEmergency
+                              ? {
+                                  boxShadow: `0 0 0 1.5px ${labelColor}, 0 0 0 3px rgba(139,32,32,0.25)`,
+                                }
+                              : {}),
                           }}
                         >
+                          {glyph && (
+                            <span
+                              aria-hidden="true"
+                              style={{ fontSize: "0.7rem", lineHeight: 1 }}
+                            >
+                              {glyph}
+                            </span>
+                          )}
                           {row.label}
                         </span>
                       </td>
                       <td className="text-right" style={{ padding: "10px 16px", fontSize: "0.85rem" }}>
                         <span
                           style={{
-                            fontWeight: row.isHighStakes ? 700 : 400,
+                            fontWeight: row.isHighStakes && !row.lowSupport ? 700 : 400,
                             color: sensColor,
                           }}
                         >
                           {row.sensitivity}
+                          {row.lowSupport && <sup style={{ color: MUTED }}>†</sup>}
                         </span>
                       </td>
                       <td className="text-right text-body" style={{ padding: "10px 16px", fontSize: "0.85rem" }}>
@@ -379,6 +404,12 @@ export default function PipelineOverview() {
               </tbody>
             </table>
           </div>
+          {anyLowSupport && (
+            <p className="text-muted mt-3" style={{ fontSize: "0.75rem" }}>
+              † Sensitivity/PPV/F1 not reported when support &lt; {LOW_SUPPORT_THRESHOLD} —
+              not statistically meaningful.
+            </p>
+          )}
         </SectionCard>
       )}
     </div>

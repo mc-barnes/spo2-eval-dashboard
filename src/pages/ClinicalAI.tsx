@@ -307,13 +307,13 @@ export default function ClinicalAI() {
           <HeroStat
             label="Urgent false negatives"
             value="0"
-            sublabel="Across 400 traces, hard safety check"
+            sublabel="400 traces · safety check: SpO₂ < 90% sustained ≥10s overrides artifact label"
             accent={URGENT_RED}
           />
           <HeroStat
             label="Tier 1 accuracy"
             value="94.2%"
-            sublabel="60.2% auto-resolved; post-fix on the 400-trace cohort (§04)"
+            sublabel="60.2% auto-resolved · post-fix on 400-trace cohort (pre-fix: 46%, see §04)"
             accent={TEAL_PRIMARY}
           />
           <HeroStat
@@ -325,9 +325,45 @@ export default function ClinicalAI() {
           <HeroStat
             label="Emergencies detected"
             value="25"
-            sublabel="SpO₂ < 80% sustained, GA-adjusted"
+            sublabel="SpO₂ < 80% sustained ≥10s (population threshold)"
             accent={EMERGENCY}
           />
+        </div>
+      </section>
+
+      {/* ── 01.5 Scope: not a consumer monitor ──────────────────── */}
+      <section>
+        <SectionEyebrow index="01.5" label="Scope" />
+        <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-teal-dark leading-tight mb-5">
+          Not a consumer monitor. Prescribed-only, by design.
+        </h2>
+        <p className="font-body text-body leading-relaxed mb-4 max-w-3xl" style={{ fontSize: "1rem" }}>
+          The American Academy of Pediatrics does <em>not</em> recommend home
+          pulse-ox for healthy infants, and consumer baby monitors have
+          documented accuracy and false-alarm problems (Bonafide et al., JAMA
+          2017). This platform sits in a different category: prescribed
+          monitoring for three populations where home pulse-ox already has
+          documented clinical utility &mdash; apnea of prematurity (AOP)
+          post-discharge, bronchopulmonary dysplasia (BPD) on home oxygen, and
+          single-ventricle (HLHS) interstage.
+        </p>
+        <p className="font-body text-body leading-relaxed mb-6 max-w-3xl" style={{ fontSize: "1rem" }}>
+          Alarm fatigue is the dominant failure mode for home pulse-ox
+          programs &mdash; parents who get woken by false escalations stop
+          trusting (and stop wearing) the monitor. Three design choices push
+          against it: <strong className="text-teal-dark">SatSeconds</strong>{" "}
+          (depth &times; duration, not blunt thresholds),{" "}
+          <strong className="text-teal-dark">per-baby baseline</strong>{" "}
+          (a 27-weeker steady at 92% isn&rsquo;t flagged as a 27-weeker; only
+          deviation is), and the{" "}
+          <strong className="text-teal-dark">artifact override</strong> (motion
+          spikes get suppressed unless they cross the safety check). Coverage
+          funnel surfaces the false-positive rate &mdash; alarm fatigue is a
+          clinical-safety metric here, not a UX metric.
+        </p>
+        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <CtaLink to="/scope">Clinical scope &rarr;</CtaLink>
+          <CtaLink to="/pipeline/coverage">Alarm-fatigue check &rarr;</CtaLink>
         </div>
       </section>
 
@@ -417,12 +453,13 @@ export default function ClinicalAI() {
           />
         </div>
         <Callout accent={AMBER}>
-          <strong className="text-teal-dark">Peer-reviewed evidence:</strong> 67% of BPD
-          infants clinically ready to wean from oxygen had abnormal nocturnal oximetry on
-          objective measurement{" "}
-          <span className="text-muted">(J Pediatr 2022)</span>. The trend tier exists
-          because single-night assessments &mdash; clinical or algorithmic &mdash; miss
-          the trajectory that drives outcomes.
+          <strong className="text-teal-dark">Clinical motivation:</strong> Multiple
+          pediatric pulmonology cohort studies have documented abnormal nocturnal
+          oximetry in a substantial fraction of BPD infants clinically judged ready to
+          wean from supplemental oxygen — the single-night assessment routinely
+          underestimates overnight hypoxemic burden. The trend tier exists because
+          single-night assessments, clinical or algorithmic, miss the trajectory that
+          drives outcomes. See <Link to="/scope" className="text-teal-primary underline underline-offset-2">Clinical Scope §05</Link> for the literature anchors.
         </Callout>
       </section>
 

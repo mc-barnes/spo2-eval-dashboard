@@ -45,8 +45,8 @@
       "trend_score": 805.9,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 806 exceeds quiet-night baseline 0 by 806 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 806 exceeded the 7-night trailing baseline (mean 9.2, σ 22.4) by 35.5σ; last 3 nights: 2134, 0, 2788.",
+      "baseline_sat_seconds": 9.16
     },
     "71fae062": {
       "baby_id": "71fae062",
@@ -91,7 +91,7 @@
       "trend_score": 337.54,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 338 exceeds quiet-night baseline 0 by 338 over 16 nights",
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 338 over 16 nights; last 3 nights: 0, 164, 0.",
       "baseline_sat_seconds": 0.0
     },
     "a5b0107b": {
@@ -137,8 +137,8 @@
       "trend_score": 1085.56,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 1086 exceeds quiet-night baseline 0 by 1086 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 1086 exceeded the 7-night trailing baseline (mean 92.6, σ 150.4) by 6.6σ; last 3 nights: 2966, 4419, 0.",
+      "baseline_sat_seconds": 92.61
     },
     "105a80a9": {
       "baby_id": "105a80a9",
@@ -183,8 +183,8 @@
       "trend_score": 528.06,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 528 exceeds quiet-night baseline 0 by 528 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 528 exceeded the 7-night trailing baseline (mean 182.0, σ 288.3) by 1.2σ; last 3 nights: 2154, 325, 0.",
+      "baseline_sat_seconds": 181.96
     },
     "4d49077c": {
       "baby_id": "4d49077c",
@@ -229,8 +229,8 @@
       "trend_score": 355.27,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 355 exceeds quiet-night baseline 0 by 355 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 355 exceeded the 7-night trailing baseline (mean 52.2, σ 114.8) by 2.6σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 52.21
     },
     "3799cda4": {
       "baby_id": "3799cda4",
@@ -275,8 +275,8 @@
       "trend_score": 804.29,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 804 exceeds quiet-night baseline 0 by 804 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 804 exceeded the 7-night trailing baseline (mean 57.3, σ 140.3) by 5.3σ; last 3 nights: 0, 0, 2645.",
+      "baseline_sat_seconds": 57.29
     },
     "d1c61d81": {
       "baby_id": "d1c61d81",
@@ -321,7 +321,7 @@
       "trend_score": 284.49,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 284 exceeds quiet-night baseline 0 by 284 over 16 nights",
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 284 over 16 nights; last 3 nights: 0, 71, 0.",
       "baseline_sat_seconds": 0.0
     },
     "7d720eb3": {
@@ -367,8 +367,8 @@
       "trend_score": 263.63,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 264 exceeds quiet-night baseline 0 by 264 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 264 exceeded the 7-night trailing baseline (mean 611.1, σ 1475.9) by -0.2σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 611.13
     },
     "b1f0055f": {
       "baby_id": "b1f0055f",
@@ -413,8 +413,8 @@
       "trend_score": 185.21,
       "trend_direction": "deteriorating",
       "flagged": true,
-      "flag_reason": "EWMA SatSeconds 185 exceeds quiet-night baseline 0 by 185 over 16 nights",
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 185 exceeded the 7-night trailing baseline (mean 18.6, σ 45.7) by 3.6σ; last 3 nights: 310, 0, 0.",
+      "baseline_sat_seconds": 18.64
     },
     "502faa48": {
       "baby_id": "502faa48",
@@ -459,8 +459,8 @@
       "trend_score": 49.27,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 49 exceeded the 7-night trailing baseline (mean 39.5, σ 95.8) by 0.1σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 39.47
     },
     "0b3a09d7": {
       "baby_id": "0b3a09d7",
@@ -505,8 +505,8 @@
       "trend_score": 14.2,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 14 exceeded the 7-night trailing baseline (mean 83.0, σ 203.3) by -0.3σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 83.01
     },
     "11567a2d": {
       "baby_id": "11567a2d",
@@ -551,7 +551,7 @@
       "trend_score": 22.66,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 23 over 16 nights; last 3 nights: 230, 0, 0.",
       "baseline_sat_seconds": 0.0
     },
     "8f07cce4": {
@@ -597,8 +597,8 @@
       "trend_score": 117.87,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 118 exceeded the 7-night trailing baseline (mean 42.0, σ 103.0) by 0.7σ; last 3 nights: 0, 385, 128.",
+      "baseline_sat_seconds": 42.04
     },
     "269dce3b": {
       "baby_id": "269dce3b",
@@ -643,7 +643,7 @@
       "trend_score": 63.94,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 64 over 16 nights; last 3 nights: 0, 0, 458.",
       "baseline_sat_seconds": 0.0
     },
     "7b9194c9": {
@@ -689,7 +689,7 @@
       "trend_score": 0.0,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 0 over 16 nights; last 3 nights: 0, 0, 0.",
       "baseline_sat_seconds": 0.0
     },
     "acf16c11": {
@@ -735,8 +735,8 @@
       "trend_score": 42.05,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 42 exceeded the 7-night trailing baseline (mean 63.0, σ 154.4) by -0.1σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 63.01
     },
     "66d4863e": {
       "baby_id": "66d4863e",
@@ -781,8 +781,8 @@
       "trend_score": 17.18,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 17 exceeded the 7-night trailing baseline (mean 82.3, σ 133.0) by -0.5σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 82.3
     },
     "4012e978": {
       "baby_id": "4012e978",
@@ -827,8 +827,8 @@
       "trend_score": 19.98,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 20 exceeded the 7-night trailing baseline (mean 76.9, σ 188.4) by -0.3σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 76.9
     },
     "a691ab09": {
       "baby_id": "a691ab09",
@@ -873,8 +873,8 @@
       "trend_score": 36.18,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 36 exceeded the 7-night trailing baseline (mean 56.0, σ 117.6) by -0.2σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 56.01
     },
     "0a645b13": {
       "baby_id": "0a645b13",
@@ -919,8 +919,8 @@
       "trend_score": 6.8,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 7 exceeded the 7-night trailing baseline (mean 0.6, σ 1.5) by 4.2σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 0.6
     },
     "0c0a5d9c": {
       "baby_id": "0c0a5d9c",
@@ -965,8 +965,8 @@
       "trend_score": 13.94,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 14 exceeded the 7-night trailing baseline (mean 17.8, σ 43.7) by -0.1σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 17.83
     },
     "8d35813b": {
       "baby_id": "8d35813b",
@@ -1011,8 +1011,8 @@
       "trend_score": 26.16,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 26 exceeded the 7-night trailing baseline (mean 33.2, σ 81.4) by -0.1σ; last 3 nights: 0, 174, 0.",
+      "baseline_sat_seconds": 33.21
     },
     "e87d9dcf": {
       "baby_id": "e87d9dcf",
@@ -1057,7 +1057,7 @@
       "trend_score": 27.12,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
+      "flag_reason": "EWMA SatSeconds rose from a quiet 7-night baseline (mean 0.0, σ 0.0) to 27 over 16 nights; last 3 nights: 0, 0, 0.",
       "baseline_sat_seconds": 0.0
     },
     "eb917aa5": {
@@ -1103,8 +1103,8 @@
       "trend_score": 4.8,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 5 exceeded the 7-night trailing baseline (mean 30.5, σ 58.1) by -0.4σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 30.49
     },
     "0ce558c7": {
       "baby_id": "0ce558c7",
@@ -1149,8 +1149,8 @@
       "trend_score": 21.51,
       "trend_direction": "stable",
       "flagged": false,
-      "flag_reason": null,
-      "baseline_sat_seconds": 0.0
+      "flag_reason": "EWMA SatSeconds 22 exceeded the 7-night trailing baseline (mean 53.5, σ 131.0) by -0.2σ; last 3 nights: 0, 0, 0.",
+      "baseline_sat_seconds": 53.49
     }
   }
 }
