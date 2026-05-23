@@ -157,7 +157,7 @@ function LifecycleSchematic() {
   return (
     <svg
       viewBox="0 0 720 280"
-      className="w-full h-auto"
+      className="h-auto w-[640px] sm:w-full"
       role="img"
       aria-label="Schematic of three condition trajectories (AOP, CHD interstage, BPD) across a 24-week post-NICU timeline. A highlighted band at weeks 0-2 marks the platform's rolling 16-night observation window."
     >
@@ -281,19 +281,20 @@ export default function ClinicalAI() {
             Clinical AI, evaluated like clinical software.
           </h1>
           <p className="font-body text-body leading-relaxed mb-4" style={{ fontSize: "1.05rem" }}>
-            Three-tier triage for overnight neonatal SpO<sub>2</sub> recordings: a rule
-            engine handles clear cases, an ML classifier takes the ambiguous middle (with
-            low-confidence cases routed onward), and an expert queue absorbs the rest.
-            Every layer is wrapped in LLM-as-judge
-            evaluators that pressure-test clinical accuracy, handoff language, and
-            artifact handling against a held-out cohort.
+            Take a diagnostic dataset of overnight neonatal SpO<sub>2</sub>{" "}
+            recordings, build a personalized per-baby baseline, and stand up
+            an AI eval that classifies each night and hands off only the ones
+            a clinician needs to see &mdash; warm, not cold.
           </p>
           <p className="font-body text-body leading-relaxed">
-            The headline number isn&rsquo;t accuracy. It&rsquo;s{" "}
+            Three-tier triage does the work &mdash; rules for clear cases, an
+            ML classifier for the ambiguous middle, an expert queue for the
+            rest &mdash; and three LLM judges grade every layer against a
+            held-out cohort. The headline number isn&rsquo;t accuracy. It&rsquo;s{" "}
             <strong className="text-teal-dark">
               zero urgent false negatives across 400 traces
             </strong>
-            , held under a safety check that prevents artifact detection from ever
+            , under a safety check that prevents artifact detection from ever
             masking a real desaturation.
           </p>
           <div className="mt-7 flex flex-wrap gap-x-6 gap-y-2 text-sm">
@@ -601,7 +602,7 @@ export default function ClinicalAI() {
           resolution, CHD interstage to Stage 2 palliation, BPD wean &mdash; varies by
           condition and stretches well past anything a single observation window can see.
         </p>
-        <div className="bg-warm-white border border-border rounded-card p-5 sm:p-8">
+        <div className="bg-warm-white border border-border rounded-card p-5 sm:p-8 overflow-x-auto">
           <LifecycleSchematic />
         </div>
         <p className="mt-4 text-xs text-muted leading-relaxed max-w-3xl">

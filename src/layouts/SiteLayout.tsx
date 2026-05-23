@@ -13,8 +13,15 @@ export default function SiteLayout() {
     <div className="min-h-screen flex flex-col bg-cream">
       <header className="sticky top-0 z-30 bg-warm-white border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-4">
-          <NavLink to="/clinical-ai" className="flex items-baseline gap-2">
-            <span className="font-heading text-base font-semibold text-teal-dark">
+          <NavLink to="/clinical-ai" className="flex items-center gap-2 shrink-0" aria-label="SpO2 Eval — home">
+            <img
+              src="/favicon.svg"
+              alt=""
+              width={28}
+              height={28}
+              className="sm:hidden"
+            />
+            <span className="hidden sm:inline font-heading text-base font-semibold text-teal-dark">
               SpO2 Eval
             </span>
             <span className="hidden sm:inline text-xs text-muted">

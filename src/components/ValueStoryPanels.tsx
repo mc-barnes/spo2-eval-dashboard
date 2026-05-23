@@ -59,7 +59,7 @@ function PanelLede({ children }: { children: ReactNode }) {
 
 function PanelCard({ children }: { children: ReactNode }) {
   return (
-    <div className="bg-warm-white border border-border rounded-card p-5 sm:p-7">
+    <div className="bg-warm-white border border-border rounded-card p-5 sm:p-7 overflow-x-auto">
       {children}
     </div>
   );
@@ -239,13 +239,15 @@ function CptRow({
 }) {
   return (
     <div className="grid grid-cols-12 gap-x-4 py-2.5 border-b border-border last:border-b-0 items-baseline">
-      <div className="col-span-3 sm:col-span-2 font-mono text-sm text-teal-dark font-semibold">
+      <div className="col-span-2 font-mono text-sm text-teal-dark font-semibold">
         {code}
       </div>
       <div className="col-span-5 sm:col-span-6 text-sm text-body leading-snug">
         {name}
       </div>
-      <div className="col-span-2 text-sm text-muted">{period}</div>
+      <div className="col-span-3 sm:col-span-2 text-sm text-muted whitespace-nowrap">
+        {period}
+      </div>
       <div className="col-span-2 text-right font-heading text-sm text-teal-dark font-semibold">
         {rate}
       </div>
@@ -267,13 +269,13 @@ function Panel2() {
       </PanelLede>
       <PanelCard>
         <div className="grid grid-cols-12 gap-x-4 pb-2 border-b-2 border-border">
-          <div className="col-span-3 sm:col-span-2 text-xs uppercase tracking-wider text-muted font-semibold">
+          <div className="col-span-2 text-xs uppercase tracking-wider text-muted font-semibold">
             CPT
           </div>
           <div className="col-span-5 sm:col-span-6 text-xs uppercase tracking-wider text-muted font-semibold">
             What it pays for
           </div>
-          <div className="col-span-2 text-xs uppercase tracking-wider text-muted font-semibold">
+          <div className="col-span-3 sm:col-span-2 text-xs uppercase tracking-wider text-muted font-semibold">
             Period
           </div>
           <div className="col-span-2 text-right text-xs uppercase tracking-wider text-muted font-semibold">
@@ -290,19 +292,19 @@ function Panel2() {
           code="99454"
           name="Device supply with daily recording or alerts"
           rate="$52"
-          period="/ month"
+          period="/month"
         />
         <CptRow
           code="99457"
           name="First 20 minutes of remote management"
           rate="$52"
-          period="/ month"
+          period="/month"
         />
         <CptRow
           code="99458"
           name="Each additional 20 minutes (× 2)"
           rate="$82"
-          period="/ month"
+          period="/month"
         />
 
         {/* Recurring + TAM rollup */}
@@ -409,7 +411,7 @@ function CappedRentalTimeline() {
   return (
     <svg
       viewBox={`0 0 720 ${baseHeight}`}
-      className="w-full h-auto"
+      className="h-auto w-[640px] sm:w-full"
       role="img"
       aria-label="Schematic timeline of a four-stage capped-rental model (Trial / Capped rental / Step-down / Ownership) over 24 months, with condition-specific capped-rental durations overlaid for AOP, CHD interstage, and BPD."
     >
@@ -574,7 +576,7 @@ function DualTimeline() {
   return (
     <svg
       viewBox="0 0 720 220"
-      className="w-full h-auto"
+      className="h-auto w-[640px] sm:w-full"
       role="img"
       aria-label="Schematic of two parallel timelines. Top: medical-necessity timeline (payer-funded active monitoring then step-down) ending at the medical endpoint. Bottom: caregiver-need timeline continuing past the medical endpoint into a family-paid wellness tier."
     >
