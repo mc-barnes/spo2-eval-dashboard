@@ -245,9 +245,9 @@ export default function Trends() {
         <MetricCard
           label="Flagged by Trend Tier"
           value={String(flaggedCount)}
-          accentColor={URGENT_RED}
+          accentColor={TEAL_DARK}
           delta={`${babies.length ? ((flaggedCount / babies.length) * 100).toFixed(0) : 0}% of monitored cohort`}
-          deltaColor={URGENT_RED}
+          deltaColor={TEAL_DARK}
         />
         <MetricCard
           label="Conditions"

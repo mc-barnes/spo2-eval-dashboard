@@ -12,7 +12,10 @@ import SectionCard from "../components/ui/SectionCard.tsx";
 import PageIntro from "../components/ui/PageIntro.tsx";
 import HorizontalBar from "../components/ui/HorizontalBar.tsx";
 import DataTable from "../components/ui/DataTable.tsx";
-import { TIER_COLORS, LABEL_COLORS, URGENT_RED, AMBER, MUTED, TEAL_DARK } from "../config/theme.ts";
+import { TIER_COLORS, LABEL_COLORS, AMBER, MUTED, TEAL_DARK } from "../config/theme.ts";
+
+/** Clinical urgency order: most urgent first, used to sort the breakdown table. */
+const URGENCY_ORDER = ["emergency", "urgent", "borderline", "normal", "artifact"];
 
 export default function CoverageFunnel() {
   const { summary, loading, error } = usePipelineData();
@@ -34,15 +37,22 @@ export default function CoverageFunnel() {
     return null;
   }
 
-  // Convert crosstab rows to DataTable format (columns are plain strings)
+  // Convert crosstab rows to DataTable format, sorted by clinical urgency.
+  // Unknown labels fall to the end (preserves forward-compat if the pipeline adds new categories).
   const crosstabColumns = ["Ground Truth", "Tier 1", "Tier 2", "Expert"];
+  const urgencyRank = (label: string) => {
+    const idx = URGENCY_ORDER.indexOf(label);
+    return idx === -1 ? URGENCY_ORDER.length : idx;
+  };
   const crosstabRows: Array<Record<string, string | number>> = coverage
-    ? coverage.crosstab.map((row) => ({
-        "Ground Truth": row.ground_truth,
-        "Tier 1": row["Tier 1"],
-        "Tier 2": row["Tier 2"],
-        Expert: row.Expert,
-      }))
+    ? [...coverage.crosstab]
+        .sort((a, b) => urgencyRank(a.ground_truth) - urgencyRank(b.ground_truth))
+        .map((row) => ({
+          "Ground Truth": row.ground_truth,
+          "Tier 1": row["Tier 1"],
+          "Tier 2": row["Tier 2"],
+          Expert: row.Expert,
+        }))
     : [];
 
   return (
@@ -94,9 +104,9 @@ export default function CoverageFunnel() {
               <MetricCard
                 label="Tier 4 — Trend (multi-night)"
                 value={String(flagged)}
-                accentColor={URGENT_RED}
+                accentColor={TEAL_DARK}
                 delta={`${flagged} of ${babies.length} babies · per-baby, not per-trace`}
-                deltaColor={URGENT_RED}
+                deltaColor={TEAL_DARK}
               />
             </Link>
           </div>

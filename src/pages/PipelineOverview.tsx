@@ -194,9 +194,9 @@ export default function PipelineOverview() {
               <MetricCard
                 label="Trend tier (multi-night)"
                 value={String(flagged)}
-                accentColor={URGENT_RED}
+                accentColor={TEAL_DARK}
                 delta={`${flagged} of ${babies.length} babies flagged · click Trends →`}
-                deltaColor={URGENT_RED}
+                deltaColor={TEAL_DARK}
               />
             </Link>
           </div>
