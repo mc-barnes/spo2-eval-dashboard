@@ -274,12 +274,14 @@ export default function ClinicalAI() {
       {/* ── 01 Hero ─────────────────────────────────────────────── */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
         <div className="lg:col-span-7">
-          <p className="text-xs uppercase tracking-wider text-muted mb-4">
+          <p className="hidden sm:block text-xs uppercase tracking-wider text-muted mb-4">
             Story · For PM and clinical-informatics audiences
           </p>
           <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-teal-dark leading-[1.1] mb-6">
-            Turning overnight neonatal SpO<sub>2</sub> into warm clinician
-            handoffs &mdash; graded by LLM judges.
+            Turning overnight neonatal SpO<sub>2</sub> data into warm clinical
+            handoffs.
+            <br />
+            Graded by LLM judges.
           </h1>
           <p className="font-body text-body leading-relaxed mb-4" style={{ fontSize: "1.05rem" }}>
             Take a diagnostic dataset of overnight neonatal SpO<sub>2</sub>{" "}
