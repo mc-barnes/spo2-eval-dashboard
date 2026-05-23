@@ -19,6 +19,52 @@ const PRETTY_NAMES: Record<string, string> = {
   artifact_handling: "Artifact Handling",
 };
 
+/**
+ * Historical live Claude-API eval runs.
+ * Source: spo2-eval-pipeline STATUS.md ("Live Eval Results" section, commit 04c7c40).
+ * Each run = 10 traces / 30 evals against the Claude API. The aggregate cards
+ * above use mock judges over the full 400-trace cohort — these are the real-money runs.
+ */
+const LIVE_RUNS = [
+  {
+    run: "V1",
+    date: "2026-04-13",
+    note: "Pre-v2 fixes",
+    clinical: "80%",
+    handoff: "90%",
+    artifact: "100%",
+    cost: "$0.18",
+  },
+  {
+    run: "V2",
+    date: "2026-04-14",
+    note: "Post clinical fixes, pre prompt fix",
+    clinical: "70%",
+    handoff: "30%",
+    artifact: "100%",
+    cost: "$0.19",
+    regression: true,
+  },
+  {
+    run: "V2.1",
+    date: "2026-04-14",
+    note: "After prompt + parser fixes",
+    clinical: "60–70%",
+    handoff: "80%",
+    artifact: "100%",
+    cost: "$0.20",
+  },
+  {
+    run: "Final pre-launch",
+    date: "2026-04-29",
+    note: "Shipped state",
+    clinical: "90%",
+    handoff: "100%",
+    artifact: "100%",
+    cost: "$0.19",
+  },
+] as const;
+
 export default function EvalScores() {
   const [data, setData] = useState<EvalScoresType | null>(null);
   const [showDetails, setShowDetails] = useState(false);
@@ -51,8 +97,10 @@ export default function EvalScores() {
       <PageIntro>
         {data.overall_total} evaluations run across {evaluatorEntries.length}{" "}
         evaluators. Overall pass rate:{" "}
-        {data.overall_pass_rate.toFixed(1)}%. These LLM-as-judge checks
-        validate clinical accuracy, handoff quality, and artifact handling.
+        {data.overall_pass_rate.toFixed(1)}%. Aggregate metrics below are
+        mock-judge runs over the synthetic 400-trace cohort. Live Claude-API
+        runs (10-trace samples, ~$0.19 each) are summarized in the{" "}
+        <em>Live Eval History</em> section.
       </PageIntro>
 
       {/* ─── Per-evaluator metric cards ──────────────────────────── */}
@@ -81,6 +129,45 @@ export default function EvalScores() {
             color: EVAL_COLORS[i % EVAL_COLORS.length],
           }))}
         />
+      </SectionCard>
+
+      {/* ─── Live eval history ───────────────────────────────────── */}
+      <SectionCard
+        title="Live Eval History"
+        subtitle="Claude API judge runs — 10 traces × 3 evaluators per run"
+      >
+        <DataTable
+          columns={[
+            "Run",
+            "Date",
+            "Notes",
+            "Clinical Accuracy",
+            "Handoff Quality",
+            "Artifact Handling",
+            "Cost",
+          ]}
+          rows={LIVE_RUNS.map((r) => ({
+            Run: r.run,
+            Date: r.date,
+            Notes: r.note,
+            "Clinical Accuracy": r.clinical,
+            "Handoff Quality":
+              "regression" in r && r.regression ? `${r.handoff} *` : r.handoff,
+            "Artifact Handling": r.artifact,
+            Cost: r.cost,
+          }))}
+        />
+        <p
+          className="text-muted mt-3"
+          style={{ fontSize: "0.78rem", lineHeight: 1.5 }}
+        >
+          * V2 handoff quality regressed 90% → 30% because the live{" "}
+          <code>_HANDOFF_PROMPT</code> and urgency parser were not updated when
+          the EMERGENCY tier, SatSeconds, and GA-adjusted thresholds were
+          added. Mock templates (which feed the aggregate cards above) were
+          unaffected — only the live Claude path was broken. Fixed in V2.1; the
+          final pre-launch run on 2026-04-29 recovered to 100%.
+        </p>
       </SectionCard>
 
       {/* ─── Expandable details ──────────────────────────────────── */}
