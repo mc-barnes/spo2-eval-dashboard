@@ -278,7 +278,8 @@ export default function ClinicalAI() {
             Story · For PM and clinical-informatics audiences
           </p>
           <h1 className="font-heading text-4xl sm:text-5xl font-semibold text-teal-dark leading-[1.1] mb-6">
-            Clinical AI, evaluated like clinical software.
+            Turning overnight neonatal SpO<sub>2</sub> into warm clinician
+            handoffs &mdash; graded by LLM judges.
           </h1>
           <p className="font-body text-body leading-relaxed mb-4" style={{ fontSize: "1.05rem" }}>
             Take a diagnostic dataset of overnight neonatal SpO<sub>2</sub>{" "}
