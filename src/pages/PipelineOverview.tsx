@@ -108,44 +108,48 @@ export default function PipelineOverview() {
 
       {/* ─── How It Works: pipeline flow diagram ─────────────────── */}
       <SectionCard title="How It Works" subtitle="7-phase evaluation pipeline">
-        <div className="flex items-center gap-0 overflow-x-auto py-2">
-          {PHASES.map((phase, i) => (
-            <div key={phase.num} className="flex items-center shrink-0">
-              {/* Phase box */}
-              <div
-                className="border-2 rounded-card px-4 py-3 min-w-[120px] text-center bg-warm-white"
-                style={{ borderColor: TEAL_PRIMARY }}
-              >
-                <div
-                  className="uppercase tracking-wider mb-1"
-                  style={{ color: TEAL_PRIMARY, fontSize: "0.65rem", fontWeight: 600 }}
-                >
-                  Phase {phase.num}
+        <div className="flex flex-col gap-3 py-2">
+          {[PHASES.slice(0, 4), PHASES.slice(4)].map((row, rowIdx) => (
+            <div key={rowIdx} className="flex items-center gap-0 flex-wrap">
+              {row.map((phase, i) => (
+                <div key={phase.num} className="flex items-center shrink-0">
+                  {/* Phase box */}
+                  <div
+                    className="border-2 rounded-card px-4 py-3 min-w-[120px] text-center bg-warm-white"
+                    style={{ borderColor: TEAL_PRIMARY }}
+                  >
+                    <div
+                      className="uppercase tracking-wider mb-1"
+                      style={{ color: TEAL_PRIMARY, fontSize: "0.65rem", fontWeight: 600 }}
+                    >
+                      Phase {phase.num}
+                    </div>
+                    <div
+                      className="font-semibold text-teal-dark leading-tight"
+                      style={{ fontSize: "0.75rem" }}
+                    >
+                      {phase.name}
+                    </div>
+                    <div className="text-muted mt-1" style={{ fontSize: "0.65rem" }}>
+                      {phase.metric}
+                    </div>
+                  </div>
+                  {/* Arrow connector (skip after last in row) */}
+                  {i < row.length - 1 && (
+                    <div className="flex items-center px-1 text-teal-primary">
+                      <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                        <path
+                          d="M0 6h20m0 0l-4-4m4 4l-4 4"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  )}
                 </div>
-                <div
-                  className="font-semibold text-teal-dark leading-tight"
-                  style={{ fontSize: "0.75rem" }}
-                >
-                  {phase.name}
-                </div>
-                <div className="text-muted mt-1" style={{ fontSize: "0.65rem" }}>
-                  {phase.metric}
-                </div>
-              </div>
-              {/* Arrow connector (skip after last) */}
-              {i < PHASES.length - 1 && (
-                <div className="flex items-center px-1 text-teal-primary">
-                  <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
-                    <path
-                      d="M0 6h20m0 0l-4-4m4 4l-4 4"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
-              )}
+              ))}
             </div>
           ))}
         </div>
@@ -153,11 +157,6 @@ export default function PipelineOverview() {
 
       {/* ─── KPI metric cards ────────────────────────────────────── */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <MetricCard
-          label="Total Traces"
-          value={String(summary.total_traces)}
-          accentColor={TEAL_DARK}
-        />
         <MetricCard
           label="Tier 1 Rules"
           value={String(summary.tier1_auto)}
@@ -179,17 +178,13 @@ export default function PipelineOverview() {
           delta={`${summary.expert_pct.toFixed(1)}% of total`}
           deltaColor={AMBER}
         />
-      </div>
-
-      {/* ─── Trend tier tile (per-baby denominator) ──────────────── */}
-      {trend && (() => {
-        const babies = Object.values(trend.babies);
-        const flagged = babies.filter((b) => b.flagged).length;
-        return (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        {trend && (() => {
+          const babies = Object.values(trend.babies);
+          const flagged = babies.filter((b) => b.flagged).length;
+          return (
             <Link
               to="/pipeline/trends"
-              className="block lg:col-span-2 transition-shadow hover:shadow-md rounded-card"
+              className="block transition-shadow hover:shadow-md rounded-card"
             >
               <MetricCard
                 label="Trend tier (multi-night)"
@@ -199,9 +194,9 @@ export default function PipelineOverview() {
                 deltaColor={TEAL_DARK}
               />
             </Link>
-          </div>
-        );
-      })()}
+          );
+        })()}
+      </div>
 
       {/* ─── Two-column: Accuracy + Pie ──────────────────────────── */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
