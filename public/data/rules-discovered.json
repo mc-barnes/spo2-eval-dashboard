@@ -30,10 +30,10 @@
     {
       "rule_id": "AP-004",
       "source": "apriori",
-      "description": "high_accel AND long_desat → borderline",
+      "description": "high_accel AND long_desat → artifact",
       "confidence": 1.0,
       "support": 45,
-      "consequent": "borderline"
+      "consequent": "artifact"
     },
     {
       "rule_id": "AP-005",

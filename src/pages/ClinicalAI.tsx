@@ -282,8 +282,9 @@ export default function ClinicalAI() {
           </h1>
           <p className="font-body text-body leading-relaxed mb-4" style={{ fontSize: "1.05rem" }}>
             Three-tier triage for overnight neonatal SpO<sub>2</sub> recordings: a rule
-            engine handles clear cases, an ML classifier resolves the ambiguous middle,
-            and an expert queue absorbs the rest. Every layer is wrapped in LLM-as-judge
+            engine handles clear cases, an ML classifier takes the ambiguous middle (with
+            low-confidence cases routed onward), and an expert queue absorbs the rest.
+            Every layer is wrapped in LLM-as-judge
             evaluators that pressure-test clinical accuracy, handoff language, and
             artifact handling against a held-out cohort.
           </p>
@@ -306,13 +307,13 @@ export default function ClinicalAI() {
           <HeroStat
             label="Urgent false negatives"
             value="0"
-            sublabel="Across 400 traces, hard safety check"
+            sublabel="400 traces · safety check: SpO₂ < 90% sustained ≥10s overrides artifact label"
             accent={URGENT_RED}
           />
           <HeroStat
             label="Tier 1 accuracy"
             value="94.2%"
-            sublabel="60.2% of traces auto-resolved by rules"
+            sublabel="60.2% auto-resolved · post-fix on 400-trace cohort (pre-fix: 46%, see §04)"
             accent={TEAL_PRIMARY}
           />
           <HeroStat
@@ -324,9 +325,45 @@ export default function ClinicalAI() {
           <HeroStat
             label="Emergencies detected"
             value="25"
-            sublabel="SpO₂ < 80% sustained, GA-adjusted"
+            sublabel="SpO₂ < 80% sustained ≥10s (population threshold)"
             accent={EMERGENCY}
           />
+        </div>
+      </section>
+
+      {/* ── 01.5 Scope: not a consumer monitor ──────────────────── */}
+      <section>
+        <SectionEyebrow index="01.5" label="Scope" />
+        <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-teal-dark leading-tight mb-5">
+          Not a consumer monitor. Prescribed-only, by design.
+        </h2>
+        <p className="font-body text-body leading-relaxed mb-4 max-w-3xl" style={{ fontSize: "1rem" }}>
+          The American Academy of Pediatrics does <em>not</em> recommend home
+          pulse-ox for healthy infants, and consumer baby monitors have
+          documented accuracy and false-alarm problems (Bonafide et al., JAMA
+          2017). This platform sits in a different category: prescribed
+          monitoring for three populations where home pulse-ox already has
+          documented clinical utility &mdash; apnea of prematurity (AOP)
+          post-discharge, bronchopulmonary dysplasia (BPD) on home oxygen, and
+          single-ventricle (HLHS) interstage.
+        </p>
+        <p className="font-body text-body leading-relaxed mb-6 max-w-3xl" style={{ fontSize: "1rem" }}>
+          Alarm fatigue is the dominant failure mode for home pulse-ox
+          programs &mdash; parents who get woken by false escalations stop
+          trusting (and stop wearing) the monitor. Three design choices push
+          against it: <strong className="text-teal-dark">SatSeconds</strong>{" "}
+          (depth &times; duration, not blunt thresholds),{" "}
+          <strong className="text-teal-dark">per-baby baseline</strong>{" "}
+          (a 27-weeker steady at 92% isn&rsquo;t flagged as a 27-weeker; only
+          deviation is), and the{" "}
+          <strong className="text-teal-dark">artifact override</strong> (motion
+          spikes get suppressed unless they cross the safety check). Coverage
+          funnel surfaces the false-positive rate &mdash; alarm fatigue is a
+          clinical-safety metric here, not a UX metric.
+        </p>
+        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <CtaLink to="/scope">Clinical scope &rarr;</CtaLink>
+          <CtaLink to="/pipeline/coverage">Alarm-fatigue check &rarr;</CtaLink>
         </div>
       </section>
 
@@ -337,8 +374,9 @@ export default function ClinicalAI() {
           Three LLM judges, one held-out cohort.
         </h2>
         <p className="font-body text-body leading-relaxed mb-8 max-w-3xl" style={{ fontSize: "1rem" }}>
-          Mock evaluation is theater &mdash; same data in, same answer out. Each judge
-          runs against a fixed cohort of 400 traces and renders Pass/Fail with reasoning.
+          Most mock evaluations are theater &mdash; same data in, same answer out. Ours
+          are built to fail differently: each judge runs against a fixed cohort of 400
+          traces and renders Pass/Fail with reasoning.
           Pass rates in the 75&ndash;82% band are deliberately uncomfortable: they
           surface gaps that unit tests never catch, like a handoff template that says
           &ldquo;monitor closely&rdquo; without naming an action.
@@ -385,8 +423,8 @@ export default function ClinicalAI() {
           night and unstable across the week.
         </p>
         <p className="font-body text-body leading-relaxed mb-8 max-w-3xl" style={{ fontSize: "1rem" }}>
-          A fourth tier computes an EWMA over per-night SatSeconds across the 16-night
-          sequence per baby, flags trajectories that deteriorate against a per-baby
+          A fourth tier computes an exponentially-weighted moving average (EWMA) over
+          per-night SatSeconds across the 16-night sequence per baby, flags trajectories that deteriorate against a per-baby
           baseline, and emits a parallel signal that the handoff generator consumes as a{" "}
           <code className="bg-sage-bg px-1.5 py-0.5 rounded text-sm font-mono text-teal-dark">
             [TREND]
@@ -402,7 +440,7 @@ export default function ClinicalAI() {
             delta="16 nights each, 400 total traces"
           />
           <MetricCard
-            label="Trending worse"
+            label="Babies trending worse"
             value="9 / 25"
             accentColor={AMBER}
             delta="Across AOP, BPD, CHD interstage"
@@ -415,12 +453,13 @@ export default function ClinicalAI() {
           />
         </div>
         <Callout accent={AMBER}>
-          <strong className="text-teal-dark">Peer-reviewed evidence:</strong> 67% of BPD
-          infants clinically ready to wean from oxygen had abnormal nocturnal oximetry on
-          objective measurement{" "}
-          <span className="text-muted">(J Pediatr 2022)</span>. The trend tier exists
-          because single-night assessments &mdash; clinical or algorithmic &mdash; miss
-          the trajectory that drives outcomes.
+          <strong className="text-teal-dark">Clinical motivation:</strong> Multiple
+          pediatric pulmonology cohort studies have documented abnormal nocturnal
+          oximetry in a substantial fraction of BPD infants clinically judged ready to
+          wean from supplemental oxygen — the single-night assessment routinely
+          underestimates overnight hypoxemic burden. The trend tier exists because
+          single-night assessments, clinical or algorithmic, miss the trajectory that
+          drives outcomes. See <Link to="/scope" className="text-teal-primary underline underline-offset-2">Clinical Scope §05</Link> for the literature anchors.
         </Callout>
       </section>
 
@@ -449,8 +488,9 @@ export default function ClinicalAI() {
               rules called it borderline.
             </p>
             <p>
-              Fix: median-gate the borderline rule so preterm-normal traces defer to Tier
-              2 (which has GA context). The lesson generalizes &mdash; a threshold that
+              Fix: median-gate the borderline rule (only fire when the trace median sits
+              in the borderline band) so preterm-normal traces defer to Tier 2 (which has
+              GA context). The lesson generalizes &mdash; a threshold that
               is &ldquo;clinically standard&rdquo; for adults can be statistically wrong
               for the subpopulation you are triaging.
             </p>
@@ -484,10 +524,12 @@ export default function ClinicalAI() {
             </p>
             <p>
               Train-test distribution mismatch is the silent killer of ML in production.
-              The honest framing isn&rsquo;t &ldquo;the model is broken&rdquo; &mdash; it&rsquo;s
-              &ldquo;best-guess label + confidence score; low-confidence cases route to
-              expert review.&rdquo; The dashboard surfaces the domain-shift warning instead
-              of hiding the gap.
+              We&rsquo;re not claiming Tier 2 works on the hard cases &mdash; it doesn&rsquo;t.
+              The claim is that the system around Tier 2 makes its failure safe:
+              low-confidence outputs route to the expert queue, the dashboard surfaces the
+              domain-shift warning instead of hiding it, and no Tier 2 prediction can mask
+              an urgent reading because the safety check sits above all three tiers. The
+              architecture absorbs the model&rsquo;s known failure mode.
             </p>
           </FailureModeRow>
           <FailureModeRow

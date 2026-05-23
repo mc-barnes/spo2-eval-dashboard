@@ -6,6 +6,7 @@ import DashboardLayout from "./layouts/DashboardLayout.tsx";
 import ErrorBoundary from "./components/ErrorBoundary.tsx";
 
 const ClinicalAI = lazy(() => import("./pages/ClinicalAI.tsx"));
+const ClinicalScope = lazy(() => import("./pages/ClinicalScope.tsx"));
 const RPM = lazy(() => import("./pages/RPM.tsx"));
 const AgenticStrategy = lazy(() => import("./pages/AgenticStrategy.tsx"));
 const PipelineOverview = lazy(() => import("./pages/PipelineOverview.tsx"));
@@ -37,6 +38,7 @@ export default function App() {
             <Route element={<SiteLayout />}>
               <Route index element={<Navigate to="/clinical-ai" replace />} />
               <Route path="clinical-ai" element={<Lazy><ClinicalAI /></Lazy>} />
+              <Route path="scope" element={<Lazy><ClinicalScope /></Lazy>} />
               <Route path="rpm" element={<Lazy><RPM /></Lazy>} />
               <Route path="strategy" element={<Lazy><AgenticStrategy /></Lazy>} />
 

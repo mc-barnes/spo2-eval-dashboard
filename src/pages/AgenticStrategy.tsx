@@ -186,8 +186,15 @@ export default function AgenticStrategy() {
         <p className="text-body text-sm leading-relaxed mb-4">
           97% of overnight recordings are triaged automatically &mdash; no
           human involvement needed. Only the hardest 3% of cases route to a
-          clinician for review. The engine scales to the full 2.5M-baby
-          dataset at near-zero marginal cost.
+          clinician for review. The engine scales to the full prescribed-monitoring
+          population at near-zero marginal cost.{" "}
+          <Link
+            to="/scope"
+            className="text-teal-primary underline underline-offset-2"
+          >
+            Scoped to AOP / BPD / CHD interstage
+          </Link>{" "}
+          &mdash; not the general infant population.
         </p>
 
         {/* Flow diagram */}
@@ -224,10 +231,10 @@ export default function AgenticStrategy() {
             delta="Rules + ML, no AI inference"
           />
           <MetricCard
-            label="Scale"
+            label="Scale (capacity)"
             value="225M traces/yr"
             accentColor={TEAL_PRIMARY}
-            delta="2.5M babies &times; 90 nights"
+            delta="Engine capacity at 90-night monitoring per prescribed infant"
           />
           <MetricCard
             label="Triage accuracy"

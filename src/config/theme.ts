@@ -62,6 +62,25 @@ export const EVAL_COLORS = [
   URGENT_RED,
 ] as const;
 
+// ── Severity glyphs (paired with color for colorblind/dim-light accessibility) ──
+// Same severity → same glyph across both maps (LABEL is lowercase data values,
+// URGENCY is uppercase enum levels from the handoff pipeline).
+export const LABEL_GLYPHS: Record<string, string> = {
+  emergency: "▲",
+  urgent: "!",
+  borderline: "●",
+  normal: "✓",
+  artifact: "⊘",
+};
+
+export const URGENCY_GLYPHS: Record<string, string> = {
+  EMERGENCY: "▲",
+  URGENT: "!",
+  MONITOR: "●",
+  ROUTINE: "✓",
+  "ARTIFACT REVIEW": "⊘",
+};
+
 // ── Plotly layout defaults ────────────────────────────────────
 export const PLOTLY_LAYOUT = {
   font: {
